@@ -1,0 +1,60 @@
+'use client';
+
+import { useEffect } from 'react';
+import { Button } from '@/components/ui/button';
+
+export default function Error({
+  error,
+  reset,
+}: {
+  error: Error & { digest?: string };
+  reset: () => void;
+}) {
+  useEffect(() => {
+    // Log to error tracking service (Sentry, etc.) in production
+    console.error('Global error:', error);
+  }, [error]);
+
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-surface p-4">
+      <div className="max-w-md w-full text-center animate-scale-in">
+        <div className="bg-error-container rounded-[28px] p-10 shadow-elevation-3">
+          <div className="w-20 h-20 mx-auto mb-6 rounded-full bg-error/10 flex items-center justify-center">
+            <span className="material-symbols-rounded text-5xl text-error">
+              error_outline
+            </span>
+          </div>
+          <h1 className="text-headline-medium font-display text-on-error-container mb-3">
+            Đã có lỗi xảy ra
+          </h1>
+          <p className="text-body-medium text-on-error-container/80 mb-2">
+            Chúng tôi đã ghi nhận sự cố và sẽ khắc phục sớm nhất.
+          </p>
+          {error.digest && (
+            <p className="text-label-small text-on-error-container/50 mb-8 font-mono">
+              Mã lỗi: {error.digest}
+            </p>
+          )}
+          <div className="flex flex-col sm:flex-row gap-3 justify-center mt-6">
+            <Button
+              onClick={reset}
+              variant="filled"
+              className="min-w-[140px]"
+            >
+              <span className="material-symbols-rounded text-xl mr-2">refresh</span>
+              Thử lại
+            </Button>
+            <Button
+              onClick={() => window.location.href = '/'}
+              variant="outlined"
+              className="min-w-[140px] border-on-error-container/30 text-on-error-container hover:bg-on-error-container/8"
+            >
+              <span className="material-symbols-rounded text-xl mr-2">home</span>
+              Trang chủ
+            </Button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

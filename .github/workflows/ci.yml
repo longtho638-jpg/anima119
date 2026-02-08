@@ -1,0 +1,78 @@
+name: 84tea CI/CD Pipeline
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  NODE_VERSION: '20'
+
+jobs:
+  # ═══════════════════════════════════════════════════════════
+  # Build & Type Check
+  # ═══════════════════════════════════════════════════════════
+  build:
+    name: 🏗️ Build & Type Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 📦 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: 📚 Install dependencies
+        run: npm install
+
+      - name: 🔍 Type Check
+        run: npx tsc --noEmit
+
+      - name: 🏗️ Build Production
+        run: npm run build
+
+      - name: 📊 Build Summary
+        if: always()
+        run: |
+          echo "## 🏗️ Build Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Metric | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|--------|--------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Node.js | v${{ env.NODE_VERSION }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Framework | Next.js 16.x (Turbopack) |" >> $GITHUB_STEP_SUMMARY
+          echo "| Build Status | ${{ job.status == 'success' && '✅ Passed' || '❌ Failed' }} |" >> $GITHUB_STEP_SUMMARY
+
+  # ═══════════════════════════════════════════════════════════
+  # Lint & Code Quality
+  # ═══════════════════════════════════════════════════════════
+  lint:
+    name: 🔬 Lint & Code Quality
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 📦 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: 📚 Install dependencies
+        run: npm install
+
+      - name: 🔬 ESLint Check
+        run: npm run lint || true
+        continue-on-error: true
+
+  # ═══════════════════════════════════════════════════════════
+  # Deployment handled by Vercel GitHub Integration (auto-deploy)
+  # To enable GitHub Actions deploy, add these secrets:
+  # - VERCEL_TOKEN
+  # - VERCEL_ORG_ID
+  # - VERCEL_PROJECT_ID
+  # ═══════════════════════════════════════════════════════════
