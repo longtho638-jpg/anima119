@@ -115,8 +115,8 @@ export default function RefundPage() {
               <div className="space-y-4 mb-6">
                 {[
                   {
-                    title: "Liên hệ CSKH",
-                    desc: "Gọi hotline 0988 030 204 hoặc email support@84tea.com",
+                    title: "Lien he CSKH",
+                    desc: "Email contact@anima119.com",
                   },
                   {
                     title: "Gửi sản phẩm",
@@ -178,9 +178,7 @@ export default function RefundPage() {
                   variant="body-medium"
                   className="text-on-surface-variant"
                 >
-                  <strong>0988 030 204</strong> (8:00 - 21:00 hàng ngày)
-                  <br />
-                  Email: support@84tea.com
+                  Email: contact@anima119.com
                 </Typography>
               </div>
             </CardContent>

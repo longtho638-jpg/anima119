@@ -197,10 +197,10 @@ describe('productSchema', () => {
 describe('paymentLinkSchema', () => {
   const validPaymentLink = {
     orderCode: 1234567890,
-    description: 'Don hang 84tea',
-    returnUrl: 'https://84tea.com/success',
-    cancelUrl: 'https://84tea.com/cancel',
-    items: [{ name: 'Trà Shan Tuyết', quantity: 2, price: 350000 }],
+    description: 'Don hang ANIMA 119',
+    returnUrl: 'https://anima119.com/success',
+    cancelUrl: 'https://anima119.com/cancel',
+    items: [{ name: 'ANIMA 119', quantity: 2, price: 990000 }],
   };
 
   it('accepts valid payment link', () => {
@@ -243,7 +243,7 @@ describe('webhookSchema', () => {
     data: {
       orderCode: 1234567890,
       amount: 700000,
-      description: 'Don hang 84tea',
+      description: 'Don hang ANIMA 119',
     },
     signature: 'abc123signature',
   };

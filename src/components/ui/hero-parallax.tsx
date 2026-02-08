@@ -3,6 +3,7 @@
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useRef } from "react";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 
 export function HeroParallax() {
   const ref = useRef<HTMLDivElement>(null);
@@ -18,19 +19,24 @@ export function HeroParallax() {
 
   return (
     <div ref={ref} className="relative h-screen overflow-hidden">
-      {/* Parallax Background */}
+      {/* Parallax Background - Cosmic Navy */}
       <motion.div
         style={{ y }}
         className="absolute inset-0 z-0"
       >
         <div
-          className="h-[120%] w-full bg-cover bg-center"
-          style={{
-            backgroundImage: "url('/images/tea-plantation.jpg')",
-            backgroundPosition: "center 40%",
-          }}
+          className="h-[120%] w-full bg-gradient-to-b from-[#0A1628] via-[#1A2744] to-[#0A1628]"
         >
-          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-surface" />
+          {/* Starfield dots */}
+          <div className="absolute inset-0 opacity-30" style={{
+            backgroundImage: `radial-gradient(1px 1px at 20px 30px, #C5A55A, transparent),
+              radial-gradient(1px 1px at 40px 70px, #fff, transparent),
+              radial-gradient(1px 1px at 90px 40px, #C5A55A, transparent),
+              radial-gradient(1px 1px at 130px 80px, #fff, transparent),
+              radial-gradient(1px 1px at 160px 30px, #C5A55A, transparent)`,
+            backgroundSize: "200px 100px",
+          }} />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-surface" />
         </div>
       </motion.div>
 
@@ -40,6 +46,16 @@ export function HeroParallax() {
         className="relative z-10 flex h-full items-center justify-center px-4"
       >
         <div className="max-w-4xl text-center">
+          {/* Golden mandala icon */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1 }}
+            className="mb-8 flex justify-center"
+          >
+            <span className="material-symbols-rounded text-[#C5A55A] text-7xl">self_improvement</span>
+          </motion.div>
+
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -53,7 +69,7 @@ export function HeroParallax() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="mt-6 text-xl text-white/90 md:text-2xl"
+            className="mt-6 text-xl text-[#C5A55A]/90 md:text-2xl"
             style={{ fontFamily: "var(--font-body)" }}
           >
             {t("subtitle")}
@@ -64,18 +80,18 @@ export function HeroParallax() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center"
           >
-            <a
-              href="#products"
-              className="rounded-full bg-primary px-8 py-4 text-lg font-medium text-on-primary shadow-elevation-2 transition-all hover:shadow-elevation-4"
+            <Link
+              href="/san-pham"
+              className="rounded-full bg-[#C5A55A] px-8 py-4 text-lg font-medium text-[#0A1628] shadow-elevation-2 transition-all hover:shadow-elevation-4 hover:bg-[#D4B76A]"
             >
               {t("cta.primary")}
-            </a>
-            <a
-              href="#story"
-              className="rounded-full border-2 border-white/80 px-8 py-4 text-lg font-medium text-white backdrop-blur-sm transition-all hover:bg-white/10"
+            </Link>
+            <Link
+              href="/nguon-goc"
+              className="rounded-full border-2 border-[#C5A55A]/60 px-8 py-4 text-lg font-medium text-white backdrop-blur-sm transition-all hover:bg-[#C5A55A]/10"
             >
               {t("cta.secondary")}
-            </a>
+            </Link>
           </motion.div>
         </div>
       </motion.div>
@@ -90,7 +106,7 @@ export function HeroParallax() {
         <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 1.5, repeat: Infinity }}
-          className="flex flex-col items-center gap-2 text-white/80"
+          className="flex flex-col items-center gap-2 text-[#C5A55A]/80"
         >
           <span className="text-sm">{t("scroll")}</span>
           <svg

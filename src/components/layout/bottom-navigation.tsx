@@ -11,9 +11,9 @@ export function BottomNavigation() {
 
   const navItems = [
     { href: "/", label: t("home"), icon: "home" },
-    { href: "/products", label: t("products"), icon: "inventory_2" },
-    { href: "/franchise", label: t("franchise"), icon: "storefront" },
-    { href: "/contact", label: t("contact"), icon: "mail" },
+    { href: "/san-pham", label: t("products"), icon: "inventory_2" },
+    { href: "/mua-hang", label: t("purchase"), icon: "shopping_cart" },
+    { href: "/lien-he", label: t("contact"), icon: "mail" },
   ];
 
   return (

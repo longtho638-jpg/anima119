@@ -12,19 +12,19 @@ export function ProcessSection() {
       step: "01",
       title: t("step1Title"),
       description: t("step1Desc"),
-      icon: "spa"
+      icon: "search"
     },
     {
       step: "02",
       title: t("step2Title"),
       description: t("step2Desc"),
-      icon: "hourglass_bottom"
+      icon: "science"
     },
     {
       step: "03",
       title: t("step3Title"),
       description: t("step3Desc"),
-      icon: "local_cafe"
+      icon: "verified"
     }
   ];
 

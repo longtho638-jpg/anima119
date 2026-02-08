@@ -42,7 +42,7 @@ export function HeroSection() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up delay-300">
           <Button size="lg" variant="filled" className="min-w-[180px]" asChild>
-            <Link href="/products">{t("ctaPrimary")}</Link>
+            <Link href="/san-pham">{t("ctaPrimary")}</Link>
           </Button>
           <Button
             size="lg"
@@ -50,7 +50,7 @@ export function HeroSection() {
             className="min-w-[180px] border-on-tertiary text-on-tertiary hover:bg-on-tertiary/10"
             asChild
           >
-            <Link href="/story">{t("ctaSecondary")}</Link>
+            <Link href="/nguon-goc">{t("ctaSecondary")}</Link>
           </Button>
         </div>
       </div>

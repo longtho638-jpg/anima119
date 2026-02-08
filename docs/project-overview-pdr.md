@@ -1,11 +1,11 @@
 # Project Overview & PDR (Product Definition Record)
 
 ## 1. Project Context
-**Project Name:** 84tea
-**Tagline:** Trà Năng Lượng Việt - Vietnamese Ancient Tea
-**Domain:** Franchise F&B (Tea & Coffee)
+**Project Name:** ANIMA 119
+**Tagline:** Cân Bằng Sinh Năng Lượng, Phục Hồi Cơ Thể
+**Domain:** E-Commerce (Fermented Oriental Medicine)
 
-**Mission:** To bring the ancient Shan Tuyet tea of Vietnam to the global market (starting with SEA: Singapore, Malaysia, Thailand) through a modern, tech-enabled franchise model.
+**Mission:** To bring premium Korean fermented Oriental medicine supplements to Vietnam through a modern e-commerce platform, backed by scientific research and traditional wisdom.
 
 ## 2. Product Vision
 A "Masstige" (Mass Prestige) tea brand that sits between mass-market chains (Highlands, Phuc Long) and ultra-luxury (TWG).

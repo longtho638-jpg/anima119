@@ -97,7 +97,7 @@ export function StorySectionAnimated() {
           className="text-center"
         >
           <a
-            href="#products"
+            href="/san-pham"
             className="inline-flex items-center rounded-full bg-primary px-8 py-4 text-lg font-medium text-on-primary shadow-elevation-2 transition-all hover:shadow-elevation-4"
           >
             {t("cta")}

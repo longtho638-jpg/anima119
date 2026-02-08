@@ -1,15 +1,15 @@
 {
-  "name": "84tea - Trà Cổ Thụ Việt Nam",
-  "short_name": "84tea",
-  "description": "Trà cổ thụ Việt Nam từ vùng núi Hà Giang - Luxury Wellness Tea",
+  "name": "ANIMA 119 - Dong Y Len Men Han Quoc",
+  "short_name": "ANIMA 119",
+  "description": "Thuc pham bo sung tu Dong Y len men Han Quoc - Korean Fermented Oriental Medicine",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#fbf8f3",
-  "theme_color": "#1b5e20",
+  "background_color": "#0A1628",
+  "theme_color": "#0A1628",
   "orientation": "portrait-primary",
   "scope": "/",
   "lang": "vi",
-  "categories": ["food", "shopping", "lifestyle"],
+  "categories": ["health", "shopping", "lifestyle"],
   "icons": [
     {
       "src": "/icons/icon-72x72.png",
@@ -110,17 +110,17 @@
   ],
   "shortcuts": [
     {
-      "name": "Sản phẩm",
+      "name": "San Pham",
       "short_name": "Products",
-      "description": "Xem các loại trà cổ thụ",
-      "url": "/products",
+      "description": "Xem san pham ANIMA 119",
+      "url": "/san-pham",
       "icons": [{ "src": "/icons/icon-96x96.png", "sizes": "96x96" }]
     },
     {
-      "name": "Đặt hàng",
+      "name": "Mua Hang",
       "short_name": "Order",
-      "description": "Đặt hàng nhanh",
-      "url": "/checkout",
+      "description": "Dat hang ANIMA 119",
+      "url": "/mua-hang",
       "icons": [{ "src": "/icons/icon-96x96.png", "sizes": "96x96" }]
     }
   ],
@@ -130,14 +130,14 @@
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "Home page showing featured products"
+      "label": "ANIMA 119 home page"
     },
     {
       "src": "/screenshots/mobile.png",
       "sizes": "390x844",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Mobile view of 84tea"
+      "label": "Mobile view of ANIMA 119"
     }
   ],
   "related_applications": [],

@@ -28,7 +28,7 @@ export function MobileStickyBar() {
 
         {/* Order CTA Button - Primary action */}
         <Link
-          href="/products"
+          href="/mua-hang"
           className="flex flex-[1.5] items-center justify-center gap-2 border-r border-outline-variant py-3 min-h-[44px] text-sm font-bold bg-primary text-on-primary transition-colors hover:bg-primary/90 active:bg-primary/80"
         >
           <Phone className="h-4 w-4" />

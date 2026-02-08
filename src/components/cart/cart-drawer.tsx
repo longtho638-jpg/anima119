@@ -73,7 +73,7 @@ export function CartDrawer() {
                 onClick={() => setIsOpen(false)}
                 asChild
               >
-                <Link href="/products">{t("empty.cta")}</Link>
+                <Link href="/san-pham">{t("empty.cta")}</Link>
               </Button>
             </div>
           ) : (

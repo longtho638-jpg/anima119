@@ -26,7 +26,7 @@ export function FloatingContact() {
     >
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/84988030204?text=Xin%20ch%C3%A0o%2C%20t%C3%B4i%20mu%E1%BB%91n%20%C4%91%E1%BA%B7t%20tr%C3%A0%2084tea"
+        href="https://wa.me/84988030204?text=Xin%20ch%C3%A0o%2C%20t%C3%B4i%20mu%E1%BB%91n%20t%C3%ACm%20hi%E1%BB%83u%20v%E1%BB%81%20ANIMA%20119"
         target="_blank"
         rel="noopener noreferrer"
         className="flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-elevation-4 transition-all hover:scale-110 hover:shadow-elevation-5"

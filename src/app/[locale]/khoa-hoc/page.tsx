@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/metadata";
-import ChecklistContent from "./checklist-content";
+import KhoaHocContent from "./khoa-hoc-content";
 
 export async function generateMetadata({
   params,
@@ -8,17 +8,17 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "Ops" });
+  const t = await getTranslations({ locale, namespace: "KhoaHoc" });
 
   return generatePageMetadata({
-    title: "Checklist Hàng Ngày", // Ideally localized if we add it to messages
+    title: t("title"),
     description: t("description"),
-    path: "/ops/checklist",
+    path: "/khoa-hoc",
     locale,
-    type: "website",
+    type: "article",
   });
 }
 
-export default function ChecklistPage() {
-  return <ChecklistContent />;
+export default function KhoaHocPage() {
+  return <KhoaHocContent />;
 }

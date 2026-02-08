@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/metadata";
-import FranchiseApplyContent from "./apply-content";
+import NguonGocContent from "./nguon-goc-content";
 
 export async function generateMetadata({
   params,
@@ -8,17 +8,17 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "FranchiseApply" });
+  const t = await getTranslations({ locale, namespace: "NguonGoc" });
 
   return generatePageMetadata({
     title: t("title"),
-    description: t("subtitle"),
-    path: "/franchise/apply",
+    description: t("description"),
+    path: "/nguon-goc",
     locale,
-    type: "website",
+    type: "article",
   });
 }
 
-export default function FranchiseApplyPage() {
-  return <FranchiseApplyContent />;
+export default function NguonGocPage() {
+  return <NguonGocContent />;
 }

@@ -1,6 +1,6 @@
 #!/usr/bin/env tsx
 /**
- * Product Seeding Script for 84tea
+ * Product Seeding Script for ANIMA 119
  * Migrates static product data to Supabase
  *
  * Usage: npx tsx scripts/seed-products.ts

@@ -2,7 +2,7 @@
 
 ## Status: PLACEHOLDER (Phase 07)
 
-This directory prepares 84tea for future integration with Mekong Hub SDK.
+This directory prepares ANIMA 119 for future integration with Mekong Hub SDK.
 
 ## Current State
 
@@ -14,7 +14,7 @@ This directory prepares 84tea for future integration with Mekong Hub SDK.
 
 ### Phase 1: Analytics (Q2 2026)
 - Enable `trackEvent()` to send to Hub Analytics
-- Aggregate data across all 84tea franchise locations
+- Aggregate data across all ANIMA 119 locations
 - Centralized dashboard for franchise performance
 
 ### Phase 2: Multi-Tenant Auth (Q3 2026)
@@ -42,7 +42,7 @@ When Hub SDK becomes available:
 ## Architecture Principles
 
 1. **Loose Coupling**: Hub integration should be optional (feature flag)
-2. **Backward Compatibility**: 84tea must work standalone
+2. **Backward Compatibility**: ANIMA 119 must work standalone
 3. **Gradual Migration**: Enable features incrementally
 4. **Zero Breaking Changes**: Existing functionality unaffected
 

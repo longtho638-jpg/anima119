@@ -1,18 +1,17 @@
 /**
- * SEO Configuration Constants
- * WOW Protocol: Metadata standards for 84tea
+ * SEO Configuration Constants for ANIMA 119
  */
 
 export const SEO_CONFIG = {
   siteName: {
-    vi: '84tea - Trà Năng Lượng Việt',
-    en: '84tea - Vietnamese Energy Tea',
+    vi: 'ANIMA 119 - Đông Y Lên Men Hàn Quốc',
+    en: 'ANIMA 119 - Korean Fermented Oriental Medicine',
   },
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://84tea.com',
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://anima119.com',
   defaultLocale: 'vi',
   locales: ['vi', 'en'] as const,
-  ogImage: '/images/og-default.jpg', // 1200x630
-  twitterHandle: '@84tea_vn',
+  ogImage: '/images/og-default.jpg',
+  twitterHandle: '@anima119_vn',
   facebookAppId: process.env.NEXT_PUBLIC_FACEBOOK_APP_ID,
 } as const;
 

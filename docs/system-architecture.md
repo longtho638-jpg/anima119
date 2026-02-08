@@ -1,7 +1,7 @@
 # System Architecture
 
 ## 1. High-Level Overview
-The 84tea platform is built as a monolithic Next.js application (for MVP) designed for edge deployment. It prioritizes static generation (SSG) for content-heavy pages and client-side interactivity for the cart/checkout flow. The commerce layer connects to Supabase for persistent data and PayOS for Vietnamese bank transfer payments.
+The ANIMA 119 platform is built as a monolithic Next.js application (for MVP) designed for edge deployment. It prioritizes static generation (SSG) for content-heavy pages and client-side interactivity for the cart/checkout flow. The commerce layer connects to Supabase for persistent data and PayOS for Vietnamese bank transfer payments.
 
 ```mermaid
 graph TD

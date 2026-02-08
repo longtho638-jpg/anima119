@@ -54,7 +54,7 @@ const supabase = createClient(SUPABASE_URL!, SUPABASE_SERVICE_ROLE_KEY!, {
 const SQL_FILE_PATH = path.resolve(__dirname, '../supabase/migrations/20260207_create_products_table.sql');
 
 async function main() {
-  console.log('🚀 Applying Database Migrations for 84tea...');
+  console.log('Applying Database Migrations for ANIMA 119...');
   console.log(`📖 SQL File: ${SQL_FILE_PATH}`);
 
   try {

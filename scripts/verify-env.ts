@@ -1,5 +1,5 @@
 /**
- * verify-env.ts - Safe environment variable verification for 84tea
+ * verify-env.ts - Safe environment variable verification for ANIMA 119
  *
  * Checks required keys exist without logging actual values.
  * Run: npx ts-node --esm scripts/verify-env.ts
@@ -36,7 +36,7 @@ const ENV_VARS: EnvVarSpec[] = [
   { key: 'PAYOS_CHECKSUM_KEY', required: true,  scope: 'server', description: 'PayOS checksum key' },
 
   // SEO & social
-  { key: 'NEXT_PUBLIC_SITE_URL',                 required: false, scope: 'public', description: 'Canonical site URL (default: https://84tea.com)' },
+  { key: 'NEXT_PUBLIC_SITE_URL',                 required: false, scope: 'public', description: 'Canonical site URL (default: https://anima119.com)' },
   { key: 'NEXT_PUBLIC_FACEBOOK_APP_ID',          required: false, scope: 'public', description: 'Facebook App ID for OG tags' },
   { key: 'NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION', required: false, scope: 'public', description: 'Google Search Console verification' },
 
@@ -76,7 +76,7 @@ function maskValue(value: string): string {
 }
 
 function verify(): void {
-  console.log('=== 84tea Environment Verification ===\n');
+  console.log('=== ANIMA 119 Environment Verification ===\n');
 
   const envPath = path.resolve(__dirname, '../.env.local');
   const envMap = loadEnvFile(envPath);

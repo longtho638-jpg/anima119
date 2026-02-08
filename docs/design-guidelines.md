@@ -1,4 +1,4 @@
-# 84tea Design Guidelines
+# ANIMA 119 Design Guidelines
 
 ## 1. Brand Identity: Indochine Luxury x Modern Zen
 

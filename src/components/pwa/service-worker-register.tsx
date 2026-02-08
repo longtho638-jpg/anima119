@@ -8,7 +8,7 @@ export function ServiceWorkerRegister() {
       navigator.serviceWorker
         .register("/sw.js")
         .catch((error) => {
-          console.error("84tea SW registration failed:", error);
+          console.error("ANIMA 119 SW registration failed:", error);
         });
     }
   }, []);

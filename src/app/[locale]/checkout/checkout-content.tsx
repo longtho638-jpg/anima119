@@ -136,7 +136,7 @@ export default function CheckoutContent() {
           <Typography variant="body-large" className="text-on-surface-variant mb-8">
             {t("empty.description")}
           </Typography>
-          <Link href="/products">
+          <Link href="/san-pham">
             <Button variant="filled" size="lg">
               {t("empty.continue")}
             </Button>

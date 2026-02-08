@@ -8,22 +8,22 @@ export function BenefitsSection() {
 
   const BENEFITS = [
     {
-      icon: "eco",
+      icon: "favorite",
       title: t("item1Title"),
       description: t("item1Desc")
     },
     {
-      icon: "history_edu",
+      icon: "accessibility_new",
       title: t("item2Title"),
       description: t("item2Desc")
     },
     {
-      icon: "verified",
+      icon: "bolt",
       title: t("item3Title"),
       description: t("item3Desc")
     },
     {
-      icon: "handshake",
+      icon: "health_and_safety",
       title: t("item4Title"),
       description: t("item4Desc")
     }

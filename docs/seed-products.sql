@@ -49,7 +49,7 @@ INSERT INTO public.products (
   'hong-tra-co-thu',
   'Hồng Trà Cổ Thụ',
   'Lên men tự nhiên, hương mật ong và trái cây chín.',
-  'Hồng Trà Cổ Thụ 84tea được lên men 100% từ lá chè Shan Tuyết cổ thụ. Nước trà màu đỏ hổ phách đẹp mắt, hương thơm nồng nàn của mật ong rừng và trái cây chín. Vị trà đậm đà, không chát, để lại dư vị ngọt ngào khó quên.',
+  'Hồng Trà Cổ Thụ được lên men 100% từ lá chè Shan Tuyết cổ thụ. Nước trà màu đỏ hổ phách đẹp mắt, hương thơm nồng nàn của mật ong rừng và trái cây chín. Vị trà đậm đà, không chát, để lại dư vị ngọt ngào khó quên.',
   380000,
   NULL,
   '100g',

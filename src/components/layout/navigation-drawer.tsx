@@ -19,10 +19,10 @@ export function NavigationDrawer({ open, onClose }: NavigationDrawerProps) {
 
   const navLinks = [
     { href: "/", label: t("home"), icon: "home" },
-    { href: "/products", label: t("products"), icon: "inventory_2" },
-    { href: "/about", label: t("about"), icon: "info" },
-    { href: "/franchise", label: t("franchise"), icon: "storefront" },
-    { href: "/contact", label: t("contact"), icon: "mail" },
+    { href: "/san-pham", label: t("products"), icon: "inventory_2" },
+    { href: "/khoa-hoc", label: t("about"), icon: "science" },
+    { href: "/nguon-goc", label: t("franchise"), icon: "history" },
+    { href: "/lien-he", label: t("contact"), icon: "mail" },
   ];
 
   // Lock body scroll when drawer is open
@@ -125,7 +125,7 @@ export function NavigationDrawer({ open, onClose }: NavigationDrawerProps) {
 
         {/* CTA Button */}
         <div className="p-4 mt-auto border-t border-outline-variant">
-          <Link href="/products" onClick={onClose}>
+          <Link href="/mua-hang" onClick={onClose}>
             <Button variant="filled" className="w-full">
               <span className="material-symbols-rounded text-xl">
                 shopping_bag

@@ -41,11 +41,11 @@ function createRequest(body: unknown) {
 
 const validBody = {
   orderCode: 1234567890,
-  description: 'Don hang 84tea',
-  returnUrl: 'https://84tea.com/success',
-  cancelUrl: 'https://84tea.com/cancel',
+  description: 'Don hang ANIMA 119',
+  returnUrl: 'https://anima119.com/success',
+  cancelUrl: 'https://anima119.com/cancel',
   items: [
-    { name: 'Trà Shan Tuyết', quantity: 2, price: 350000 },
+    { name: 'ANIMA 119', quantity: 2, price: 990000 },
   ],
   buyerName: 'Nguyen Van A',
   buyerPhone: '0901234567',

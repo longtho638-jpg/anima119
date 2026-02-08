@@ -16,7 +16,7 @@ export function StorySection() {
             <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-surface-variant relative">
               {/* Placeholder for story image */}
               <div className="absolute inset-0 bg-surface-container flex items-center justify-center text-on-surface-variant">
-                <span className="material-symbols-rounded text-6xl">landscape</span>
+                <span className="material-symbols-rounded text-6xl">science</span>
               </div>
             </div>
             {/* Decorative element */}
@@ -70,7 +70,7 @@ export function StorySection() {
 
             <div className="mt-10">
               <Button variant="text" className="pl-0 text-primary hover:text-secondary transition-colors" asChild>
-                <Link href="/story" className="flex items-center gap-2">
+                <Link href="/nguon-goc" className="flex items-center gap-2">
                   {t("cta")}
                   <span className="material-symbols-rounded">arrow_forward</span>
                 </Link>

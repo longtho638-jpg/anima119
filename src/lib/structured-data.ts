@@ -13,14 +13,14 @@ export function generateProductJsonLd(product: Product, locale: string) {
     image: product.image_url,
     brand: {
       '@type': 'Brand',
-      name: '84tea',
+      name: 'ANIMA 119',
     },
     offers: {
       '@type': 'Offer',
       price: product.price,
       priceCurrency: 'VND',
       availability: product.in_stock ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
-      url: `${SEO_CONFIG.siteUrl}/${locale}/products/${product.slug}`,
+      url: `${SEO_CONFIG.siteUrl}/${locale}/san-pham/${product.slug}`,
     },
     // Mock rating for now, connect to real reviews later
     aggregateRating: {
@@ -35,19 +35,19 @@ export function generateOrganizationJsonLd() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: '84tea',
+    name: 'ANIMA 119',
     url: SEO_CONFIG.siteUrl,
     logo: `${SEO_CONFIG.siteUrl}/images/logo.png`,
     sameAs: [
-      'https://facebook.com/84tea.vn',
-      'https://instagram.com/84tea.vn',
+      'https://facebook.com/anima119.vn',
+      'https://instagram.com/anima119.vn',
       SEO_CONFIG.twitterHandle,
     ],
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+84-988-030-204',
+      email: 'contact@anima119.com',
       contactType: 'Customer Service',
-      areaServed: ['VN', 'SG', 'MY', 'TH'],
+      areaServed: ['VN'],
       availableLanguage: ['Vietnamese', 'English'],
     },
   };
@@ -57,11 +57,11 @@ export function generateWebsiteJsonLd() {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: '84tea',
+    name: 'ANIMA 119',
     url: SEO_CONFIG.siteUrl,
     potentialAction: {
       '@type': 'SearchAction',
-      target: `${SEO_CONFIG.siteUrl}/products?q={search_term_string}`,
+      target: `${SEO_CONFIG.siteUrl}/san-pham?q={search_term_string}`,
       'query-input': 'required name=search_term_string',
     },
   };

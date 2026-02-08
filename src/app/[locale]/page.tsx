@@ -1,4 +1,5 @@
 import dynamic from "next/dynamic";
+import { BenefitsSection } from "@/components/home/benefits-section";
 import { FeaturedProducts } from "@/components/home/featured-products";
 import { ProcessSection } from "@/components/home/process-section";
 import { CTASection } from "@/components/home/cta-section";
@@ -16,7 +17,7 @@ export async function generateMetadata({
 
   return generatePageMetadata({
     title: t("title"),
-    description: t("welcome"), // Or fetch Hero description
+    description: t("welcome"),
     path: "/",
     locale,
     type: "website",
@@ -39,6 +40,7 @@ export default function Home() {
     <div className="min-h-screen bg-surface flex flex-col">
       <MainLayout>
         <HeroParallax />
+        <BenefitsSection />
         <StorySectionAnimated />
         <FeaturedProducts />
         <ProcessSection />

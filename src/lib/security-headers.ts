@@ -1,5 +1,5 @@
 /**
- * Security Headers Configuration for 84tea
+ * Security Headers Configuration for ANIMA 119
  * Implements MD3 security standards with production-grade protection
  *
  * CSP directives cover: default, script, style, font, img, connect,

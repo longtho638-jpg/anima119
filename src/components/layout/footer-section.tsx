@@ -8,14 +8,13 @@ export function FooterSection() {
 
   const footerLinks = {
     products: [
-      { href: "/products", label: t("allProducts") },
-      { href: "/products/tra-shan-6", label: t("limitedCollection") },
-      { href: "/products/tra-luc-80", label: t("greenTea") },
+      { href: "/san-pham", label: t("allProducts") },
+      { href: "/mua-hang", label: t("buyNow") },
     ],
     company: [
-      { href: "/about", label: t("about") },
-      { href: "/franchise", label: t("franchise") },
-      { href: "/contact", label: t("contact") },
+      { href: "/khoa-hoc", label: t("science") },
+      { href: "/nguon-goc", label: t("origin") },
+      { href: "/lien-he", label: t("contact") },
     ],
     legal: [
       { href: "/terms", label: t("terms") },
@@ -90,9 +89,8 @@ export function FooterSection() {
               {t("contact")}
             </Typography>
             <ul className="space-y-2 text-inverse-on-surface text-sm mb-6">
-              <li>📧 hello@84tea.com</li>
-              <li>📱 +84 988 030204</li>
-              <li>📍 Hà Nội, Vietnam</li>
+              <li>contact@anima119.com</li>
+              <li>15/11 Duy Tan, Cau Giay, Ha Noi</li>
             </ul>
             <Typography variant="title-small" className="text-primary-container font-semibold mb-2">
               {t("legal")}

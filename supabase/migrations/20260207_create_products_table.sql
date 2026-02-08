@@ -1,4 +1,4 @@
--- Create products table for 84tea catalog
+-- Create products table for ANIMA 119 catalog
 CREATE TABLE IF NOT EXISTS products (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   slug TEXT UNIQUE NOT NULL,

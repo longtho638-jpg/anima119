@@ -21,7 +21,7 @@
 - [x] **Order Management:** Save orders to DB, Webhook processing.
 - [x] **User Authentication:** Login/Signup via OTP/Google, Profile management.
 - [x] **PWA:** Manifest, Service Worker, Offline support, Installability.
-- [x] **84tea Club:** Member exclusive area and profile UI.
+- [x] **Member Area:** Member exclusive area and profile UI.
 
 ## Phase 4: Enhanced Experience (Completed)
 - [x] **Loyalty Program:** Points system, Tiers (Bronze/Silver/Gold/Platinum), Transaction history.

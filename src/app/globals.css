@@ -3,96 +3,51 @@
 @plugin "tailwindcss-animate";
 
 :root {
-  /* Material Design 3 Color Tokens */
+  /* ANIMA 119 — Cosmic Navy + Gold Theme */
 
-  /* Primary - Imperial Green */
-  --md-sys-color-primary: #1b5e20;
-  --md-sys-color-on-primary: #ffffff;
-  --md-sys-color-primary-container: #a5d6a7;
-  --md-sys-color-on-primary-container: #0d3911;
+  /* Primary - Deep Navy */
+  --md-sys-color-primary: #C5A55A;
+  --md-sys-color-on-primary: #0A1628;
+  --md-sys-color-primary-container: #1A2744;
+  --md-sys-color-on-primary-container: #E8D5A3;
 
-  /* Secondary - Gold Leaf */
-  --md-sys-color-secondary: #c5a962;
-  --md-sys-color-on-secondary: #3a2e00;
-  --md-sys-color-secondary-container: #f5e6ba;
-  --md-sys-color-on-secondary-container: #231c00;
+  /* Secondary - Gold Accent */
+  --md-sys-color-secondary: #C5A55A;
+  --md-sys-color-on-secondary: #1A1400;
+  --md-sys-color-secondary-container: #3D3212;
+  --md-sys-color-on-secondary-container: #F5E6BA;
 
-  /* Tertiary - Deep Rosewood */
-  --md-sys-color-tertiary: #4e342e;
-  --md-sys-color-on-tertiary: #ffffff;
-  --md-sys-color-tertiary-container: #d7ccc8;
-  --md-sys-color-on-tertiary-container: #1b0c07;
+  /* Tertiary - Warm Cosmic */
+  --md-sys-color-tertiary: #8B9FBF;
+  --md-sys-color-on-tertiary: #0A1628;
+  --md-sys-color-tertiary-container: #1A2744;
+  --md-sys-color-on-tertiary-container: #C5D4E8;
 
   /* Error */
-  --md-sys-color-error: #b3261e;
+  --md-sys-color-error: #FF6B6B;
   --md-sys-color-on-error: #ffffff;
-  --md-sys-color-error-container: #f9dedc;
-  --md-sys-color-on-error-container: #410e0b;
+  --md-sys-color-error-container: #3D1515;
+  --md-sys-color-on-error-container: #FFB3B3;
 
-  /* Surface - Ivory Silk */
-  --md-sys-color-surface: #fbf8f3;
-  --md-sys-color-on-surface: #4e342e;
-  --md-sys-color-surface-variant: #e8e1d9;
-  --md-sys-color-on-surface-variant: #49454f;
-  --md-sys-color-surface-container-low: #f7f2ed;
-  --md-sys-color-surface-container: #f3ece6;
-  --md-sys-color-surface-container-high: #ece6e0;
+  /* Surface - Deep Navy Dark */
+  --md-sys-color-surface: #0A1628;
+  --md-sys-color-on-surface: #E0E0E0;
+  --md-sys-color-surface-variant: #1A2744;
+  --md-sys-color-on-surface-variant: #B0B8C8;
+  --md-sys-color-surface-container-low: #0E1B30;
+  --md-sys-color-surface-container: #132038;
+  --md-sys-color-surface-container-high: #1A2744;
 
   /* Outline */
-  --md-sys-color-outline: #79747e;
-  --md-sys-color-outline-variant: #cac4d0;
+  --md-sys-color-outline: #4A5568;
+  --md-sys-color-outline-variant: #2D3748;
 
   /* Inverse Colors */
-  --md-sys-color-inverse-surface: #313033;
-  --md-sys-color-inverse-on-surface: #f4f0f4;
-  --md-sys-color-inverse-primary: #a5d6a7;
+  --md-sys-color-inverse-surface: #E0E0E0;
+  --md-sys-color-inverse-on-surface: #0A1628;
+  --md-sys-color-inverse-primary: #C5A55A;
   --md-sys-color-shadow: #000000;
   --md-sys-color-scrim: #000000;
-}
-
-/* Dark Mode Theme */
-.dark {
-  /* Primary - Lighter for dark mode */
-  --md-sys-color-primary: #a5d6a7;
-  --md-sys-color-on-primary: #00390f;
-  --md-sys-color-primary-container: #1b5e20;
-  --md-sys-color-on-primary-container: #c1eac5;
-
-  /* Secondary - Desaturated gold */
-  --md-sys-color-secondary: #d4b87a;
-  --md-sys-color-on-secondary: #3a2e00;
-  --md-sys-color-secondary-container: #56461f;
-  --md-sys-color-on-secondary-container: #f1deb1;
-
-  /* Tertiary */
-  --md-sys-color-tertiary: #d7ccc8;
-  --md-sys-color-on-tertiary: #3e2723;
-  --md-sys-color-tertiary-container: #4e342e;
-  --md-sys-color-on-tertiary-container: #efebe9;
-
-  /* Error */
-  --md-sys-color-error: #f2b8b5;
-  --md-sys-color-on-error: #601410;
-  --md-sys-color-error-container: #8c1d18;
-  --md-sys-color-on-error-container: #f9dedc;
-
-  /* Surface - Dark backgrounds */
-  --md-sys-color-surface: #1a1c1a;
-  --md-sys-color-on-surface: #e2e3de;
-  --md-sys-color-surface-variant: #44483e;
-  --md-sys-color-on-surface-variant: #c5c8bc;
-  --md-sys-color-surface-container-low: #1f2220;
-  --md-sys-color-surface-container: #242724;
-  --md-sys-color-surface-container-high: #2f312e;
-
-  /* Outline */
-  --md-sys-color-outline: #8f9286;
-  --md-sys-color-outline-variant: #44483e;
-
-  /* Inverse Colors */
-  --md-sys-color-inverse-surface: #e2e3de;
-  --md-sys-color-inverse-on-surface: #2f312e;
-  --md-sys-color-inverse-primary: #1b5e20;
 }
 
 @theme inline {
@@ -207,13 +162,9 @@ body {
 }
 
 .glass {
-  background: rgba(251, 248, 243, 0.85);
+  background: rgba(26, 39, 68, 0.85);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-}
-
-.dark .glass {
-  background: rgba(26, 28, 26, 0.85);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -255,12 +206,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Mobile Touch Optimization */
 @media (pointer: coarse) {
-  /* Prevent 300ms tap delay */
   html {
     touch-action: manipulation;
   }
 
-  /* Disable text selection on interactive elements */
   button, a, [role="button"], [role="tab"] {
     -webkit-user-select: none;
     user-select: none;
@@ -320,6 +269,16 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@keyframes starfield {
+  from { transform: translateY(0); }
+  to { transform: translateY(-100%); }
+}
+
+@keyframes golden-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(197, 165, 90, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(197, 165, 90, 0.6); }
+}
+
 .animate-fade-in-up {
   animation: fade-in-up 0.6s ease-out both;
 }
@@ -342,6 +301,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .animate-scale-in {
   animation: scale-in 0.4s ease-out both;
+}
+
+.animate-golden-glow {
+  animation: golden-glow 3s ease-in-out infinite;
 }
 
 /* Stagger animation delays */

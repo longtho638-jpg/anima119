@@ -1,8 +1,8 @@
-const CACHE_NAME = '84tea-v1';
+const CACHE_NAME = 'anima119-v1';
 const STATIC_ASSETS = [
   '/',
-  '/products',
-  '/about',
+  '/san-pham',
+  '/khoa-hoc',
   '/manifest.json',
   '/offline.html',
 ];
@@ -11,7 +11,7 @@ const STATIC_ASSETS = [
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      console.log('84tea: Caching static assets');
+      console.log('ANIMA 119: Caching static assets');
       return cache.addAll(STATIC_ASSETS);
     })
   );
@@ -107,7 +107,7 @@ self.addEventListener('push', (event) => {
   if (event.data) {
     const data = event.data.json();
     const options = {
-      body: data.body || 'Bạn có thông báo mới từ 84tea',
+      body: data.body || 'Ban co thong bao moi tu ANIMA 119',
       icon: '/icons/icon-192x192.png',
       badge: '/icons/icon-72x72.png',
       vibrate: [100, 50, 100],
@@ -116,7 +116,7 @@ self.addEventListener('push', (event) => {
       },
     };
     event.waitUntil(
-      self.registration.showNotification(data.title || '84tea', options)
+      self.registration.showNotification(data.title || 'ANIMA 119', options)
     );
   }
 });

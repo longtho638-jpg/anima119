@@ -1,45 +1,46 @@
 {
   "Metadata": {
     "title": {
-      "default": "84tea - Vietnamese Ancient Tea",
-      "template": "%s | 84tea - Vietnamese Ancient Tea"
+      "default": "ANIMA 119 - Fermented Oriental Medicine Supplements",
+      "template": "%s | ANIMA 119"
     },
-    "description": "Vietnamese Ancient Tree Tea - Pure energy from nature",
-    "keywords": "84tea, Vietnamese tea, fermented tea, Shan Tuyet, premium tea, ancient tree tea, 84 Limited, Vietnamese Energy Tea"
+    "description": "ANIMA 119 - Balance the Metabolism of Bio-Energy Flow to Heal the Body. Korean fermented Oriental medicine food supplements.",
+    "keywords": "ANIMA 119, fermented medicine, food supplements, Dr. Uh, Korea, health, ZenX Holdings"
   },
   "Accessibility": {
     "skipToContent": "Skip to main content"
   },
   "HomePage": {
-    "title": "84tea - Vietnamese Ancient Tea",
-    "welcome": "Welcome to 84tea"
+    "title": "ANIMA 119 - Fermented Oriental Medicine Supplements",
+    "welcome": "Balance the Metabolism of Bio-Energy Flow to Heal the Body"
   },
   "Navigation": {
     "home": "Home",
-    "products": "Products",
-    "about": "About Us",
-    "franchise": "Franchise",
-    "club": "84tea Club",
+    "products": "Product",
+    "science": "Science",
+    "origin": "Origin",
+    "purchase": "Purchase",
     "contact": "Contact",
+    "news": "News",
     "buyNow": "Buy Now",
     "orderNow": "Order Now",
     "cart": "Cart"
   },
   "Hero": {
-    "subtitle": "Vietnamese Tea Heritage",
-    "title": "Essence of ancient tea",
-    "titleHighlight": "thousand years old",
-    "description": "A journey back to the origin of taste from ancient Shan Tuyet tea trees living on misty mountain peaks, absorbing the essence of heaven and earth for centuries.",
-    "ctaPrimary": "Explore Collection",
-    "ctaSecondary": "Our Story"
+    "subtitle": "Korean Fermented Oriental Medicine",
+    "title": "Balance the Metabolism",
+    "titleHighlight": "of Bio-Energy Flow",
+    "description": "ANIMA 119 - Food supplements from fermented Oriental medicine, developed by the Korea Fermented Herbal Medicine Research Institute with over 35 years of expertise.",
+    "ctaPrimary": "Explore Product",
+    "ctaSecondary": "The Science Behind"
   },
   "home": {
     "hero": {
-      "title": "Essence of Ancient Tea",
-      "subtitle": "A journey back to the origin of taste from ancient Shan Tuyet tea trees",
+      "title": "Balance the Metabolism of Bio-Energy Flow to Heal the Body",
+      "subtitle": "ANIMA 119 - Korean fermented Oriental medicine food supplements with proprietary 4th fermentation technology",
       "cta": {
-        "primary": "Explore Collection",
-        "secondary": "Our Story"
+        "primary": "Explore Product",
+        "secondary": "The Science Behind"
       },
       "scroll": "Scroll to explore"
     }
@@ -48,97 +49,85 @@
     "addToCart": "Add to Cart"
   },
   "Story": {
-    "label": "About 84tea",
-    "headline": "Awaken your taste buds with",
-    "headlineHighlight": "originality",
-    "description1": "84tea was born with a mission to preserve and honor Vietnam's ancient tea trees. The number 84 is not just the country code, but a proud affirmation of the origin of these premium tea buds.",
-    "description2": "We travel along the S-shaped land, reaching rugged high mountains where ethnic minorities still protect ancient tea forests hundreds of years old day and night.",
-    "stat1Value": "300+",
-    "stat1Label": "Tea Tree Age",
-    "stat2Value": "1300m",
-    "stat2Label": "Average Altitude",
-    "stat3Value": "100%",
-    "stat3Label": "Natural Organic",
-    "cta": "View Full Journey"
+    "label": "About ANIMA 119",
+    "headline": "Legacy of fermented medicine",
+    "headlineHighlight": "from Korea",
+    "description1": "ANIMA 119 was born from over 35 years of research by Dr. Uh Bong-woo at the Korea Fermented Herbal Medicine Research Institute. Produced using the proprietary 4th fermentation technology and 3-stage low-temperature separation method - the only one of its kind in the world.",
+    "description2": "Distributed in Vietnam by ZenX Holdings JSC, ANIMA 119 delivers a comprehensive health solution built on the foundation of traditional medicine combined with modern biotechnology.",
+    "stat1Value": "35+",
+    "stat1Label": "Years of Research",
+    "stat2Value": "11",
+    "stat2Label": "Clinical RCT Trials",
+    "stat3Value": "119",
+    "stat3Label": "Fermented Herbs",
+    "cta": "View Product Origin"
   },
   "Featured": {
-    "label": "Collection",
-    "headline": "Vietnamese Tea Masterpieces",
-    "description": "Selected from the finest tea products from famous raw material regions.",
-    "viewAll": "View All Products"
+    "label": "Product",
+    "headline": "ANIMA 119",
+    "description": "Food supplements from Korean fermented Oriental medicine - Produced by Insung Pharm, FSSC 22000 and GMP certified.",
+    "viewAll": "View Product Details"
   },
   "Process": {
-    "label": "Process",
-    "headline": "From Mountain Peak to Tea Cup",
-    "description": "The journey of ancient tea buds through the hands of artisans and the tempering of time.",
-    "step1Title": "Harvesting",
-    "step1Desc": "Shan Tuyet tea buds with 1 bud and 2 leaves are harvested manually by local people in the early morning mist.",
-    "step2Title": "Fermentation",
-    "step2Desc": "The natural fermentation process lasts for decades in earthenware jars, awakening hidden flavors.",
-    "step3Title": "Enjoy",
-    "step3Desc": "Brew properly to fully feel the flavor of the mountains and forests and condensed time."
+    "label": "Technology",
+    "headline": "4th Fermentation Process",
+    "description": "Proprietary technology developed by the Korea Fermented Herbal Medicine Research Institute.",
+    "step1Title": "Research & Selection",
+    "step1Desc": "119 Oriental medicine herbs carefully selected following Dr. Uh Bong-woo's methodology.",
+    "step2Title": "4th Fermentation",
+    "step2Desc": "Applying 4-stage fermentation technology with Oriental medicine microorganisms for enhanced bioavailability.",
+    "step3Title": "Extraction & Quality",
+    "step3Desc": "3-stage low-temperature separation method with rigorous GMP quality control."
   },
   "Benefits": {
-    "item1Title": "100% Natural",
-    "item1Desc": "No chemicals, no preservatives, growing completely naturally in the old forest.",
-    "item2Title": "Cultural Heritage",
-    "item2Desc": "Each tea bud carries within it the cultural story of ethnic minorities.",
-    "item3Title": "OCOP 5 Star Standard",
-    "item3Desc": "Recognized as a national product, meeting the strictest standards.",
-    "item4Title": "Fair Trade",
-    "item4Desc": "Commitment to purchase at high prices, ensuring sustainable livelihoods for local people."
+    "item1Title": "Blood Circulation",
+    "item1Desc": "Promotes healthy blood circulation, supports cardiovascular health.",
+    "item2Title": "Bone & Spine Health",
+    "item2Desc": "Supports bone and spine health, reduces aches, improves mobility.",
+    "item3Title": "Energy Restoration",
+    "item3Desc": "Restores body energy, reduces fatigue, strengthens natural immunity.",
+    "item4Title": "Liver Detox & Protection",
+    "item4Desc": "Supports liver detoxification, protects and restores liver function naturally."
   },
   "CTA": {
-    "headline": "Subscribe to Newsletter",
-    "description": "Receive 10% off your first order and updates on interesting tea ceremony knowledge from 84tea.",
+    "headline": "Experience ANIMA 119",
+    "description": "Order now to feel the difference from Korea's leading fermented Oriental medicine technology.",
     "emailPlaceholder": "Your Email",
     "subscribe": "Subscribe",
-    "orExplore": "Or explore now:",
-    "collection": "Collection",
-    "franchise": "Franchise"
+    "orExplore": "Explore more:",
+    "collection": "Product",
+    "franchise": "Science"
   },
   "Footer": {
-    "brandDescription": "Premium Vietnamese tea brand featuring the 84 Limited collection - fermented tea from ancient Shan Tuyết trees.",
-    "slogan": "Vietnamese Energy Tea",
-    "products": "Products",
-    "allProducts": "All Products",
-    "limitedCollection": "84 Limited Collection",
-    "greenTea": "Green Tea",
+    "brandDescription": "ANIMA 119 - Korean fermented Oriental medicine food supplements. Distributed by ZenX Holdings.",
+    "slogan": "Balance the Metabolism of Bio-Energy Flow",
+    "products": "Product",
+    "allProducts": "View Product",
+    "buyNow": "Buy Now",
     "company": "Company",
-    "about": "About Us",
-    "franchise": "Franchise",
+    "science": "Science",
+    "origin": "Origin",
     "contact": "Contact",
     "legal": "Legal",
     "terms": "Terms",
     "privacy": "Privacy Policy",
     "shipping": "Shipping",
-    "copyright": "© 2026 84tea. Powered by 3704 Co., LTD.",
-    "madeWithLove": "Made with ❤️ in Vietnam"
+    "copyright": "© 2026 ANIMA 119. Distributed by ZenX Holdings JSC.",
+    "madeWithLove": "Made in Korea"
   },
   "Products": {
-    "label": "Online Store",
-    "headline": "Essence of Vietnamese Tea",
-    "description": "Discover our collection of ancient tea and premium tea sets, carefully selected from Vietnam's famous raw material regions.",
+    "label": "Product",
+    "headline": "ANIMA 119",
+    "description": "Food supplements from Korean fermented Oriental medicine - 4th fermentation technology, 3-stage low-temperature separation method.",
     "Filter": {
       "title": "Filter",
       "all": "All",
       "clearAll": "Clear All",
       "categories": "Categories",
-      "teaTypes": "Tea Types",
-      "allTeaTypes": "All Tea Types",
       "priceRange": "Price Range",
       "Category": {
         "all": "All",
-        "tea": "Premium Tea",
-        "teaware": "Teaware & Tools",
-        "gift": "Gifts"
-      },
-      "Type": {
-        "green": "Green Tea",
-        "black": "Black Tea",
-        "white": "White Tea",
-        "oolong": "Oolong Tea",
-        "herbal": "Herbal Tea"
+        "supplement": "Food Supplement"
       },
       "Price": {
         "under500k": "Under 500k",
@@ -163,29 +152,25 @@
     },
     "Card": {
       "addToCart": "Add to Cart",
-      "originDefault": "Vietnam"
+      "originDefault": "Korea"
     },
     "Detail": {
       "Breadcrumb": {
         "home": "Home",
-        "products": "Products"
+        "products": "Product"
       },
       "Type": {
-        "green": "Green Tea",
-        "black": "Black Tea",
-        "white": "White Tea",
-        "oolong": "Oolong Tea",
-        "herbal": "Herbal Tea",
+        "supplement": "Food Supplement",
         "featured": "Featured"
       },
       "Stats": {
         "reviews": "reviews"
       },
       "Attributes": {
-        "weight": "Weight",
+        "weight": "Serving Size",
         "origin": "Origin",
-        "harvest": "Harvest",
-        "taste": "Taste"
+        "manufacturer": "Manufacturer",
+        "certifications": "Certifications"
       },
       "Guarantee": {
         "authentic": "100% Authentic",
@@ -205,8 +190,8 @@
         "altThumb": "Thumbnail"
       },
       "TrustBadges": {
-        "organic": "100% Organic",
-        "highland": "Direct from Highland",
+        "certified": "FSSC 22000 Certified",
+        "madeInKorea": "Made in Korea",
         "premium": "Premium Quality"
       }
     }
@@ -217,11 +202,11 @@
     "ariaLabelWithCount": "Cart ({count} items)",
     "empty": {
       "message": "Your cart is empty",
-      "cta": "Explore Ancient Tea"
+      "cta": "Explore ANIMA 119"
     },
     "total": "Total",
     "checkout": "Checkout",
-    "freeShipping": "Free shipping on orders over 500,000đ",
+    "freeShipping": "Free shipping on orders over 500,000d",
     "addToCart": "Add to Cart"
   },
   "Checkout": {
@@ -275,7 +260,7 @@
       "nextSteps": "Next Steps:",
       "step1": "You will receive an order confirmation SMS shortly",
       "step2": "Your order will be delivered within 2-3 business days",
-      "step3": "Contact hotline <strong>0988 030 204</strong> if you need support",
+      "step3": "Contact <strong>contact@anima119.com</strong> if you need support",
       "continueShopping": "Continue Shopping",
       "backHome": "Back to Home"
     },
@@ -284,86 +269,6 @@
       "message": "You have cancelled the payment process. The order has not been completed.",
       "retry": "Try Again",
       "backHome": "Back to Home"
-    }
-  },
-  "About": {
-    "Hero": {
-      "label": "About Us",
-      "title": "The Story",
-      "desc": "Bringing the essence of Vietnamese tea to the world, combining centuries-old traditions with modern fermentation technology."
-    },
-    "Vision": {
-      "label": "Vision",
-      "title": "Vietnamese Energy Tea",
-      "desc1": "84tea is not just a tea brand - it's a mission to bring Vietnamese tea culture to the world. We believe that Vietnam's ancient Shan Tuyet tea deserves to be recognized as one of Asia's most prestigious teas.",
-      "desc2": "With our exclusive fermentation process, we create tea products that are not only delicious but also offer superior health benefits - true to the spirit of \"Vietnamese Energy Tea\"."
-    },
-    "Values": {
-      "label": "Core Values",
-      "title": "What We Believe In",
-      "items": {
-        "nature": {
-          "title": "Natural Origin",
-          "desc": "All products come from 100+ year old Shan Tuyet ancient tea trees, grown at 1,500m altitude in Vietnam."
-        },
-        "fermentation": {
-          "title": "Traditional Fermentation",
-          "desc": "Exclusive fermentation process preserves natural probiotics and maximizes health benefits."
-        },
-        "energy": {
-          "title": "Sustainable Energy",
-          "desc": "Provides stable energy throughout the day without the jitters of coffee."
-        },
-        "premium": {
-          "title": "Premium Positioning",
-          "desc": "Each product is a work of art, packaged with premium materials worthy of the value inside."
-        }
-      }
-    },
-    "Timeline": {
-      "label": "Journey",
-      "title": "From Idea to Brand",
-      "items": {
-        "2020": {
-          "title": "Discovery",
-          "desc": "Found ancient Shan Tuyet tea area in Northwest highlands"
-        },
-        "2022": {
-          "title": "Research",
-          "desc": "Developed exclusive fermentation process with experts"
-        },
-        "2024": {
-          "title": "Launch",
-          "desc": "3704 Co., LTD officially established, 84tea brand born"
-        },
-        "2026": {
-          "title": "Expansion",
-          "desc": "Tea room franchise and international market expansion"
-        }
-      }
-    },
-    "Company": {
-      "label": "Company Info",
-      "title": "3704 Co., LTD",
-      "details": {
-        "license": "License",
-        "founded": "Founded",
-        "founder": "Founder",
-        "address": "Address",
-        "addressValue": "134 Nguyen Hoang Ton, Phu Thuong, Hanoi"
-      }
-    },
-    "Partner": {
-      "label": "OEM Partner",
-      "title": "tralenmen.vn",
-      "desc": "Official production partner of the 84 Limited collection. Leading expert in fermented ancient Shan Tuyet tea in Vietnam.",
-      "link": "Learn more"
-    },
-    "CTA": {
-      "title": "Ready to Experience?",
-      "desc": "Discover our premium tea collection or explore 84tea franchise opportunities.",
-      "products": "View Products",
-      "franchise": "Franchise"
     }
   },
   "Contact": {
@@ -385,9 +290,9 @@
     },
     "QuickLinks": {
       "title": "Quick Links",
-      "franchise": "Franchise",
-      "products": "Products",
-      "about": "About Us",
+      "science": "Science",
+      "products": "Product",
+      "origin": "Origin",
       "shipping": "Shipping"
     },
     "Form": {
@@ -407,7 +312,6 @@
         "general": "General Inquiry",
         "order": "Order / Shipping",
         "wholesale": "Wholesale",
-        "franchise": "Franchise",
         "partnership": "Partnership",
         "feedback": "Feedback"
       },
@@ -418,7 +322,7 @@
       "error": "An error occurred. Please try again later."
     },
     "Map": {
-      "address": "134 Nguyen Hoang Ton, Phu Thuong, Tay Ho, Hanoi",
+      "address": "15/11 Duy Tan, Cau Giay Ward, Hanoi",
       "link": "View on Google Maps"
     }
   },
@@ -426,162 +330,6 @@
     "secure": "Secure Payment",
     "shipping": "Nationwide Shipping",
     "return": "7-Day Return"
-  },
-  "Franchise": {
-    "Hero": {
-      "label": "Partnership Opportunity",
-      "title": "Partner with",
-      "titleHighlight": "Vietnamese Tea Heritage",
-      "description": "Become a franchise partner of 84tea to spread the essence of Vietnamese ancient tea. Sustainable business model, attractive profits, and operated by a team of leading experts.",
-      "register": "Register Now",
-      "explore": "Explore Models",
-      "stats": {
-        "stores": "Stores Nationwide",
-        "payback": "Avg. Payback Months",
-        "profit": "Avg. Net Profit",
-        "support": "Operation Support"
-      }
-    },
-    "Benefits": {
-      "label": "Why Choose 84tea?",
-      "title": "Outstanding Competitive Advantage",
-      "description": "We don't just franchise the brand, we share the secret of success and accompany you on the path of sustainable business.",
-      "items": {
-        "storefront": {
-          "title": "Flexible Model",
-          "description": "Diverse scales from Kiosk to Premium Lounge, suitable for various investment levels and locations."
-        },
-        "monitoring": {
-          "title": "Standardized Operation",
-          "description": "Operation, brewing, and service processes are 100% standardized, easy to train and manage."
-        },
-        "soup_kitchen": {
-          "title": "Exclusive Material Source",
-          "description": "Owning a distinct ancient tea material region, ensuring quality and the most stable price in the market."
-        },
-        "campaign": {
-          "title": "Comprehensive Marketing",
-          "description": "Support multi-channel communication, periodic branding and promotion campaigns from the headquarters."
-        },
-        "school": {
-          "title": "In-depth Training",
-          "description": "Training programs from basic to advanced for investors and staff on tea ceremony and management."
-        },
-        "engineering": {
-          "title": "24/7 Technical Support",
-          "description": "IT and technical team always ready to support POS systems, management apps, and equipment maintenance."
-        }
-      }
-    },
-    "Models": {
-      "label": "Business Models",
-      "title": "Diverse Investment Options",
-      "description": "3 models optimized for each market segment and financial capability.",
-      "mostPopular": "Most Popular",
-      "location": "Optimal Location",
-      "features": "Key Features",
-      "idealFor": "Ideal For",
-      "getQuote": "Get Detailed Quote",
-      "items": {
-        "kiosk": {
-          "title": "Kiosk",
-          "location": "Shopping Malls, Office Buildings",
-          "features": {
-            "0": "Low investment cost",
-            "1": "Simple operation (2-3 staff)",
-            "2": "Focus on Takeaway",
-            "3": "Streamlined, best-selling menu"
-          },
-          "idealFor": "New Investors, Small Capital"
-        },
-        "express": {
-          "title": "Express",
-          "location": "Street Front, Crowded Residential Areas",
-          "features": {
-            "0": "Balance between Takeaway and Dine-in",
-            "1": "Diverse beverage menu",
-            "2": "Youthful, dynamic space",
-            "3": "Optimized operating costs"
-          },
-          "idealFor": "Street Front, Professional Business"
-        },
-        "lounge": {
-          "title": "Lounge",
-          "location": "Premium Areas, Tourist Spots",
-          "features": {
-            "0": "Complete tea ceremony experience",
-            "1": "Serving premium drinks and pastries",
-            "2": "Luxurious Indochine Luxury space",
-            "3": "Organize tea ceremony workshops"
-          },
-          "idealFor": "Strategic Investment, Premium Positioning"
-        }
-      }
-    },
-    "Process": {
-      "label": "Partnership Process",
-      "title": "5-Step Roadmap to Success",
-      "description": "Streamlined, transparent process helps you own an 84tea store in just 15-30 days.",
-      "steps": {
-        "01": {
-          "title": "Register for Advice",
-          "description": "Fill in the registration form. Our specialists will contact you within 24h."
-        },
-        "02": {
-          "title": "Survey & Contract",
-          "description": "Survey premises, advise on suitable models, and sign franchise contracts."
-        },
-        "03": {
-          "title": "Design & Construction",
-          "description": "Create 3D design drawings and construct the store according to Indochine Luxury standards."
-        },
-        "04": {
-          "title": "Training & Setup",
-          "description": "Train personnel, setup machinery, raw materials, and operating procedures."
-        },
-        "05": {
-          "title": "Grand Opening",
-          "description": "Support opening organization, run ads, and officially go into operation."
-        }
-      }
-    },
-    "Form": {
-      "title": "Contact for Partnership",
-      "description": "Leave your information for detailed advice on franchise policies and latest offers.",
-      "quote": "\"Your success is our mission.\"",
-      "contact": {
-        "hotline": "Hotline",
-        "email": "Email",
-        "office": "Office",
-        "officeAddress": "1st Floor, 84tea Building, Hanoi, Vietnam"
-      },
-      "fields": {
-        "name": "Full Name *",
-        "namePlaceholder": "John Doe",
-        "phone": "Phone Number *",
-        "phonePlaceholder": "0912 xxx xxx",
-        "email": "Email",
-        "emailPlaceholder": "example@gmail.com",
-        "area": "Intended Area",
-        "areaPlaceholder": "Select area",
-        "budget": "Estimated Budget",
-        "budgetPlaceholder": "Select budget level",
-        "model": "Interested Model",
-        "areas": {
-          "hanoi": "Hanoi",
-          "hcm": "Ho Chi Minh City",
-          "danang": "Da Nang",
-          "other": "Other"
-        },
-        "budgets": {
-          "under500": "Under 500 million",
-          "500to1b": "500 million - 1 billion",
-          "over1b": "Over 1 billion"
-        }
-      },
-      "submit": "Submit Registration",
-      "disclaimer": "By submitting information, you agree to 84tea's privacy policy."
-    }
   },
   "NotFound": {
     "title": "Page Not Found",
@@ -595,103 +343,12 @@
     "retry": "Try again",
     "goHome": "Home"
   },
-  "Club": {
-    "Hero": {
-      "label": "Exclusive Membership",
-      "title": "84tea Club",
-      "description": "Join the community of ancient tea lovers. Accumulate points, receive exclusive offers and experience distinct privileges.",
-      "join": "Join Now",
-      "login": "Login"
-    },
-    "Benefits": {
-      "title": "Member Privileges",
-      "earnPoints": {
-        "title": "Earn Points",
-        "desc": "Earn 1 point for every 10,000đ spent"
-      },
-      "redeem": {
-        "title": "Redeem Gifts",
-        "desc": "Use points to redeem drinks or products"
-      },
-      "birthday": {
-        "title": "Birthday Gift",
-        "desc": "Special gifts in your birthday month"
-      },
-      "events": {
-        "title": "Exclusive Events",
-        "desc": "Priority invitation to tea tasting workshops"
-      }
-    },
-    "Tiers": {
-      "title": "Membership Tiers",
-      "mostPopular": "Most Popular",
-      "items": {
-        "silver": {
-          "title": "Silver",
-          "requirement": "Register an account",
-          "benefits": [
-            "Earn 1 point / 10k",
-            "Birthday gift"
-          ]
-        },
-        "gold": {
-          "title": "Gold",
-          "requirement": "Spend 5,000,000đ/year",
-          "benefits": [
-            "Earn 1.5 points / 10k",
-            "5% off total bill",
-            "Birthday gift"
-          ]
-        },
-        "diamond": {
-          "title": "Diamond",
-          "requirement": "Spend 15,000,000đ/year",
-          "benefits": [
-            "Earn 2 points / 10k",
-            "10% off total bill",
-            "Special birthday gift",
-            "Private events"
-          ]
-        }
-      }
-    },
-    "CTA": {
-      "title": "Ready to get started?",
-      "description": "Register now to receive 50 bonus points immediately.",
-      "register": "Register Account"
-    },
-    "Dashboard": {
-      "welcome": "Welcome back,",
-      "member": "member",
-      "subtitle": "Welcome to 84tea Club",
-      "currentPoints": "Current Points",
-      "availablePoints": "Available",
-      "totalEarned": "Total Earned",
-      "tier": "Tier",
-      "history": "Transaction History",
-      "emptyHistory": "No transactions yet",
-      "loadingHistory": "Loading history...",
-      "progressTo": "Progress to {tier}",
-      "pointsNeeded": "{points} more points",
-      "highestTier": "🎉 You have reached the highest tier!",
-      "redeemComingSoon": "Redeem (Coming soon)"
-    },
-    "History": {
-      "type": {
-        "purchase": "Purchase",
-        "redemption": "Redeem",
-        "bonus": "Bonus",
-        "adjustment": "Adjustment",
-        "expiry": "Expired"
-      }
-    }
-  },
   "Privacy": {
     "title": "Privacy Policy",
     "lastUpdated": "Last updated: February 2026",
     "Section1": {
       "title": "1. Information We Collect",
-      "intro": "When you use 84tea.com, we may collect the following information:",
+      "intro": "When you use anima119.com, we may collect the following information:",
       "items": {
         "0": "Name, email, phone number when ordering",
         "1": "Delivery address",
@@ -747,7 +404,7 @@
     "points": "points",
     "member": "Member",
     "loginTitle": "Login / Register",
-    "loginDesc": "Join the 84tea community",
+    "loginDesc": "Join the ANIMA 119 community",
     "continueGoogle": "Continue with Google",
     "continueEmail": "Or continue with Email",
     "emailPlaceholder": "name@example.com",
@@ -770,71 +427,67 @@
     "errorGeneric": "An error occurred. Please try again.",
     "errorMissingInfo": "Please provide full information"
   },
-  "RefundPage": {
-    "title": "Return & Refund Policy",
-    "highlight": {
-      "title": "Free returns within 7 days",
-      "desc": "Applies to products with original seal, unused"
-    },
-    "conditions": {
-      "title": "Return Conditions",
-      "items": [
-        "Product still sealed, unopened",
-        "Original packaging intact, not damaged",
-        "Have invoice or order code",
-        "Return request within 7 days from delivery"
-      ]
-    },
-    "eligible": {
-      "title": "Eligible for Return",
-      "titleYes": "✓ Accepted",
-      "titleNo": "✗ Not Accepted",
-      "yes": [
-        "Manufacturer defect",
-        "Wrong product delivered",
-        "Damaged during shipping",
-        "Size/type exchange (sealed)"
-      ],
-      "no": [
-        "Seal opened, used",
-        "Packaging not intact",
-        "Over 7 days from delivery",
-        "Damage caused by user"
-      ]
-    },
-    "process": {
-      "title": "Return Process",
-      "steps": [
-        {
-          "title": "Contact Support",
-          "desc": "Call hotline 0988 030 204 or email support@84tea.com"
-        },
-        {
-          "title": "Send Product",
-          "desc": "Pack carefully and send to the provided address"
-        },
-        {
-          "title": "Process Request",
-          "desc": "We will inspect and process within 2-3 business days"
-        },
-        {
-          "title": "Exchange / Refund",
-          "desc": "Send new product or refund via bank transfer"
-        }
-      ]
-    },
-    "refund": {
-      "title": "Refund",
-      "desc": "Money will be refunded via bank transfer within 5-7 business days from approval."
-    },
-    "hotline": {
-      "title": "Return Hotline",
-      "hours": "(8:00 - 21:00 daily)"
+  "Cities": {
+    "hanoi": "Hanoi",
+    "hcm": "Ho Chi Minh City",
+    "danang": "Da Nang",
+    "haiphong": "Hai Phong",
+    "cantho": "Can Tho",
+    "nhatrang": "Nha Trang",
+    "hue": "Hue",
+    "bienhoa": "Bien Hoa",
+    "bacninh": "Bac Ninh",
+    "other": "Other"
+  },
+  "TermsPage": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: February 2026",
+    "sections": {
+      "intro": {
+        "title": "1. Introduction",
+        "content": "Welcome to ANIMA 119. By accessing and using the website anima119.com, you agree to comply with the terms and conditions stated in this document."
+      },
+      "company": {
+        "title": "2. Company Information",
+        "name": "ZenX Holdings JSC",
+        "license": "Business License: [Updating]",
+        "founded": "Official distributor of ANIMA 119 in Vietnam",
+        "address": "Address: 15/11 Duy Tan, Cau Giay Ward, Hanoi"
+      },
+      "products": {
+        "title": "3. Products and Services",
+        "content": "ANIMA 119 provides food supplements from Korean fermented Oriental medicine. All products are manufactured by Insung Pharm according to FSSC 22000 and GMP standards with clear origin."
+      },
+      "orders": {
+        "title": "4. Orders and Payment",
+        "items": [
+          "Orders are confirmed after successful payment",
+          "We accept payment via VietQR (PayOS)",
+          "Product prices include VAT",
+          "Shipping fees are calculated separately based on delivery address"
+        ]
+      },
+      "delivery": {
+        "title": "5. Delivery",
+        "content": "Orders will be delivered within 2-5 business days depending on location. Free shipping for orders from 500,000d."
+      },
+      "returns": {
+        "title": "6. Returns and Refunds",
+        "content": "Customers can return products within 7 days from delivery date, provided the product is still sealed and unused. See details on the Return Policy page."
+      },
+      "ip": {
+        "title": "7. Intellectual Property",
+        "content": "All content on anima119.com including logo, images, and text is property of ZenX Holdings JSC and protected by intellectual property law."
+      },
+      "contact": {
+        "title": "8. Contact",
+        "intro": "For inquiries please contact:"
+      }
     }
   },
   "ShippingPage": {
     "title": "Shipping Policy",
-    "freeShipping": "🚚 Free shipping for orders from 500,000đ",
+    "freeShipping": "Free shipping for orders from 500,000d",
     "fees": {
       "title": "Shipping Fees",
       "headers": {
@@ -843,12 +496,12 @@
         "time": "Time"
       },
       "rows": [
-        { "area": "Hanoi (inner city)", "price": "20,000đ", "time": "1-2 days" },
-        { "area": "Hanoi (suburbs)", "price": "25,000đ", "time": "2-3 days" },
-        { "area": "Ho Chi Minh City", "price": "30,000đ", "time": "3-4 days" },
-        { "area": "Northern provinces", "price": "30,000đ", "time": "2-4 days" },
-        { "area": "Central region", "price": "35,000đ", "time": "3-5 days" },
-        { "area": "Southern region", "price": "35,000đ", "time": "4-5 days" }
+        { "area": "Hanoi (inner city)", "price": "20,000d", "time": "1-2 days" },
+        { "area": "Hanoi (suburbs)", "price": "25,000d", "time": "2-3 days" },
+        { "area": "Ho Chi Minh City", "price": "30,000d", "time": "3-4 days" },
+        { "area": "Northern provinces", "price": "30,000d", "time": "2-4 days" },
+        { "area": "Central region", "price": "35,000d", "time": "3-5 days" },
+        { "area": "Southern region", "price": "35,000d", "time": "4-5 days" }
       ]
     },
     "carriers": {
@@ -871,57 +524,252 @@
         "Please inspect before accepting",
         "Record video when unboxing as evidence if issues arise",
         "Refuse delivery if external damage visible",
-        "Contact hotline immediately if any issues"
+        "Contact contact@anima119.com if any issues"
       ]
     },
     "support": {
       "title": "Need Help?"
     }
   },
-  "TermsPage": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last updated: February 2026",
-    "sections": {
-      "intro": {
-        "title": "1. Introduction",
-        "content": "Welcome to 84tea. By accessing and using the website 84tea.com, you agree to comply with the terms and conditions stated in this document."
-      },
-      "company": {
-        "title": "2. Company Information",
-        "name": "3704 Co., LTD",
-        "license": "Business License: 011 070 44 89",
-        "founded": "Founded: 04/05/2024",
-        "address": "Address: 134 Nguyen Hoang Ton, Phu Thuong, Tay Ho, Hanoi"
-      },
-      "products": {
-        "title": "3. Products and Services",
-        "content": "84tea provides premium tea products from Vietnamese ancient Shan Tuyet tea trees. All products are manufactured according to food safety standards with clear origin."
-      },
-      "orders": {
-        "title": "4. Orders and Payment",
-        "items": [
-          "Orders are confirmed after successful payment",
-          "We accept payment via VietQR (PayOS)",
-          "Product prices include VAT",
-          "Shipping fees are calculated separately based on delivery address"
-        ]
-      },
-      "delivery": {
-        "title": "5. Delivery",
-        "content": "Orders will be delivered within 2-5 business days depending on location. Free shipping for orders from 500,000đ."
-      },
-      "returns": {
-        "title": "6. Returns and Refunds",
-        "content": "Customers can return products within 7 days from delivery date, provided the product is still sealed and unused. See details on the Return Policy page."
-      },
-      "ip": {
-        "title": "7. Intellectual Property",
-        "content": "All content on 84tea.com including logo, images, and text is property of 3704 Co., LTD and protected by intellectual property law."
-      },
-      "contact": {
-        "title": "8. Contact",
-        "intro": "For inquiries please contact:"
+  "RefundPage": {
+    "title": "Return & Refund Policy",
+    "highlight": {
+      "title": "Free returns within 7 days",
+      "desc": "Applies to products with original seal, unused"
+    },
+    "conditions": {
+      "title": "Return Conditions",
+      "items": [
+        "Product still sealed, unopened",
+        "Original packaging intact, not damaged",
+        "Have invoice or order code",
+        "Return request within 7 days from delivery"
+      ]
+    },
+    "eligible": {
+      "title": "Eligible for Return",
+      "titleYes": "Accepted",
+      "titleNo": "Not Accepted",
+      "yes": [
+        "Manufacturer defect",
+        "Wrong product delivered",
+        "Damaged during shipping",
+        "Product exchange (sealed)"
+      ],
+      "no": [
+        "Seal opened, used",
+        "Packaging not intact",
+        "Over 7 days from delivery",
+        "Damage caused by user"
+      ]
+    },
+    "process": {
+      "title": "Return Process",
+      "steps": [
+        { "title": "Contact Support", "desc": "Email contact@anima119.com or contact via Zalo" },
+        { "title": "Send Product", "desc": "Pack carefully and send to the provided address" },
+        { "title": "Process Request", "desc": "We will inspect and process within 2-3 business days" },
+        { "title": "Exchange / Refund", "desc": "Send new product or refund via bank transfer" }
+      ]
+    },
+    "refund": {
+      "title": "Refund",
+      "desc": "Money will be refunded via bank transfer within 5-7 business days from approval."
+    },
+    "hotline": {
+      "title": "Return Contact",
+      "hours": "(8:00 - 21:00 daily)"
+    }
+  },
+  "SanPham": {
+    "title": "ANIMA 119 Product",
+    "description": "Food supplements from Korean fermented Oriental medicine",
+    "label": "Product",
+    "name": "ANIMA 119",
+    "tagline": "Balance the Metabolism of Bio-Energy Flow to Heal the Body",
+    "madeIn": "Made in Korea",
+    "manufacturer": "Insung Pharm",
+    "servingSize": "Serving size: 3.5g per sachet",
+    "price": "990,000",
+    "currency": "VND",
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now",
+    "nutritionFacts": "Nutrition Facts",
+    "ingredients": "Ingredients",
+    "ingredientsDesc": "119 fermented Oriental medicine herbs, including ginseng, angelica, licorice, astragalus and many other precious herbs.",
+    "usage": "Usage Instructions",
+    "usageDesc": "Take 1-2 sachets daily, dissolve in 200ml warm water. Best taken 30 minutes before meals for optimal results.",
+    "certifications": "Certifications",
+    "cert1": "FSSC 22000",
+    "cert2": "Korea GMP",
+    "cert3": "Traditional Oriental Medicine",
+    "benefits": "4 Core Benefits",
+    "benefit1": "Promotes healthy blood circulation",
+    "benefit2": "Supports bone and spine health",
+    "benefit3": "Restores energy, reduces fatigue",
+    "benefit4": "Detoxifies and protects liver"
+  },
+  "KhoaHoc": {
+    "title": "Scientific Foundation",
+    "description": "Scientific research and clinical evidence behind ANIMA 119",
+    "label": "Science",
+    "headline": "Solid Scientific Foundation",
+    "drUh": {
+      "label": "Founder",
+      "name": "Dr. Uh Bong-woo",
+      "title": "PhD in Korean Traditional Medicine",
+      "university": "Kyung Hee University - Department of Korean Traditional Medicine",
+      "experience": "Over 35 years of fermented herbal medicine research",
+      "role": "Director, Korea Fermented Herbal Medicine Research Institute",
+      "advisor": "Advisor, Fermented Herbal Medicine Society of Korean Oriental Medical Doctors Assoc.",
+      "award": "2023 Minister of Health & Welfare Award"
+    },
+    "fermentation": {
+      "label": "Technology",
+      "title": "4th Fermentation, 3-Stage Low-Separation Method",
+      "desc": "Pioneered by Dr. Uh - the world's first health food using Korean medicine microorganisms.",
+      "patent1": "Patent: Arthritis treatment",
+      "patent2": "Patent: Obesity inhibition",
+      "patent3": "Patent: Prostate function improvement",
+      "patent4": "Patent: Sleep support"
+    },
+    "evidence": {
+      "label": "Scientific Evidence",
+      "title": "Clinical Evidence",
+      "bioavailability": "Enhanced bioavailability: Fermentation breaks complex compounds into absorbable forms",
+      "toxicity": "Reduced toxicity: Enzymatic degradation during fermentation removes natural toxins",
+      "compounds": "New bioactive compounds: Novel pharmacological activities from fermentation",
+      "antioxidant": "Enhanced antioxidant properties: Polyphenols, flavonoids, tannins activated",
+      "immune": "Immune modulation: Increased immunological activities",
+      "gut": "Gut microbiota enrichment: Beneficial microorganisms enhanced",
+      "antiInflammatory": "Anti-inflammatory, anticancer, metabolic health benefits",
+      "rct": "11 Randomized Controlled Trials (2000-2011) confirming safety and efficacy"
+    },
+    "production": {
+      "label": "Production",
+      "title": "International Production Standards",
+      "insung": "Insung Pharm: FSSC 22000 certified, GMP production standards",
+      "partnership": "OEM/ODM partnerships with international R&D organizations"
+    }
+  },
+  "NguonGoc": {
+    "title": "ANIMA 119 Origin",
+    "description": "The journey from Korean Research Institute to Vietnam",
+    "label": "Origin",
+    "headline": "The Journey From Korea To Vietnam",
+    "heritage": {
+      "title": "Korean Fermented Medicine Heritage",
+      "desc": "Korean traditional medicine has a history spanning thousands of years. Herbal fermentation technology represents a breakthrough, combining ancient wisdom with modern science."
+    },
+    "drUhJourney": {
+      "title": "Dr. Uh Bong-woo's Journey",
+      "desc": "From graduate researcher at Kyung Hee University to Director of the Korea Fermented Herbal Medicine Research Institute, Dr. Uh dedicated over 35 years to perfecting the 4th fermentation technology."
+    },
+    "distribution": {
+      "title": "Distribution in Vietnam",
+      "company": "ZenX Holdings JSC",
+      "address": "15/11 Duy Tan, Cau Giay Ward, Hanoi, Vietnam",
+      "desc": "ZenX Holdings is the official distributor of ANIMA 119 in Vietnam, committed to delivering authentic products of the highest quality."
+    },
+    "certifications": {
+      "title": "Quality Certifications",
+      "items": {
+        "fssc": "FSSC 22000 - International food safety",
+        "gmp": "Korea GMP - Good manufacturing practice",
+        "research": "Korea Fermented Herbal Medicine Research Institute",
+        "award": "2023 Ministry of Health & Welfare Award"
       }
     }
+  },
+  "MuaHang": {
+    "title": "Purchase",
+    "description": "Order authentic ANIMA 119",
+    "label": "Order",
+    "headline": "Order ANIMA 119",
+    "productName": "ANIMA 119",
+    "productDesc": "Food supplements from Korean fermented Oriental medicine",
+    "price": "990,000 VND",
+    "quantity": "Quantity",
+    "total": "Total",
+    "checkout": "Checkout via PayOS",
+    "addToCart": "Add to Cart",
+    "guarantee": "100% authentic guarantee",
+    "freeShip": "Free shipping on orders > 500k",
+    "return": "7-day return policy"
+  },
+  "LienHe": {
+    "title": "Contact",
+    "description": "Contact ZenX Holdings - Official ANIMA 119 Distributor",
+    "label": "Contact",
+    "headline": "Connect With Us",
+    "company": "ZenX Holdings JSC",
+    "address": "15/11 Duy Tan, Cau Giay Ward, Hanoi, Vietnam",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Working Hours",
+    "hoursValue": "Mon - Sat: 8:00 - 18:00",
+    "zalo": "Zalo",
+    "formTitle": "Send a Message",
+    "formName": "Full Name",
+    "formEmail": "Email",
+    "formPhone": "Phone Number",
+    "formMessage": "Message",
+    "formSubmit": "Send Message",
+    "formSubmitting": "Sending...",
+    "formSuccess": "Thank you for contacting us! We will respond within 24h.",
+    "formError": "An error occurred. Please try again."
+  },
+  "TinTuc": {
+    "title": "News",
+    "description": "News about fermented Oriental medicine and health",
+    "label": "News",
+    "headline": "News & Knowledge",
+    "readMore": "Read More",
+    "articles": {
+      "1": {
+        "title": "Herbal fermentation: A breakthrough in medicine",
+        "summary": "Learn how 4th fermentation technology is revolutionizing Korean traditional medicine.",
+        "date": "Jan 15, 2026"
+      },
+      "2": {
+        "title": "Why bioavailability matters in food supplements",
+        "summary": "Understanding the importance of bioavailability and the role of fermentation.",
+        "date": "Jan 10, 2026"
+      },
+      "3": {
+        "title": "Dr. Uh Bong-woo and 35 years of fermented medicine research",
+        "summary": "The remarkable journey of the scientist behind the proprietary 4th fermentation technology.",
+        "date": "Jan 5, 2026"
+      }
+    }
+  },
+  "Testimonials": {
+    "label": "What customers say",
+    "headline": "Customer Feedback",
+    "items": {
+      "1": {
+        "name": "Minh T.",
+        "role": "Entrepreneur, Hanoi",
+        "content": "After 2 months of using ANIMA 119, I clearly feel improved energy and better sleep. Truly a quality product."
+      },
+      "2": {
+        "name": "Huong L.",
+        "role": "Teacher, HCMC",
+        "content": "I recommended ANIMA 119 to my whole family. My mother uses it for bone and joint support and is very satisfied with the results."
+      },
+      "3": {
+        "name": "Duc N.",
+        "role": "IT Engineer, Da Nang",
+        "content": "The 4th fermentation technology is truly impressive. I trust the scientific foundation behind this product."
+      }
+    }
+  },
+  "Newsletter": {
+    "title": "Subscribe to Newsletter",
+    "description": "Get the latest health news and fermented medicine updates from ANIMA 119.",
+    "placeholder": "Your Email",
+    "subscribe": "Subscribe",
+    "success": "Subscribed successfully!",
+    "error": "An error occurred. Please try again."
   }
 }

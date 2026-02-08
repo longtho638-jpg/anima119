@@ -18,10 +18,10 @@ export function TopAppBar({ onMenuClick }: TopAppBarProps) {
   const t = useTranslations("Navigation");
 
   const navLinks = [
-    { href: "/products", label: t("products") },
-    { href: "/about", label: t("about") },
-    { href: "/franchise", label: t("franchise") },
-    { href: "/contact", label: t("contact") },
+    { href: "/san-pham", label: t("products") },
+    { href: "/khoa-hoc", label: t("about") },
+    { href: "/nguon-goc", label: t("franchise") },
+    { href: "/lien-he", label: t("contact") },
   ];
 
   const [scrolled, setScrolled] = useState(false);
@@ -102,7 +102,7 @@ export function TopAppBar({ onMenuClick }: TopAppBarProps) {
 
           {/* Trailing: Actions */}
           <div className="flex items-center gap-2">
-            <Link href="/products" className="hidden md:block">
+            <Link href="/mua-hang" className="hidden md:block">
               <Button variant="filled" size="default">
                 {t("buyNow")}
               </Button>

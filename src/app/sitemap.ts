@@ -7,12 +7,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const staticPages = [
     '',
-    '/products',
-    '/about',
-    '/franchise',
-    '/franchise/apply',
-    '/contact',
-    '/club',
+    '/san-pham',
+    '/khoa-hoc',
+    '/nguon-goc',
+    '/mua-hang',
+    '/lien-he',
+    '/tin-tuc',
   ];
 
   // Generate entries for each locale
@@ -36,7 +36,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   // Generate product entries
   const productEntries = (products || []).flatMap(product =>
     SEO_CONFIG.locales.map(locale => ({
-      url: `${SEO_CONFIG.siteUrl}/${locale}/products/${product.slug}`,
+      url: `${SEO_CONFIG.siteUrl}/${locale}/san-pham/${product.slug}`,
       lastModified: new Date(product.updated_at || product.created_at),
       changeFrequency: 'daily' as const,
       priority: 0.9,

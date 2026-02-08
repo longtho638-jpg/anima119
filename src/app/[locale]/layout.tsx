@@ -49,8 +49,8 @@ export async function generateMetadata({
     },
     description:
       locale === 'vi'
-        ? 'Trà Cổ Thụ Việt Nam - Năng lượng thuần khiết từ thiên nhiên'
-        : 'Vietnamese Ancient Tree Tea - Pure energy from nature',
+        ? 'ANIMA 119 - Cân Bằng Sinh Năng Lượng, Phục Hồi Cơ Thể'
+        : 'ANIMA 119 - Balance the Metabolism of Bio-Energy Flow to Heal the Body',
     openGraph: {
       type: 'website',
       locale,
@@ -117,10 +117,10 @@ export default async function LocaleLayout({
         />
         {/* PWA Manifest */}
         <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#1b5e20" />
+        <meta name="theme-color" content="#0A1628" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="apple-mobile-web-app-title" content="84tea" />
+        <meta name="apple-mobile-web-app-title" content="ANIMA 119" />
         <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
 
         {/* Material Symbols - Optimized loading */}
@@ -143,7 +143,7 @@ export default async function LocaleLayout({
         className={`${playfairDisplay.variable} ${inter.variable} antialiased bg-surface text-on-surface`}
       >
         <ErrorBoundary>
-          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
             <NextIntlClientProvider messages={messages}>
               <AuthProvider>
                 <CartProvider>

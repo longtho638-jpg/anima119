@@ -57,7 +57,7 @@ const validWebhookBody = {
   data: {
     orderCode: 1234567890,
     amount: 700000,
-    description: 'Don hang 84tea',
+    description: 'Don hang ANIMA 119',
   },
   signature: 'valid-signature-hash',
 };

@@ -9,48 +9,50 @@ interface LogoProps extends React.HTMLAttributes<HTMLDivElement> {
 export function Logo({ className, variant = "color", ...props }: LogoProps) {
   return (
     <div className={cn("flex items-center gap-2", className)} {...props}>
-      {/* Placeholder Icon - Lotus/Tea Leaf Abstract */}
+      {/* Golden Triskele / Trinity Knot Symbol */}
       <svg
-        width="32"
-        height="32"
-        viewBox="0 0 32 32"
+        width="36"
+        height="36"
+        viewBox="0 0 36 36"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className={cn(
-          variant === "light" ? "text-white" : "text-primary"
+          variant === "dark" ? "text-[#0A1628]" : "text-[#C5A55A]"
         )}
       >
+        <circle cx="18" cy="18" r="17" stroke="currentColor" strokeWidth="1.5" />
         <path
-          d="M16 2C16 2 10 8 10 16C10 24 16 30 16 30C16 30 22 24 22 16C22 8 16 2 16 2Z"
+          d="M18 6C18 6 12 10 12 18C12 22 14 25 18 28"
           stroke="currentColor"
-          strokeWidth="2"
+          strokeWidth="1.8"
           strokeLinecap="round"
-          strokeLinejoin="round"
+          fill="none"
         />
         <path
-          d="M16 30C16 30 8 26 5 16C2 6 10 6 16 12"
+          d="M18 6C18 6 24 10 24 18C24 22 22 25 18 28"
           stroke="currentColor"
-          strokeWidth="2"
+          strokeWidth="1.8"
           strokeLinecap="round"
-          strokeLinejoin="round"
+          fill="none"
         />
         <path
-          d="M16 30C16 30 24 26 27 16C30 6 22 6 16 12"
+          d="M8 22C8 22 12 18 18 18C24 18 28 22 28 22"
           stroke="currentColor"
-          strokeWidth="2"
+          strokeWidth="1.8"
           strokeLinecap="round"
-          strokeLinejoin="round"
+          fill="none"
         />
+        <circle cx="18" cy="18" r="3" fill="currentColor" opacity="0.6" />
       </svg>
       <div className="flex flex-col">
         <Typography
           variant="headline-small"
           className={cn(
-            "font-bold leading-none tracking-tight",
-            variant === "light" ? "text-white" : "text-primary"
+            "font-bold leading-none tracking-wider",
+            variant === "dark" ? "text-[#0A1628]" : "text-[#C5A55A]"
           )}
         >
-          84tea
+          ANIMA 119
         </Typography>
       </div>
     </div>

@@ -12,22 +12,10 @@ interface CookieToSet {
 }
 
 /**
- * Routes that require authentication.
- * Users hitting these paths without a valid session are
- * redirected to the locale root (which shows auth modal).
+ * No protected routes for ANIMA 119 (pure e-commerce).
  */
-const PROTECTED_ROUTE_PREFIXES = ['/club', '/ops', '/training'];
-
-/**
- * Check whether the pathname (after the locale prefix) matches
- * any protected route prefix.
- */
-function isProtectedRoute(pathname: string): boolean {
-  // Strip locale prefix: /vi/club -> /club, /en/ops/sop -> /ops/sop
-  const withoutLocale = pathname.replace(/^\/(vi|en)/, '');
-  return PROTECTED_ROUTE_PREFIXES.some(
-    (prefix) => withoutLocale === prefix || withoutLocale.startsWith(`${prefix}/`)
-  );
+function isProtectedRoute(_pathname: string): boolean {
+  return false;
 }
 
 export async function middleware(request: NextRequest) {

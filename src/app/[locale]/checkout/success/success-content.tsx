@@ -91,7 +91,7 @@ function SuccessContentInner() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/products" className="w-full sm:w-auto">
+            <Link href="/san-pham" className="w-full sm:w-auto">
               <Button variant="filled" size="lg" className="w-full">
                 {t("Success.continueShopping")}
               </Button>

@@ -155,13 +155,13 @@ export default function PrivacyContent() {
                       variant="body-large"
                       className="text-on-surface font-medium"
                     >
-                      Email: privacy@84tea.com
+                      Email: contact@anima119.com
                     </Typography>
                     <Typography
                       variant="body-large"
                       className="text-on-surface font-medium"
                     >
-                      Hotline: 0988 030 204
+                      Website: anima119.com
                     </Typography>
                   </div>
                 </section>

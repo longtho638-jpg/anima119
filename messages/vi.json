@@ -1,45 +1,46 @@
 {
   "Metadata": {
     "title": {
-      "default": "84tea - Trà Cổ Thụ Việt Nam",
-      "template": "%s | 84tea - Trà Cổ Thụ Việt Nam"
+      "default": "ANIMA 119 - Thực phẩm bổ sung từ Đông y lên men",
+      "template": "%s | ANIMA 119"
     },
-    "description": "Trà Cổ Thụ Việt Nam - Năng lượng thuần khiết từ thiên nhiên",
-    "keywords": "84tea, trà Việt Nam, trà lên men, Shan Tuyết, trà cao cấp, trà cổ thụ, 84 Limited, Trà Năng Lượng Việt"
+    "description": "ANIMA 119 - Cân Bằng Sinh Năng Lượng, Phục Hồi Cơ Thể. Thực phẩm bổ sung từ Đông y lên men Hàn Quốc.",
+    "keywords": "ANIMA 119, đông y lên men, thực phẩm bổ sung, Dr. Uh, Hàn Quốc, sức khỏe, ZenX Holdings"
   },
   "Accessibility": {
     "skipToContent": "Bỏ qua đến nội dung chính"
   },
   "HomePage": {
-    "title": "84tea - Trà Cổ Thụ Việt Nam",
-    "welcome": "Chào mừng đến với 84tea"
+    "title": "ANIMA 119 - Thực phẩm bổ sung từ Đông y lên men",
+    "welcome": "Cân Bằng Sinh Năng Lượng, Phục Hồi Cơ Thể"
   },
   "Navigation": {
     "home": "Trang chủ",
     "products": "Sản phẩm",
-    "about": "Về chúng tôi",
-    "franchise": "Nhượng quyền",
-    "club": "84tea Club",
+    "science": "Khoa học",
+    "origin": "Nguồn gốc",
+    "purchase": "Mua hàng",
     "contact": "Liên hệ",
+    "news": "Tin tức",
     "buyNow": "Mua ngay",
     "orderNow": "Đặt Hàng",
     "cart": "Giỏ hàng"
   },
   "Hero": {
-    "subtitle": "Di sản trà Việt",
-    "title": "Tinh hoa trà cổ thụ",
-    "titleHighlight": "ngàn năm tuổi",
-    "description": "Hành trình tìm về cội nguồn hương vị từ những cây trà Shan Tuyết cổ thụ sống trên đỉnh núi mờ sương, hấp thụ tinh khí đất trời qua hàng thế kỷ.",
-    "ctaPrimary": "Khám phá Bộ sưu tập",
-    "ctaSecondary": "Câu chuyện của chúng tôi"
+    "subtitle": "Đông Y Lên Men Hàn Quốc",
+    "title": "Cân Bằng Sinh Năng Lượng",
+    "titleHighlight": "Phục Hồi Cơ Thể",
+    "description": "ANIMA 119 - Thực phẩm bổ sung từ Đông y lên men, được nghiên cứu và phát triển bởi Viện Nghiên cứu Dược liệu Lên men Hàn Quốc với hơn 35 năm kinh nghiệm.",
+    "ctaPrimary": "Tìm hiểu sản phẩm",
+    "ctaSecondary": "Khoa học đằng sau"
   },
   "home": {
     "hero": {
-      "title": "Tinh hoa trà cổ thụ",
-      "subtitle": "Hành trình tìm về cội nguồn hương vị từ những cây trà Shan Tuyết cổ thụ",
+      "title": "Cân Bằng Sinh Năng Lượng, Phục Hồi Cơ Thể",
+      "subtitle": "ANIMA 119 - Thực phẩm bổ sung từ Đông y lên men Hàn Quốc, công nghệ lên men bậc 4 độc quyền",
       "cta": {
-        "primary": "Khám phá Bộ sưu tập",
-        "secondary": "Câu chuyện của chúng tôi"
+        "primary": "Tìm hiểu sản phẩm",
+        "secondary": "Khoa học đằng sau"
       },
       "scroll": "Cuộn xuống"
     }
@@ -48,97 +49,85 @@
     "addToCart": "Thêm vào giỏ"
   },
   "Story": {
-    "label": "Về 84tea",
-    "headline": "Đánh thức vị giác bằng",
-    "headlineHighlight": "sự nguyên bản",
-    "description1": "84tea ra đời với sứ mệnh gìn giữ và tôn vinh những cây trà cổ thụ Việt Nam. Con số 84 không chỉ là mã vùng quốc gia, mà còn là lời khẳng định tự hào về nguồn gốc của những búp trà thượng hạng.",
-    "description2": "Chúng tôi đi dọc dải đất hình chữ S, tìm đến những vùng núi cao hiểm trở, nơi đồng bào dân tộc thiểu số vẫn ngày đêm gìn giữ những rừng trà cổ thụ hàng trăm năm tuổi.",
-    "stat1Value": "300+",
-    "stat1Label": "Tuổi đời cây trà",
-    "stat2Value": "1300m",
-    "stat2Label": "Độ cao trung bình",
-    "stat3Value": "100%",
-    "stat3Label": "Hữu cơ tự nhiên",
-    "cta": "Xem chi tiết hành trình"
+    "label": "Về ANIMA 119",
+    "headline": "Di sản Đông y lên men",
+    "headlineHighlight": "từ Hàn Quốc",
+    "description1": "ANIMA 119 ra đời từ hơn 35 năm nghiên cứu của Tiến sĩ Uh Bong-woo tại Viện Nghiên cứu Dược liệu Lên men Hàn Quốc. Sản phẩm được sản xuất bằng công nghệ lên men bậc 4, phương pháp tách chiết 3 giai đoạn ở nhiệt độ thấp - độc quyền trên thế giới.",
+    "description2": "Được phân phối tại Việt Nam bởi Công ty Cổ phần ZenX Holdings, ANIMA 119 mang đến giải pháp sức khỏe toàn diện dựa trên nền tảng y học cổ truyền kết hợp công nghệ sinh học hiện đại.",
+    "stat1Value": "35+",
+    "stat1Label": "Năm nghiên cứu",
+    "stat2Value": "11",
+    "stat2Label": "Thử nghiệm lâm sàng RCT",
+    "stat3Value": "119",
+    "stat3Label": "Thảo dược lên men",
+    "cta": "Xem nguồn gốc sản phẩm"
   },
   "Featured": {
-    "label": "Bộ sưu tập",
-    "headline": "Tuyệt phẩm trà Việt",
-    "description": "Tuyển chọn những phẩm trà xuất sắc nhất từ các vùng nguyên liệu trứ danh.",
-    "viewAll": "Xem tất cả sản phẩm"
+    "label": "Sản phẩm",
+    "headline": "ANIMA 119",
+    "description": "Thực phẩm bổ sung từ Đông y lên men Hàn Quốc - Sản xuất bởi Insung Pharm, đạt chứng nhận FSSC 22000 và GMP.",
+    "viewAll": "Xem chi tiết sản phẩm"
   },
   "Process": {
-    "label": "Quy trình",
-    "headline": "Từ Đỉnh Núi Đến Chén Trà",
-    "description": "Hành trình của những búp trà cổ thụ qua bàn tay nghệ nhân và sự tôi luyện của thời gian.",
-    "step1Title": "Thu hái",
-    "step1Desc": "Những búp trà Shan Tuyết 1 tôm 2 lá được thu hái thủ công bởi người dân bản địa vào sương sớm.",
-    "step2Title": "Lên men",
-    "step2Desc": "Quá trình lên men tự nhiên kéo dài hàng chục năm trong chum sành, đánh thức hương vị tiềm ẩn.",
-    "step3Title": "Thưởng thức",
-    "step3Desc": "Pha chế đúng cách để cảm nhận trọn vẹn hương vị của núi rừng và thời gian cô đọng."
+    "label": "Công nghệ",
+    "headline": "Quy Trình Lên Men Bậc 4",
+    "description": "Công nghệ độc quyền được phát triển bởi Viện Nghiên cứu Dược liệu Lên men Hàn Quốc.",
+    "step1Title": "Nghiên cứu & Chọn lọc",
+    "step1Desc": "119 loại thảo dược Đông y được tuyển chọn kỹ lưỡng theo phương pháp của TS. Uh Bong-woo.",
+    "step2Title": "Lên men bậc 4",
+    "step2Desc": "Áp dụng công nghệ lên men 4 giai đoạn với vi sinh vật Đông y, nâng cao khả năng hấp thụ sinh học.",
+    "step3Title": "Tách chiết & Kiểm định",
+    "step3Desc": "Phương pháp tách chiết 3 giai đoạn ở nhiệt độ thấp, kiểm định chất lượng GMP nghiêm ngặt."
   },
   "Benefits": {
-    "item1Title": "100% Tự nhiên",
-    "item1Desc": "Không hóa chất, không chất bảo quản, sinh trưởng hoàn toàn tự nhiên nơi rừng già.",
-    "item2Title": "Di sản văn hóa",
-    "item2Desc": "Mỗi búp trà mang trong mình câu chuyện văn hóa của đồng bào dân tộc thiểu số.",
-    "item3Title": "Chuẩn OCOP 5 Sao",
-    "item3Desc": "Được công nhận là sản phẩm quốc gia, đáp ứng các tiêu chuẩn khắt khe nhất.",
-    "item4Title": "Thương mại công bằng",
-    "item4Desc": "Cam kết thu mua giá cao, đảm bảo sinh kế bền vững cho người dân bản địa."
+    "item1Title": "Tuần hoàn máu",
+    "item1Desc": "Tăng cường tuần hoàn máu, hỗ trợ lưu thông khí huyết, cải thiện sức khỏe tim mạch.",
+    "item2Title": "Xương khớp & Cột sống",
+    "item2Desc": "Hỗ trợ sức khỏe xương khớp và cột sống, giảm đau nhức, tăng khả năng vận động.",
+    "item3Title": "Phục hồi năng lượng",
+    "item3Desc": "Phục hồi năng lượng cơ thể, giảm mệt mỏi, tăng cường sức đề kháng tự nhiên.",
+    "item4Title": "Giải độc & Bảo vệ gan",
+    "item4Desc": "Hỗ trợ giải độc gan, bảo vệ và phục hồi chức năng gan một cách tự nhiên."
   },
   "CTA": {
-    "headline": "Đăng ký nhận tin",
-    "description": "Nhận ưu đãi 10% cho đơn hàng đầu tiên và cập nhật những kiến thức trà đạo thú vị từ 84tea.",
+    "headline": "Trải nghiệm ANIMA 119",
+    "description": "Đặt hàng ngay để cảm nhận sự khác biệt từ công nghệ Đông y lên men hàng đầu Hàn Quốc.",
     "emailPlaceholder": "Email của bạn",
     "subscribe": "Đăng ký",
-    "orExplore": "Hoặc khám phá ngay:",
-    "collection": "Bộ sưu tập",
-    "franchise": "Nhượng quyền"
+    "orExplore": "Khám phá thêm:",
+    "collection": "Sản phẩm",
+    "franchise": "Khoa học"
   },
   "Footer": {
-    "brandDescription": "Thương hiệu trà Việt cao cấp với bộ sưu tập 84 Limited - trà lên men từ những cây Shan Tuyết cổ thụ.",
-    "slogan": "Trà Năng Lượng Việt",
-    "products": "Sản phẩm",
-    "allProducts": "Tất cả sản phẩm",
-    "limitedCollection": "Bộ sưu tập 84 Limited",
-    "greenTea": "Trà xanh",
-    "company": "Công ty",
-    "about": "Về chúng tôi",
-    "franchise": "Nhượng quyền",
-    "contact": "Liên hệ",
-    "legal": "Pháp lý",
-    "terms": "Điều khoản",
-    "privacy": "Chính sách bảo mật",
-    "shipping": "Giao hàng",
-    "copyright": "© 2026 84tea. Được vận hành bởi 3704 Co., LTD.",
-    "madeWithLove": "Làm với ❤️ tại Việt Nam"
+    "brandDescription": "ANIMA 119 - Thuc pham bo sung tu Dong y len men Han Quoc. Phan phoi boi ZenX Holdings.",
+    "slogan": "Can Bang Sinh Nang Luong, Phuc Hoi Co The",
+    "products": "San pham",
+    "allProducts": "Xem san pham",
+    "buyNow": "Mua ngay",
+    "company": "Cong ty",
+    "science": "Khoa hoc",
+    "origin": "Nguon goc",
+    "contact": "Lien he",
+    "legal": "Phap ly",
+    "terms": "Dieu khoan",
+    "privacy": "Chinh sach bao mat",
+    "shipping": "Giao hang",
+    "copyright": "© 2026 ANIMA 119. Phan phoi boi ZenX Holdings JSC.",
+    "madeWithLove": "Made in Korea"
   },
   "Products": {
-    "label": "Cửa hàng trực tuyến",
-    "headline": "Tinh hoa Trà Việt",
-    "description": "Khám phá bộ sưu tập trà cổ thụ và trà cụ cao cấp, được tuyển chọn kỹ lưỡng từ những vùng nguyên liệu trứ danh của Việt Nam.",
+    "label": "Sản phẩm",
+    "headline": "ANIMA 119",
+    "description": "Thực phẩm bổ sung từ Đông y lên men Hàn Quốc - Công nghệ lên men bậc 4, tách chiết 3 giai đoạn ở nhiệt độ thấp.",
     "Filter": {
       "title": "Bộ lọc",
       "all": "Tất cả",
       "clearAll": "Xóa tất cả",
       "categories": "Danh mục",
-      "teaTypes": "Loại trà",
-      "allTeaTypes": "Tất cả loại trà",
       "priceRange": "Khoảng giá",
       "Category": {
         "all": "Tất cả",
-        "tea": "Trà thưởng thức",
-        "teaware": "Ấm chén & Dụng cụ",
-        "gift": "Quà tặng"
-      },
-      "Type": {
-        "green": "Trà Xanh (Lục Trà)",
-        "black": "Hồng Trà",
-        "white": "Bạch Trà",
-        "oolong": "Trà Ô Long",
-        "herbal": "Trà Thảo Mộc"
+        "supplement": "Thực phẩm bổ sung"
       },
       "Price": {
         "under500k": "Dưới 500k",
@@ -163,7 +152,7 @@
     },
     "Card": {
       "addToCart": "Thêm vào giỏ",
-      "originDefault": "Việt Nam"
+      "originDefault": "Hàn Quốc"
     },
     "Detail": {
       "Breadcrumb": {
@@ -171,21 +160,17 @@
         "products": "Sản phẩm"
       },
       "Type": {
-        "green": "Trà Xanh",
-        "black": "Hồng Trà",
-        "white": "Bạch Trà",
-        "oolong": "Ô Long",
-        "herbal": "Thảo Mộc",
+        "supplement": "Thực phẩm bổ sung",
         "featured": "Nổi bật"
       },
       "Stats": {
         "reviews": "đánh giá"
       },
       "Attributes": {
-        "weight": "Trọng lượng",
+        "weight": "Quy cách",
         "origin": "Xuất xứ",
-        "harvest": "Thu hái",
-        "taste": "Hương vị"
+        "manufacturer": "Nhà sản xuất",
+        "certifications": "Chứng nhận"
       },
       "Guarantee": {
         "authentic": "100% Chính hãng",
@@ -205,8 +190,8 @@
         "altThumb": "Ảnh nhỏ"
       },
       "TrustBadges": {
-        "organic": "100% Hữu Cơ",
-        "highland": "Trực tiếp từ Vùng Cao",
+        "certified": "Chứng nhận FSSC 22000",
+        "madeInKorea": "Sản xuất tại Hàn Quốc",
         "premium": "Chất Lượng Cao Cấp"
       }
     }
@@ -217,7 +202,7 @@
     "ariaLabelWithCount": "Giỏ hàng ({count} sản phẩm)",
     "empty": {
       "message": "Giỏ hàng của bạn đang trống",
-      "cta": "Khám phá Trà Cổ Thụ"
+      "cta": "Khám phá ANIMA 119"
     },
     "total": "Tổng cộng",
     "checkout": "Thanh toán",
@@ -275,7 +260,7 @@
       "nextSteps": "Bước tiếp theo:",
       "step1": "Bạn sẽ nhận được SMS xác nhận đơn hàng trong ít phút",
       "step2": "Đơn hàng sẽ được giao trong 2-3 ngày làm việc",
-      "step3": "Liên hệ hotline <strong>0988 030 204</strong> nếu cần hỗ trợ",
+      "step3": "Liên hệ email <strong>contact@anima119.com</strong> nếu cần hỗ trợ",
       "continueShopping": "Tiếp tục mua sắm",
       "backHome": "Về trang chủ"
     },
@@ -284,86 +269,6 @@
       "message": "Bạn đã hủy quá trình thanh toán. Đơn hàng chưa được hoàn tất.",
       "retry": "Thử lại",
       "backHome": "Về trang chủ"
-    }
-  },
-  "About": {
-    "Hero": {
-      "label": "Về Chúng Tôi",
-      "title": "Câu Chuyện",
-      "desc": "Mang tinh hoa trà Việt Nam đến với thế giới, kết hợp truyền thống trăm năm với công nghệ lên men hiện đại."
-    },
-    "Vision": {
-      "label": "Tầm Nhìn",
-      "title": "Trà Năng Lượng Việt",
-      "desc1": "84tea không chỉ là thương hiệu trà - đó là sứ mệnh mang văn hóa trà Việt Nam ra thế giới. Chúng tôi tin rằng trà cổ thụ Shan Tuyết của Việt Nam xứng đáng được công nhận như những loại trà danh tiếng nhất châu Á.",
-      "desc2": "Với quy trình lên men độc quyền, chúng tôi tạo ra những sản phẩm trà không chỉ ngon mà còn mang lại lợi ích sức khỏe vượt trội - đúng như tinh thần \"Trà Năng Lượng Việt\"."
-    },
-    "Values": {
-      "label": "Giá Trị Cốt Lõi",
-      "title": "Điều Chúng Tôi Tin Tưởng",
-      "items": {
-        "nature": {
-          "title": "Nguồn Gốc Thiên Nhiên",
-          "desc": "Tất cả sản phẩm đều từ cây trà cổ thụ Shan Tuyết 100+ năm tuổi, trồng tại vùng cao 1,500m tại Việt Nam."
-        },
-        "fermentation": {
-          "title": "Lên Men Truyền Thống",
-          "desc": "Quy trình lên men độc quyền bảo tồn probiotics tự nhiên và tối đa hóa lợi ích sức khỏe."
-        },
-        "energy": {
-          "title": "Năng Lượng Bền Vững",
-          "desc": "Cung cấp năng lượng ổn định suốt ngày dài mà không gây hồi hộp như cà phê."
-        },
-        "premium": {
-          "title": "Định Vị Premium",
-          "desc": "Mỗi sản phẩm là tác phẩm nghệ thuật, được đóng gói cao cấp xứng đáng với giá trị bên trong."
-        }
-      }
-    },
-    "Timeline": {
-      "label": "Hành Trình",
-      "title": "Từ Ý Tưởng Đến Thương Hiệu",
-      "items": {
-        "2020": {
-          "title": "Khám Phá",
-          "desc": "Tìm ra vùng trà cổ thụ Shan Tuyết tại vùng cao Tây Bắc"
-        },
-        "2022": {
-          "title": "Nghiên Cứu",
-          "desc": "Phát triển quy trình lên men độc quyền với các chuyên gia"
-        },
-        "2024": {
-          "title": "Ra Mắt",
-          "desc": "3704 Co., LTD chính thức thành lập, thương hiệu 84tea ra đời"
-        },
-        "2026": {
-          "title": "Mở Rộng",
-          "desc": "Nhượng quyền phòng trà và mở rộng thị trường quốc tế"
-        }
-      }
-    },
-    "Company": {
-      "label": "Thông Tin Công Ty",
-      "title": "3704 Co., LTD",
-      "details": {
-        "license": "GPKD",
-        "founded": "Thành lập",
-        "founder": "Người sáng lập",
-        "address": "Địa chỉ",
-        "addressValue": "134 Nguyễn Hoàng Tôn, Phú Thượng, Hà Nội"
-      }
-    },
-    "Partner": {
-      "label": "Đối Tác OEM",
-      "title": "tralenmen.vn",
-      "desc": "Đối tác sản xuất chính thức của dòng sản phẩm 84 Limited. Chuyên gia hàng đầu về trà lên men cổ thụ Shan Tuyết tại Việt Nam.",
-      "link": "Tìm hiểu thêm"
-    },
-    "CTA": {
-      "title": "Sẵn Sàng Trải Nghiệm?",
-      "desc": "Khám phá bộ sưu tập trà cao cấp của chúng tôi hoặc tìm hiểu cơ hội nhượng quyền phòng trà 84tea.",
-      "products": "Xem sản phẩm",
-      "franchise": "Nhượng quyền"
     }
   },
   "Contact": {
@@ -385,9 +290,9 @@
     },
     "QuickLinks": {
       "title": "Liên kết nhanh",
-      "franchise": "Nhượng quyền",
+      "science": "Khoa học",
       "products": "Sản phẩm",
-      "about": "Về chúng tôi",
+      "origin": "Nguồn gốc",
       "shipping": "Giao hàng"
     },
     "Form": {
@@ -407,7 +312,6 @@
         "general": "Câu hỏi chung",
         "order": "Đặt hàng / Đơn hàng",
         "wholesale": "Đặt hàng sỉ",
-        "franchise": "Nhượng quyền",
         "partnership": "Hợp tác kinh doanh",
         "feedback": "Góp ý / Phản hồi"
       },
@@ -418,7 +322,7 @@
       "error": "Có lỗi xảy ra. Vui lòng thử lại sau."
     },
     "Map": {
-      "address": "134 Nguyễn Hoàng Tôn, Phú Thượng, Tây Hồ, Hà Nội",
+      "address": "15/11 Duy Tân, Phường Cầu Giấy, Hà Nội",
       "link": "Xem trên Google Maps"
     }
   },
@@ -426,162 +330,6 @@
     "secure": "Thanh toán bảo mật",
     "shipping": "Giao hàng toàn quốc",
     "return": "Đổi trả trong 7 ngày"
-  },
-  "Franchise": {
-    "Hero": {
-      "label": "Cơ hội hợp tác",
-      "title": "Đồng hành cùng",
-      "titleHighlight": "Di sản Trà Việt",
-      "description": "Trở thành đối tác nhượng quyền của 84tea để lan tỏa tinh hoa trà cổ thụ Việt Nam. Mô hình kinh doanh bền vững, lợi nhuận hấp dẫn và được vận hành bởi đội ngũ chuyên gia hàng đầu.",
-      "register": "Đăng ký tư vấn ngay",
-      "explore": "Tìm hiểu mô hình",
-      "stats": {
-        "stores": "Cửa hàng trên toàn quốc",
-        "payback": "Tháng hoàn vốn trung bình",
-        "profit": "Lợi nhuận ròng trung bình",
-        "support": "Hỗ trợ vận hành"
-      }
-    },
-    "Benefits": {
-      "label": "Tại sao chọn 84tea?",
-      "title": "Lợi thế cạnh tranh vượt trội",
-      "description": "Chúng tôi không chỉ nhượng quyền thương hiệu, chúng tôi chia sẻ bí quyết thành công và đồng hành cùng bạn trên con đường kinh doanh bền vững.",
-      "items": {
-        "storefront": {
-          "title": "Mô hình linh hoạt",
-          "description": "Đa dạng quy mô từ Kiosk đến Lounge cao cấp, phù hợp với nhiều mức đầu tư và vị trí mặt bằng."
-        },
-        "monitoring": {
-          "title": "Vận hành chuẩn hóa",
-          "description": "Quy trình vận hành, pha chế, phục vụ được chuẩn hóa 100%, dễ dàng đào tạo và quản lý."
-        },
-        "soup_kitchen": {
-          "title": "Nguồn nguyên liệu độc quyền",
-          "description": "Sở hữu vùng nguyên liệu trà cổ thụ riêng biệt, đảm bảo chất lượng và giá thành ổn định nhất thị trường."
-        },
-        "campaign": {
-          "title": "Marketing toàn diện",
-          "description": "Hỗ trợ truyền thông đa kênh, các chiến dịch branding và promotion định kỳ từ tổng công ty."
-        },
-        "school": {
-          "title": "Đào tạo chuyên sâu",
-          "description": "Chương trình đào tạo từ cơ bản đến nâng cao cho chủ đầu tư và nhân viên về trà đạo và quản lý."
-        },
-        "engineering": {
-          "title": "Hỗ trợ kỹ thuật 24/7",
-          "description": "Đội ngũ IT và kỹ thuật luôn sẵn sàng hỗ trợ hệ thống POS, app quản lý và bảo trì thiết bị."
-        }
-      }
-    },
-    "Models": {
-      "label": "Mô hình kinh doanh",
-      "title": "Đa dạng lựa chọn đầu tư",
-      "description": "3 mô hình được tối ưu hóa cho từng phân khúc thị trường và khả năng tài chính.",
-      "mostPopular": "Phổ biến nhất",
-      "location": "Vị trí tối ưu",
-      "features": "Đặc điểm nổi bật",
-      "idealFor": "Phù hợp với",
-      "getQuote": "Nhận báo giá chi tiết",
-      "items": {
-        "kiosk": {
-          "title": "Kiosk",
-          "location": "Trung tâm thương mại, Tòa nhà văn phòng",
-          "features": {
-            "0": "Chi phí đầu tư thấp",
-            "1": "Vận hành đơn giản (2-3 nhân sự)",
-            "2": "Tập trung bán mang đi (Takeaway)",
-            "3": "Menu tinh gọn, bán chạy nhất"
-          },
-          "idealFor": "Nhà đầu tư mới, Vốn nhỏ"
-        },
-        "express": {
-          "title": "Express",
-          "location": "Mặt phố, Khu dân cư đông đúc",
-          "features": {
-            "0": "Cân bằng giữa Takeaway và Ngồi tại chỗ",
-            "1": "Menu đồ uống đa dạng",
-            "2": "Không gian trẻ trung, năng động",
-            "3": "Chi phí vận hành tối ưu"
-          },
-          "idealFor": "Mặt bằng phố, Kinh doanh chuyên nghiệp"
-        },
-        "lounge": {
-          "title": "Lounge",
-          "location": "Khu vực cao cấp, Điểm du lịch",
-          "features": {
-            "0": "Trải nghiệm trà đạo trọn vẹn",
-            "1": "Phục vụ đồ uống và bánh ngọt cao cấp",
-            "2": "Không gian Indochine Luxury sang trọng",
-            "3": "Tổ chức workshop trà đạo"
-          },
-          "idealFor": "Đầu tư chiến lược, Định vị cao cấp"
-        }
-      }
-    },
-    "Process": {
-      "label": "Quy trình hợp tác",
-      "title": "Lộ trình 5 bước đến thành công",
-      "description": "Quy trình tinh gọn, minh bạch giúp bạn sở hữu cửa hàng 84tea chỉ sau 15-30 ngày.",
-      "steps": {
-        "01": {
-          "title": "Đăng ký tư vấn",
-          "description": "Điền thông tin vào form đăng ký. Chuyên viên của chúng tôi sẽ liên hệ lại trong vòng 24h."
-        },
-        "02": {
-          "title": "Khảo sát & Ký HĐ",
-          "description": "Khảo sát mặt bằng, tư vấn mô hình phù hợp và ký kết hợp đồng nhượng quyền."
-        },
-        "03": {
-          "title": "Thiết kế & Thi công",
-          "description": "Lên bản vẽ thiết kế 3D và thi công cửa hàng theo tiêu chuẩn Indochine Luxury."
-        },
-        "04": {
-          "title": "Đào tạo & Setup",
-          "description": "Đào tạo nhân sự, setup máy móc, nguyên vật liệu và quy trình vận hành."
-        },
-        "05": {
-          "title": "Khai trương",
-          "description": "Hỗ trợ tổ chức khai trương, chạy quảng cáo và chính thức đi vào hoạt động."
-        }
-      }
-    },
-    "Form": {
-      "title": "Liên hệ hợp tác",
-      "description": "Để lại thông tin để được tư vấn chi tiết về chính sách nhượng quyền và các ưu đãi mới nhất.",
-      "quote": "\"Thành công của bạn là sứ mệnh của chúng tôi.\"",
-      "contact": {
-        "hotline": "Hotline",
-        "email": "Email",
-        "office": "Văn phòng",
-        "officeAddress": "Tầng 1, Tòa nhà 84tea, Hà Nội, Việt Nam"
-      },
-      "fields": {
-        "name": "Họ và tên *",
-        "namePlaceholder": "Nguyễn Văn A",
-        "phone": "Số điện thoại *",
-        "phonePlaceholder": "0912 xxx xxx",
-        "email": "Email",
-        "emailPlaceholder": "example@gmail.com",
-        "area": "Khu vực dự định",
-        "areaPlaceholder": "Chọn khu vực",
-        "budget": "Ngân sách dự kiến",
-        "budgetPlaceholder": "Chọn mức ngân sách",
-        "model": "Mô hình quan tâm",
-        "areas": {
-          "hanoi": "Hà Nội",
-          "hcm": "TP. Hồ Chí Minh",
-          "danang": "Đà Nẵng",
-          "other": "Khác"
-        },
-        "budgets": {
-          "under500": "Dưới 500 triệu",
-          "500to1b": "500 triệu - 1 tỷ",
-          "over1b": "Trên 1 tỷ"
-        }
-      },
-      "submit": "Gửi đăng ký tư vấn",
-      "disclaimer": "Bằng việc gửi thông tin, bạn đồng ý với chính sách bảo mật của 84tea."
-    }
   },
   "NotFound": {
     "title": "Không tìm thấy trang",
@@ -595,103 +343,12 @@
     "retry": "Thử lại",
     "goHome": "Trang chủ"
   },
-  "Club": {
-    "Hero": {
-      "label": "Quyền lợi thành viên",
-      "title": "84tea Club",
-      "description": "Tham gia cộng đồng những người yêu trà cổ thụ. Tích điểm, nhận ưu đãi độc quyền và trải nghiệm những đặc quyền riêng biệt.",
-      "join": "Tham gia ngay",
-      "login": "Đăng nhập"
-    },
-    "Benefits": {
-      "title": "Đặc quyền thành viên",
-      "earnPoints": {
-        "title": "Tích điểm",
-        "desc": "Tích 1 điểm cho mỗi 10.000đ chi tiêu"
-      },
-      "redeem": {
-        "title": "Đổi quà",
-        "desc": "Dùng điểm để đổi đồ uống hoặc sản phẩm"
-      },
-      "birthday": {
-        "title": "Quà sinh nhật",
-        "desc": "Quà tặng đặc biệt trong tháng sinh nhật"
-      },
-      "events": {
-        "title": "Sự kiện riêng",
-        "desc": "Ưu tiên mời tham dự workshop thử trà"
-      }
-    },
-    "Tiers": {
-      "title": "Hạng thành viên",
-      "mostPopular": "Phổ biến nhất",
-      "items": {
-        "silver": {
-          "title": "Bạc",
-          "requirement": "Đăng ký tài khoản",
-          "benefits": [
-            "Tích 1 điểm / 10k",
-            "Quà sinh nhật"
-          ]
-        },
-        "gold": {
-          "title": "Vàng",
-          "requirement": "Chi tiêu 5.000.000đ/năm",
-          "benefits": [
-            "Tích 1.5 điểm / 10k",
-            "Giảm 5% tổng hóa đơn",
-            "Quà sinh nhật"
-          ]
-        },
-        "diamond": {
-          "title": "Kim Cương",
-          "requirement": "Chi tiêu 15.000.000đ/năm",
-          "benefits": [
-            "Tích 2 điểm / 10k",
-            "Giảm 10% tổng hóa đơn",
-            "Quà sinh nhật đặc biệt",
-            "Sự kiện riêng"
-          ]
-        }
-      }
-    },
-    "CTA": {
-      "title": "Sẵn sàng bắt đầu?",
-      "description": "Đăng ký ngay để nhận ngay 50 điểm thưởng.",
-      "register": "Đăng ký tài khoản"
-    },
-    "Dashboard": {
-      "welcome": "Xin chào,",
-      "member": "thành viên",
-      "subtitle": "Chào mừng bạn đến với 84tea Club",
-      "currentPoints": "Điểm hiện tại",
-      "availablePoints": "Khả dụng",
-      "totalEarned": "Tổng tích lũy",
-      "tier": "Hạng",
-      "history": "Lịch sử giao dịch",
-      "emptyHistory": "Chưa có giao dịch nào",
-      "loadingHistory": "Đang tải lịch sử...",
-      "progressTo": "Tiến độ lên hạng {tier}",
-      "pointsNeeded": "{points} điểm nữa",
-      "highestTier": "🎉 Bạn đã đạt hạng cao nhất!",
-      "redeemComingSoon": "Đổi điểm (Sắp ra mắt)"
-    },
-    "History": {
-      "type": {
-        "purchase": "Mua hàng",
-        "redemption": "Đổi quà",
-        "bonus": "Thưởng",
-        "adjustment": "Điều chỉnh",
-        "expiry": "Hết hạn"
-      }
-    }
-  },
   "Privacy": {
     "title": "Chính Sách Bảo Mật",
     "lastUpdated": "Cập nhật lần cuối: Tháng 02, 2026",
     "Section1": {
       "title": "1. Thông tin chúng tôi thu thập",
-      "intro": "Khi bạn sử dụng website 84tea.com, chúng tôi có thể thu thập các thông tin sau:",
+      "intro": "Khi bạn sử dụng website anima119.com, chúng tôi có thể thu thập các thông tin sau:",
       "items": {
         "0": "Họ tên, email, số điện thoại khi đặt hàng",
         "1": "Địa chỉ giao hàng",
@@ -747,7 +404,7 @@
     "points": "điểm",
     "member": "Thành viên",
     "loginTitle": "Đăng nhập / Đăng ký",
-    "loginDesc": "Tham gia cộng đồng 84tea",
+    "loginDesc": "Tham gia cộng đồng ANIMA 119",
     "continueGoogle": "Tiếp tục với Google",
     "continueEmail": "Hoặc tiếp tục với Email",
     "emailPlaceholder": "name@example.com",
@@ -788,18 +445,18 @@
     "sections": {
       "intro": {
         "title": "1. Giới thiệu",
-        "content": "Chào mừng bạn đến với 84tea. Khi truy cập và sử dụng website 84tea.com, bạn đồng ý tuân thủ các điều khoản và điều kiện được nêu trong tài liệu này."
+        "content": "Chào mừng bạn đến với ANIMA 119. Khi truy cập và sử dụng website anima119.com, bạn đồng ý tuân thủ các điều khoản và điều kiện được nêu trong tài liệu này."
       },
       "company": {
         "title": "2. Thông tin công ty",
-        "name": "3704 Co., LTD",
-        "license": "GPKD: 011 070 44 89",
-        "founded": "Ngày thành lập: 04/05/2024",
-        "address": "Địa chỉ: 134 Nguyễn Hoàng Tôn, Phú Thượng, Tây Hồ, Hà Nội"
+        "name": "Công ty Cổ phần ZenX Holdings",
+        "license": "GPKD: [Đang cập nhật]",
+        "founded": "Nhà phân phối chính thức ANIMA 119 tại Việt Nam",
+        "address": "Địa chỉ: 15/11 Duy Tân, Phường Cầu Giấy, Hà Nội"
       },
       "products": {
         "title": "3. Sản phẩm và dịch vụ",
-        "content": "84tea cung cấp các sản phẩm trà cao cấp từ cây trà cổ thụ Shan Tuyết Việt Nam. Tất cả sản phẩm được sản xuất theo tiêu chuẩn an toàn thực phẩm và có nguồn gốc rõ ràng."
+        "content": "ANIMA 119 cung cấp thực phẩm bổ sung từ Đông y lên men Hàn Quốc. Tất cả sản phẩm được sản xuất bởi Insung Pharm theo tiêu chuẩn FSSC 22000 và GMP, có nguồn gốc rõ ràng."
       },
       "orders": {
         "title": "4. Đặt hàng và thanh toán",
@@ -820,7 +477,7 @@
       },
       "ip": {
         "title": "7. Quyền sở hữu trí tuệ",
-        "content": "Tất cả nội dung trên website 84tea.com bao gồm logo, hình ảnh, văn bản là tài sản của 3704 Co., LTD và được bảo vệ bởi luật sở hữu trí tuệ."
+        "content": "Tất cả nội dung trên website anima119.com bao gồm logo, hình ảnh, văn bản là tài sản của ZenX Holdings JSC và được bảo vệ bởi luật sở hữu trí tuệ."
       },
       "contact": {
         "title": "8. Liên hệ",
@@ -830,7 +487,7 @@
   },
   "ShippingPage": {
     "title": "Chính Sách Giao Hàng",
-    "freeShipping": "🚚 Miễn phí vận chuyển cho đơn hàng từ 500.000đ",
+    "freeShipping": "Miễn phí vận chuyển cho đơn hàng từ 500.000đ",
     "fees": {
       "title": "Phí vận chuyển",
       "headers": {
@@ -867,7 +524,7 @@
         "Vui lòng kiểm tra hàng trước khi nhận",
         "Quay video khi mở hộp để làm bằng chứng nếu có vấn đề",
         "Từ chối nhận nếu hàng bị hư hỏng bên ngoài",
-        "Liên hệ hotline ngay nếu có sự cố"
+        "Liên hệ email contact@anima119.com nếu có sự cố"
       ]
     },
     "support": {
@@ -891,13 +548,13 @@
     },
     "eligible": {
       "title": "Trường hợp được đổi trả",
-      "titleYes": "✓ Được đổi",
-      "titleNo": "✗ Không đổi",
+      "titleYes": "Được đổi",
+      "titleNo": "Không đổi",
       "yes": [
         "Sản phẩm bị lỗi từ nhà sản xuất",
         "Giao sai sản phẩm",
         "Sản phẩm hư hỏng trong quá trình vận chuyển",
-        "Đổi size/loại sản phẩm (còn seal)"
+        "Đổi sản phẩm (còn seal)"
       ],
       "no": [
         "Đã mở seal, sử dụng",
@@ -909,7 +566,7 @@
     "process": {
       "title": "Quy trình đổi trả",
       "steps": [
-        { "title": "Liên hệ CSKH", "desc": "Gọi hotline 0988 030 204 hoặc email support@84tea.com" },
+        { "title": "Liên hệ CSKH", "desc": "Email contact@anima119.com hoặc liên hệ qua Zalo" },
         { "title": "Gửi sản phẩm", "desc": "Đóng gói cẩn thận và gửi về địa chỉ được cung cấp" },
         { "title": "Xử lý yêu cầu", "desc": "Chúng tôi kiểm tra và xử lý trong 2-3 ngày làm việc" },
         { "title": "Đổi hàng / Hoàn tiền", "desc": "Gửi sản phẩm mới hoặc hoàn tiền qua chuyển khoản" }
@@ -920,71 +577,199 @@
       "desc": "Tiền sẽ được hoàn qua chuyển khoản ngân hàng trong 5-7 ngày làm việc kể từ khi yêu cầu được duyệt."
     },
     "hotline": {
-      "title": "Hotline đổi trả",
+      "title": "Liên hệ đổi trả",
       "hours": "(8:00 - 21:00 hàng ngày)"
     }
   },
-  "FranchiseApply": {
-    "title": "Đăng Ký Nhượng Quyền",
-    "subtitle": "Hoàn thành form dưới đây để bắt đầu hành trình cùng 84tea",
-    "success": {
-      "title": "Đăng ký thành công!",
-      "message": "Cảm ơn bạn đã quan tâm đến nhượng quyền 84tea.\nChúng tôi sẽ liên hệ bạn trong 2-3 ngày làm việc.",
-      "home": "Về trang chủ"
+  "SanPham": {
+    "title": "Sản Phẩm ANIMA 119",
+    "description": "Thực phẩm bổ sung từ Đông y lên men Hàn Quốc",
+    "label": "Sản phẩm",
+    "name": "ANIMA 119",
+    "tagline": "Cân Bằng Sinh Năng Lượng, Phục Hồi Cơ Thể",
+    "madeIn": "Sản xuất tại Hàn Quốc",
+    "manufacturer": "Insung Pharm (인성제약)",
+    "servingSize": "Quy cách: 3.5g/gói",
+    "price": "990.000",
+    "currency": "VNĐ",
+    "addToCart": "Thêm vào giỏ hàng",
+    "buyNow": "Mua Ngay",
+    "nutritionFacts": "Thông tin dinh dưỡng",
+    "ingredients": "Thành phần",
+    "ingredientsDesc": "119 loại thảo dược Đông y lên men, bao gồm nhân sâm, đương quy, cam thảo, hoàng kỳ và nhiều dược liệu quý hiếm khác.",
+    "usage": "Hướng dẫn sử dụng",
+    "usageDesc": "Uống 1-2 gói mỗi ngày, pha với nước ấm 200ml. Nên uống trước bữa ăn 30 phút để đạt hiệu quả tối ưu.",
+    "certifications": "Chứng nhận",
+    "cert1": "FSSC 22000",
+    "cert2": "GMP Hàn Quốc",
+    "cert3": "Đông y truyền thống",
+    "benefits": "4 công dụng chính",
+    "benefit1": "Tăng cường tuần hoàn máu",
+    "benefit2": "Hỗ trợ xương khớp, cột sống",
+    "benefit3": "Phục hồi năng lượng, giảm mệt mỏi",
+    "benefit4": "Giải độc và bảo vệ gan"
+  },
+  "KhoaHoc": {
+    "title": "Nền Tảng Khoa Học",
+    "description": "Nghiên cứu khoa học và bằng chứng lâm sàng đằng sau ANIMA 119",
+    "label": "Khoa học",
+    "headline": "Nền Tảng Khoa Học Vững Chắc",
+    "drUh": {
+      "label": "Người sáng lập",
+      "name": "TS. Uh Bong-woo (어봉우)",
+      "title": "Tiến sĩ Y học Cổ truyền Hàn Quốc",
+      "university": "Đại học Kyung Hee - Khoa Y học Cổ truyền Hàn Quốc",
+      "experience": "Hơn 35 năm nghiên cứu dược liệu lên men",
+      "role": "Viện trưởng Viện Nghiên cứu Dược liệu Lên men Hàn Quốc (대한 발효 한약연구원)",
+      "advisor": "Cố vấn Hội Bác sĩ Đông y Dược liệu Lên men Hàn Quốc",
+      "award": "Giải thưởng Bộ trưởng Y tế & Phúc lợi 2023"
     },
-    "steps": {
-      "1": "Thông tin cá nhân",
-      "2": "Kinh nghiệm & Năng lực",
-      "3": "Kế hoạch kinh doanh",
-      "4": "Xác nhận & Cam kết"
+    "fermentation": {
+      "label": "Công nghệ",
+      "title": "Lên Men Bậc 4, Tách Chiết 3 Giai Đoạn",
+      "desc": "Phương pháp được tiên phong bởi TS. Uh - thực phẩm sức khỏe đầu tiên trên thế giới sử dụng vi sinh vật Đông y Hàn Quốc.",
+      "patent1": "Bằng sáng chế: Điều trị viêm khớp",
+      "patent2": "Bằng sáng chế: Ức chế béo phì",
+      "patent3": "Bằng sáng chế: Cải thiện chức năng tuyến tiền liệt",
+      "patent4": "Bằng sáng chế: Hỗ trợ giấc ngủ"
     },
-    "fields": {
-      "fullName": "Họ và tên *",
-      "idNumber": "Số CCCD *",
-      "birthDate": "Ngày sinh *",
-      "email": "Email *",
-      "phone": "Số điện thoại *",
-      "currentAddress": "Địa chỉ hiện tại *",
-      "currentOccupation": "Nghề nghiệp hiện tại *",
-      "fbExperience": "Kinh nghiệm F&B",
-      "managementExperience": "Kinh nghiệm quản lý",
-      "availableCapital": "Vốn sẵn có (VND) *",
-      "city": "Tỉnh/Thành phố dự kiến *",
-      "spaceSize": "Diện tích mặt bằng",
-      "preferredLocation": "Vị trí dự kiến (nếu có)",
-      "expectedOpenDate": "Thời gian dự kiến mở",
-      "motivation": "Lý do muốn mở 84tea",
-      "placeholders": {
-        "fullName": "Nguyễn Văn A",
-        "idNumber": "012345678901",
-        "phone": "0912 345 678",
-        "email": "email@example.com",
-        "currentAddress": "Số nhà, đường, quận/huyện, tỉnh/thành",
-        "currentOccupation": "VD: Kinh doanh tự do, Nhân viên văn phòng...",
-        "preferredLocation": "VD: Phố Cổ Hà Nội, Quận 1 HCM...",
-        "motivation": "Chia sẻ động lực và kỳ vọng của bạn..."
-      },
-      "options": {
-        "choose": "Chọn...",
-        "none": "Chưa có",
-        "years": "{count} năm",
-        "plus": "Trên {count}",
-        "notHave": "Chưa có mặt bằng",
-        "notSure": "Chưa xác định",
-        "month": "tháng tới"
-      }
+    "evidence": {
+      "label": "Bằng chứng khoa học",
+      "title": "Bằng Chứng Lâm Sàng",
+      "bioavailability": "Tăng sinh khả dụng: Quá trình lên men phân giải hợp chất phức thành dạng cơ thể dễ hấp thụ",
+      "toxicity": "Giảm độc tính: Phân giải enzym trong quá trình lên men loại bỏ chất độc tự nhiên",
+      "compounds": "Hợp chất sinh học mới: Tạo ra hoạt chất dược lý mới trong quá trình lên men",
+      "antioxidant": "Tăng cường chống oxy hóa: Polyphenol, flavonoid, tannin được kích hoạt",
+      "immune": "Điều hòa miễn dịch: Tăng cường hoạt động hệ miễn dịch",
+      "gut": "Hệ vi sinh đường ruột: Làm giàu hệ vi sinh có lợi",
+      "antiInflammatory": "Chống viêm, chống ung thư, cải thiện chuyển hóa",
+      "rct": "11 Thử nghiệm lâm sàng ngẫu nhiên có đối chứng (RCT) từ 2000-2011 xác nhận tính an toàn và hiệu quả"
     },
-    "confirm": {
-      "title": "Tóm tắt thông tin:",
-      "terms": "Tôi đã đọc và đồng ý với <link>Điều khoản nhượng quyền</link> của 84tea",
-      "training": "Tôi sẵn sàng tham gia khóa training 2 tuần trước khi mở cửa hàng",
-      "info": "Tôi xác nhận thông tin trên là chính xác"
-    },
-    "buttons": {
-      "back": "← Quay lại",
-      "next": "Tiếp tục →",
-      "sending": "Đang gửi...",
-      "submit": "Gửi đăng ký"
+    "production": {
+      "label": "Sản xuất",
+      "title": "Tiêu Chuẩn Sản Xuất Quốc Tế",
+      "insung": "Insung Pharm (인성제약): Đạt chứng nhận FSSC 22000, sản xuất theo tiêu chuẩn GMP",
+      "partnership": "Hợp tác OEM/ODM với các đối tác R&D quốc tế"
     }
+  },
+  "NguonGoc": {
+    "title": "Nguồn Gốc ANIMA 119",
+    "description": "Hành trình từ Viện Nghiên cứu Hàn Quốc đến Việt Nam",
+    "label": "Nguồn gốc",
+    "headline": "Hành Trình Từ Hàn Quốc Đến Việt Nam",
+    "heritage": {
+      "title": "Di Sản Y Học Lên Men Hàn Quốc",
+      "desc": "Y học cổ truyền Hàn Quốc (한의학) có lịch sử hàng ngàn năm. Công nghệ lên men dược liệu là bước tiến đột phá, kết hợp tri thức cổ truyền với khoa học hiện đại."
+    },
+    "drUhJourney": {
+      "title": "Hành Trình Của TS. Uh Bong-woo",
+      "desc": "Từ nghiên cứu sinh tại Đại học Kyung Hee đến Viện trưởng Viện Nghiên cứu Dược liệu Lên men, TS. Uh đã cống hiến hơn 35 năm để hoàn thiện công nghệ lên men bậc 4."
+    },
+    "distribution": {
+      "title": "Phân Phối Tại Việt Nam",
+      "company": "Công ty Cổ phần ZenX Holdings",
+      "address": "15/11 Duy Tân, Phường Cầu Giấy, Hà Nội, Việt Nam",
+      "desc": "ZenX Holdings là đơn vị phân phối chính thức ANIMA 119 tại Việt Nam, cam kết mang đến sản phẩm chính hãng với chất lượng cao nhất."
+    },
+    "certifications": {
+      "title": "Chứng Nhận Chất Lượng",
+      "items": {
+        "fssc": "FSSC 22000 - An toàn thực phẩm quốc tế",
+        "gmp": "GMP Hàn Quốc - Thực hành sản xuất tốt",
+        "research": "Viện Nghiên cứu Dược liệu Lên men Hàn Quốc",
+        "award": "Giải thưởng Bộ Y tế & Phúc lợi 2023"
+      }
+    }
+  },
+  "MuaHang": {
+    "title": "Mua Hàng",
+    "description": "Đặt mua ANIMA 119 chính hãng",
+    "label": "Đặt hàng",
+    "headline": "Đặt Mua ANIMA 119",
+    "productName": "ANIMA 119",
+    "productDesc": "Thực phẩm bổ sung từ Đông y lên men Hàn Quốc",
+    "price": "990.000 VNĐ",
+    "quantity": "Số lượng",
+    "total": "Tổng cộng",
+    "checkout": "Thanh toán qua PayOS",
+    "addToCart": "Thêm vào giỏ hàng",
+    "guarantee": "Cam kết chính hãng 100%",
+    "freeShip": "Miễn phí vận chuyển đơn > 500k",
+    "return": "Đổi trả trong 7 ngày"
+  },
+  "LienHe": {
+    "title": "Liên Hệ",
+    "description": "Liên hệ với ZenX Holdings - Nhà phân phối ANIMA 119",
+    "label": "Liên hệ",
+    "headline": "Kết Nối Với Chúng Tôi",
+    "company": "Công ty Cổ phần ZenX Holdings",
+    "address": "15/11 Duy Tân, Phường Cầu Giấy, Hà Nội, Việt Nam",
+    "phone": "Điện thoại",
+    "email": "Email",
+    "hours": "Giờ làm việc",
+    "hoursValue": "Thứ 2 - Thứ 7: 8:00 - 18:00",
+    "zalo": "Zalo",
+    "formTitle": "Gửi Tin Nhắn",
+    "formName": "Họ và tên",
+    "formEmail": "Email",
+    "formPhone": "Số điện thoại",
+    "formMessage": "Nội dung",
+    "formSubmit": "Gửi Tin Nhắn",
+    "formSubmitting": "Đang gửi...",
+    "formSuccess": "Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi trong 24h.",
+    "formError": "Có lỗi xảy ra. Vui lòng thử lại."
+  },
+  "TinTuc": {
+    "title": "Tin Tức",
+    "description": "Tin tức về Đông y lên men và sức khỏe",
+    "label": "Tin tức",
+    "headline": "Tin Tức & Kiến Thức",
+    "readMore": "Đọc thêm",
+    "articles": {
+      "1": {
+        "title": "Lên men dược liệu: Bước tiến đột phá trong y học",
+        "summary": "Tìm hiểu cách công nghệ lên men bậc 4 đang cách mạng hóa ngành y học cổ truyền Hàn Quốc.",
+        "date": "15/01/2026"
+      },
+      "2": {
+        "title": "Tại sao sinh khả dụng quan trọng trong thực phẩm bổ sung?",
+        "summary": "Giải thích tầm quan trọng của khả năng hấp thụ sinh học và vai trò của quá trình lên men.",
+        "date": "10/01/2026"
+      },
+      "3": {
+        "title": "TS. Uh Bong-woo và 35 năm nghiên cứu Đông y lên men",
+        "summary": "Hành trình phi thường của nhà khoa học đằng sau công nghệ lên men bậc 4 độc quyền.",
+        "date": "05/01/2026"
+      }
+    }
+  },
+  "Testimonials": {
+    "label": "Khách hàng nói gì",
+    "headline": "Phản hồi từ khách hàng",
+    "items": {
+      "1": {
+        "name": "Anh Minh T.",
+        "role": "Doanh nhân, Hà Nội",
+        "content": "Sau 2 tháng sử dụng ANIMA 119, tôi cảm nhận rõ sự cải thiện về năng lượng và giấc ngủ. Sản phẩm thực sự chất lượng."
+      },
+      "2": {
+        "name": "Chị Hương L.",
+        "role": "Giáo viên, TP.HCM",
+        "content": "Tôi giới thiệu ANIMA 119 cho cả gia đình. Mẹ tôi dùng để hỗ trợ xương khớp và rất hài lòng với kết quả."
+      },
+      "3": {
+        "name": "Anh Đức N.",
+        "role": "Kỹ sư IT, Đà Nẵng",
+        "content": "Công nghệ lên men bậc 4 thực sự ấn tượng. Tôi tin tưởng vào nền tảng khoa học của sản phẩm này."
+      }
+    }
+  },
+  "Newsletter": {
+    "title": "Đăng ký nhận tin",
+    "description": "Nhận thông tin mới nhất về sức khỏe và Đông y lên men từ ANIMA 119.",
+    "placeholder": "Email của bạn",
+    "subscribe": "Đăng ký",
+    "success": "Đăng ký thành công!",
+    "error": "Có lỗi xảy ra. Vui lòng thử lại."
   }
 }

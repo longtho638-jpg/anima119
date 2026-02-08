@@ -1,112 +1,24 @@
 [
   {
-    "id": "tra-shan-6",
-    "sku": "TRA-SHAN-6",
+    "id": "anima-119",
+    "sku": "ANIMA-119",
     "name": {
-      "vi": "Shan Tuyết Cổ Thụ Lên Men",
-      "en": "Ancient Shan Tuyet Fermented Tea"
-    },
-    "category": "limited",
-    "weight": "6g",
-    "price": {
-      "vnd": 500000,
-      "usd": 35
-    },
-    "description": {
-      "vi": "Trà lên men từ lá cổ thụ hàng trăm năm tuổi, hương thơm thuần khiết",
-      "en": "Fermented tea from ancient trees, pure aroma and smooth taste"
-    },
-    "images": ["shan-tuyet-6g.jpg"],
-    "featured": true,
-    "hero": true,
-    "stock": 100
-  },
-  {
-    "id": "tra-luc-80",
-    "sku": "TRA-LUC-80",
-    "name": {
-      "vi": "Lục Trà Cổ Thụ Lên Men",
-      "en": "Ancient Green Fermented Tea"
-    },
-    "category": "standard",
-    "weight": "80g",
-    "price": {
-      "vnd": 350000,
-      "usd": 25
-    },
-    "description": {
-      "vi": "Lục trà lên men, vị thanh mát và bổ dưỡng",
-      "en": "Fermented green tea, refreshing and nutritious"
-    },
-    "images": ["luc-tra-80g.jpg"],
-    "featured": true,
-    "hero": false,
-    "stock": 200
-  },
-  {
-    "id": "tra-co-80",
-    "sku": "TRA-CO-80",
-    "name": {
-      "vi": "Trà Cổ Thụ Lên Men",
-      "en": "Ancient Tree Fermented Tea"
+      "vi": "ANIMA 119 - Thực phẩm bổ sung Đông Y Lên Men",
+      "en": "ANIMA 119 - Fermented Oriental Medicine Supplement"
     },
     "category": "premium",
-    "weight": "80g",
+    "weight": "3.5g x 30 goi",
     "price": {
-      "vnd": 650000,
-      "usd": 45
+      "vnd": 990000,
+      "usd": 42
     },
     "description": {
-      "vi": "Trà từ cây cổ thụ cao nguyên, lên men theo phương pháp cổ truyền",
-      "en": "Highland ancient tree tea, traditionally fermented"
+      "vi": "Thực phẩm bổ sung từ Đông Y lên men Hàn Quốc. Cân bằng sinh năng lượng, phục hồi cơ thể. Sản xuất bởi Insung Pharm, chứng nhận FSSC 22000.",
+      "en": "Korean fermented Oriental medicine food supplement. Balance bio-energy flow, heal the body. Manufactured by Insung Pharm, FSSC 22000 certified."
     },
-    "images": ["tra-co-thu-80g.jpg"],
+    "images": ["anima-119-box.jpg"],
     "featured": true,
-    "hero": false,
-    "stock": 150
-  },
-  {
-    "id": "tra-banh",
-    "sku": "TRA-BANH",
-    "name": {
-      "vi": "Men Sống Bánh Ép",
-      "en": "Live Culture Pressed Cake"
-    },
-    "category": "ultra",
-    "weight": "80g",
-    "price": {
-      "vnd": 800000,
-      "usd": 55
-    },
-    "description": {
-      "vi": "Bánh trà ép thủ công, men sống bảo tồn hương vị đậm đà",
-      "en": "Hand-pressed tea cake with live cultures"
-    },
-    "images": ["men-song-banh.jpg"],
-    "featured": false,
-    "hero": false,
-    "stock": 50
-  },
-  {
-    "id": "tra-soi",
-    "sku": "TRA-SOI",
-    "name": {
-      "vi": "Men Sống Bánh Sợi",
-      "en": "Live Culture Loose Thread"
-    },
-    "category": "collector",
-    "weight": "80g",
-    "price": {
-      "vnd": 1200000,
-      "usd": 85
-    },
-    "description": {
-      "vi": "Phiên bản giới hạn dành cho người sưu tầm",
-      "en": "Limited collector's edition"
-    },
-    "images": ["men-song-soi.jpg"],
-    "featured": false,
-    "hero": false,
-    "stock": 20
+    "hero": true,
+    "stock": 500
   }
 ]

@@ -197,9 +197,7 @@ export default function ShippingPage() {
                   variant="body-medium"
                   className="text-on-surface-variant"
                 >
-                  Hotline: <strong>0988 030 204</strong>
-                  <br />
-                  Email: support@84tea.com
+                  Email: contact@anima119.com
                 </Typography>
               </div>
             </CardContent>

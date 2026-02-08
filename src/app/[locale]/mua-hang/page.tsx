@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/metadata";
-import ClubContent from "./club-content";
+import MuaHangContent from "./mua-hang-content";
 
 export async function generateMetadata({
   params,
@@ -8,17 +8,17 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "Club.Hero" });
+  const t = await getTranslations({ locale, namespace: "MuaHang" });
 
   return generatePageMetadata({
     title: t("title"),
     description: t("description"),
-    path: "/club",
+    path: "/mua-hang",
     locale,
     type: "website",
   });
 }
 
-export default function ClubPage() {
-  return <ClubContent />;
+export default function MuaHangPage() {
+  return <MuaHangContent />;
 }

@@ -1,5 +1,5 @@
 /**
- * Font Configuration for 84tea
+ * Font Configuration for ANIMA 119
  * Material Design 3 Typography System
  *
  * - Display: Playfair Display (Serif) - Headlines, Hero text

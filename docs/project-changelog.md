@@ -42,7 +42,7 @@
 - **Authentication**: Full Supabase Auth integration with OTP and Google login.
 - **Payments**: PayOS integration for VIETQR bank transfers and automated webhook processing.
 - **PWA Support**: Added `manifest.json`, Service Worker for offline support, and full icon set.
-- **84tea Club**: New member area (`/club`) and profile management.
+- **Member Area**: New member area and profile management.
 - **Database**: Supabase integration with Row Level Security (RLS) policies for Users and Orders.
 - **Order System**: Dedicated `/api/orders` endpoint for order creation and tracking.
 

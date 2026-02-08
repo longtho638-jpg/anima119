@@ -23,11 +23,11 @@ export function HeaderNavigation() {
   }, []);
 
   const navLinks = [
-    { href: "/products", label: t("products") },
-    { href: "/about", label: t("about") },
-    { href: "/franchise", label: t("franchise") },
-    { href: "/club", label: t("club") },
-    { href: "/contact", label: t("contact") },
+    { href: "/san-pham", label: t("products") },
+    { href: "/khoa-hoc", label: t("science") },
+    { href: "/nguon-goc", label: t("origin") },
+    { href: "/tin-tuc", label: t("news") },
+    { href: "/lien-he", label: t("contact") },
   ];
 
   return (
@@ -55,7 +55,7 @@ export function HeaderNavigation() {
               {link.label}
             </Link>
           ))}
-          <Link href="/products">
+          <Link href="/mua-hang">
             <Button variant="filled" className="rounded-full active:scale-95 transition-transform">
               {t("buyNow")}
             </Button>
@@ -116,7 +116,7 @@ export function HeaderNavigation() {
               </Link>
             ))}
             <Link
-              href="/products"
+              href="/mua-hang"
               onClick={() => setMobileMenuOpen(false)}
             >
               <Button variant="filled" className="w-full rounded-full mt-2">

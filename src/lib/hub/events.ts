@@ -19,7 +19,7 @@ export async function trackEvent(
   // await hubSDK.analytics.track({ event, properties, ... });
 }
 
-// Pre-defined events for 84tea
+// Pre-defined events for ANIMA 119
 export const Events = {
   // E-commerce
   PRODUCT_VIEWED: 'product_viewed',

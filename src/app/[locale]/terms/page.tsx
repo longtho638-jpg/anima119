@@ -13,8 +13,8 @@ export async function generateMetadata({
   const title = locale === "vi" ? "Điều Khoản Sử Dụng" : "Terms of Service";
   const description =
     locale === "vi"
-      ? "Điều khoản và điều kiện sử dụng website 84tea.com"
-      : "Terms and conditions for using 84tea.com";
+      ? "Dieu khoan va dieu kien su dung website anima119.com"
+      : "Terms and conditions for using anima119.com";
 
   return generatePageMetadata({
     title,
@@ -60,9 +60,9 @@ export default function TermsPage() {
                     variant="body-large"
                     className="text-on-surface-variant mb-4"
                   >
-                    Chào mừng bạn đến với 84tea. Khi truy cập và sử dụng website
-                    84tea.com, bạn đồng ý tuân thủ các điều khoản và điều kiện
-                    được nêu trong tài liệu này.
+                    Chao mung ban den voi ANIMA 119. Khi truy cap va su dung website
+                    anima119.com, ban dong y tuan thu cac dieu khoan va dieu kien
+                    duoc neu trong tai lieu nay.
                   </Typography>
                 </section>
 
@@ -77,13 +77,9 @@ export default function TermsPage() {
                     variant="body-large"
                     className="text-on-surface-variant mb-4"
                   >
-                    <strong>3704 Co., LTD</strong>
+                    <strong>ZenX Holdings Joint Stock Company</strong>
                     <br />
-                    GPKD: 011 070 44 89
-                    <br />
-                    Ngày thành lập: 04/05/2024
-                    <br />
-                    Địa chỉ: 134 Nguyễn Hoàng Tôn, Phú Thượng, Tây Hồ, Hà Nội
+                    Dia chi: 15/11 Duy Tan, Phuong Cau Giay, Quan Cau Giay, Ha Noi
                   </Typography>
                 </section>
 
@@ -98,9 +94,9 @@ export default function TermsPage() {
                     variant="body-large"
                     className="text-on-surface-variant mb-4"
                   >
-                    84tea cung cấp các sản phẩm trà cao cấp từ cây trà cổ thụ
-                    Shan Tuyết Việt Nam. Tất cả sản phẩm được sản xuất theo tiêu
-                    chuẩn an toàn thực phẩm và có nguồn gốc rõ ràng.
+                    ANIMA 119 cung cap thuc pham bo sung tu Dong Y len men Han Quoc.
+                    Tat ca san pham duoc san xuat theo tieu chuan FSSC 22000
+                    va co nguon goc ro rang tu Han Quoc.
                   </Typography>
                 </section>
 
@@ -165,9 +161,9 @@ export default function TermsPage() {
                     variant="body-large"
                     className="text-on-surface-variant mb-4"
                   >
-                    Tất cả nội dung trên website 84tea.com bao gồm logo, hình
-                    ảnh, văn bản là tài sản của 3704 Co., LTD và được bảo vệ bởi
-                    luật sở hữu trí tuệ.
+                    Tat ca noi dung tren website anima119.com bao gom logo, hinh
+                    anh, van ban la tai san cua ZenX Holdings JSC va duoc bao ve boi
+                    luat so huu tri tue.
                   </Typography>
                 </section>
 
@@ -182,11 +178,9 @@ export default function TermsPage() {
                     variant="body-large"
                     className="text-on-surface-variant mb-4"
                   >
-                    Mọi thắc mắc vui lòng liên hệ:
+                    Moi thac mac vui long lien he:
                     <br />
-                    Email: hello@84tea.com
-                    <br />
-                    Hotline: 0988 030 204
+                    Email: contact@anima119.com
                   </Typography>
                 </section>
               </div>

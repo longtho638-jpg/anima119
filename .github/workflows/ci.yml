@@ -1,4 +1,4 @@
-name: 84tea CI/CD Pipeline
+name: ANIMA 119 CI/CD Pipeline
 
 on:
   push:

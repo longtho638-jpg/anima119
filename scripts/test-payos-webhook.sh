@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Webhook Test Script for 84tea
+# Webhook Test Script for ANIMA 119
 # Simulates a PayOS webhook call to localhost
 
 ORDER_CODE=$1
@@ -17,7 +17,7 @@ fi
 # For local testing without strict signature verification, you might need to disable signature check temporarily
 # or calculate it using node.js
 
-PAYLOAD="{\"code\":\"$STATUS\",\"desc\":\"success\",\"data\":{\"orderCode\":$ORDER_CODE,\"amount\":100000,\"description\":\"Test Order\",\"accountNumber\":\"1234\",\"reference\":\"REF123\",\"transactionDateTime\":\"2024-02-07 12:00:00\",\"currency\":\"VND\",\"paymentLinkId\":\"PL123\",\"code\":\"00\",\"desc\":\"success\",\"counterAccountBankId\":\"MB\",\"counterAccountBankName\":\"MB\",\"counterAccountName\":\"NGUYEN VAN A\",\"counterAccountNumber\":\"123456\",\"virtualAccountName\":\"84TEA\",\"virtualAccountNumber\":\"987654\"},\"signature\":\"mock_signature\"}"
+PAYLOAD="{\"code\":\"$STATUS\",\"desc\":\"success\",\"data\":{\"orderCode\":$ORDER_CODE,\"amount\":100000,\"description\":\"Test Order\",\"accountNumber\":\"1234\",\"reference\":\"REF123\",\"transactionDateTime\":\"2024-02-07 12:00:00\",\"currency\":\"VND\",\"paymentLinkId\":\"PL123\",\"code\":\"00\",\"desc\":\"success\",\"counterAccountBankId\":\"MB\",\"counterAccountBankName\":\"MB\",\"counterAccountName\":\"NGUYEN VAN A\",\"counterAccountNumber\":\"123456\",\"virtualAccountName\":\"ANIMA119\",\"virtualAccountNumber\":\"987654\"},\"signature\":\"mock_signature\"}"
 
 echo "🚀 Sending Webhook for Order: $ORDER_CODE (Status: $STATUS)..."
 

@@ -14,8 +14,8 @@ export async function generateMetadata({
     title: t("title"),
     description:
       locale === "vi"
-        ? "Chính sách bảo mật thông tin cá nhân của 84tea"
-        : "84tea personal data privacy policy",
+        ? "Chinh sach bao mat thong tin ca nhan cua ANIMA 119"
+        : "ANIMA 119 personal data privacy policy",
     path: "/privacy",
     locale,
     type: "article",

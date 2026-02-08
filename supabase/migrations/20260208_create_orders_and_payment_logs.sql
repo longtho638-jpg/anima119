@@ -1,4 +1,4 @@
--- Create orders table for 84tea commerce
+-- Create orders table for ANIMA 119 commerce
 CREATE TABLE IF NOT EXISTS orders (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   order_code BIGINT UNIQUE NOT NULL,
