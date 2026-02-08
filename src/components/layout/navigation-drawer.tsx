@@ -20,8 +20,8 @@ export function NavigationDrawer({ open, onClose }: NavigationDrawerProps) {
   const navLinks = [
     { href: "/", label: t("home"), icon: "home" },
     { href: "/san-pham", label: t("products"), icon: "inventory_2" },
-    { href: "/khoa-hoc", label: t("about"), icon: "science" },
-    { href: "/nguon-goc", label: t("franchise"), icon: "history" },
+    { href: "/khoa-hoc", label: t("science"), icon: "science" },
+    { href: "/nguon-goc", label: t("origin"), icon: "history" },
     { href: "/lien-he", label: t("contact"), icon: "mail" },
   ];
 

@@ -1,0 +1,7 @@
+[    4883ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://wellnexus.vn/_vercel/insights/script.js:0
+[    4883ms] [ERROR] Refused to execute script from 'https://wellnexus.vn/_vercel/insights/script.js' because its MIME type ('text/plain') is not executable, and strict MIME type checking is enabled. @ https://wellnexus.vn/:0
+[    4974ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://wellnexus.vn/vite.svg:0
+[    5136ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://wellnexus.vn/:0
+[    7120ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=400&q=80:0
+[    7121ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=400&q=80:0
+[    7121ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://images.unsplash.com/photo-1550572017-edd951aa8f72?auto=format&fit=crop&w=400&q=80:0

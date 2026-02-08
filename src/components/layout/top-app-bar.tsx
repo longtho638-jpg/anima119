@@ -19,8 +19,8 @@ export function TopAppBar({ onMenuClick }: TopAppBarProps) {
 
   const navLinks = [
     { href: "/san-pham", label: t("products") },
-    { href: "/khoa-hoc", label: t("about") },
-    { href: "/nguon-goc", label: t("franchise") },
+    { href: "/khoa-hoc", label: t("science") },
+    { href: "/nguon-goc", label: t("origin") },
     { href: "/lien-he", label: t("contact") },
   ];
 
