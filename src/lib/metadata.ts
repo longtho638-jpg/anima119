@@ -47,7 +47,7 @@ export function generatePageMetadata(data: PageMetadata): Metadata {
         },
       ],
       locale,
-      type: type as "website" | "article" | "product",
+      type: type === "article" ? "article" : "website",
     },
     twitter: {
       card: 'summary_large_image',
