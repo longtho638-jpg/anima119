@@ -21,7 +21,7 @@ export function CTASection() {
         <div className="w-24 h-24 relative mx-auto mb-6">
           <Image
             src="/images/brand/golden-mandala.png"
-            alt="Golden Mandala"
+            alt={t("mandalaAlt")}
             fill
             className="object-cover"
           />

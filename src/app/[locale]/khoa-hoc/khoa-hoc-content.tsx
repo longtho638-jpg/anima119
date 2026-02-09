@@ -50,7 +50,7 @@ export default function KhoaHocContent() {
                 <div className="aspect-[3/4] rounded-2xl bg-[#1A2744] overflow-hidden border border-[#C5A55A]/20 relative">
                   <Image
                     src="/images/brand/dr-uh-portrait.png"
-                    alt="Dr. Uh Bong-woo"
+                    alt={t("drUh.imageAlt")}
                     fill
                     className="object-cover"
                     quality={85}
@@ -168,7 +168,7 @@ export default function KhoaHocContent() {
               <div className="w-full aspect-video rounded-2xl overflow-hidden border border-[#C5A55A]/20 relative">
                 <Image
                   src="/images/brand/fermentation-lab.png"
-                  alt="Fermentation Laboratory"
+                  alt={t("fermentationLabAlt")}
                   fill
                   className="object-cover"
                   quality={85}

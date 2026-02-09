@@ -32,7 +32,8 @@
     "titleHighlight": "of Bio-Energy Flow",
     "description": "ANIMA 119 - Food supplements from fermented Oriental medicine, developed by the Korea Fermented Herbal Medicine Research Institute with over 35 years of expertise.",
     "ctaPrimary": "Explore Product",
-    "ctaSecondary": "The Science Behind"
+    "ctaSecondary": "The Science Behind",
+    "imageAlt": "ANIMA 119 - Cosmic Meditation Energy"
   },
   "home": {
     "hero": {
@@ -60,13 +61,16 @@
     "stat2Label": "Clinical RCT Trials",
     "stat3Value": "119",
     "stat3Label": "Fermented Herbs",
-    "cta": "View Product Origin"
+    "cta": "View Product Origin",
+    "imageAlt": "Traditional Wisdom meets Modern Science"
   },
   "Featured": {
     "label": "Product",
     "headline": "ANIMA 119",
     "description": "Food supplements from Korean fermented Oriental medicine - Produced by Insung Pharm, FSSC 22000 and GMP certified.",
-    "viewAll": "View Product Details"
+    "viewAll": "View Product Details",
+    "buyNow": "Buy Now",
+    "imageAlt": "ANIMA 119 Product Box"
   },
   "Process": {
     "label": "Technology",
@@ -96,7 +100,8 @@
     "subscribe": "Subscribe",
     "orExplore": "Explore more:",
     "collection": "Product",
-    "franchise": "Science"
+    "franchise": "Science",
+    "mandalaAlt": "Golden Mandala"
   },
   "Footer": {
     "brandDescription": "ANIMA 119 - Korean fermented Oriental medicine food supplements. Distributed by ZenX Holdings.",
@@ -607,7 +612,10 @@
     "benefit1": "Promotes healthy blood circulation",
     "benefit2": "Supports bone and spine health",
     "benefit3": "Restores energy, reduces fatigue",
-    "benefit4": "Detoxifies and protects liver"
+    "benefit4": "Detoxifies and protects liver",
+    "productAlt": "ANIMA 119 Product",
+    "sachetAlt": "ANIMA 119 Sachet",
+    "bannerAlt": "ANIMA 119 Banner"
   },
   "KhoaHoc": {
     "title": "Scientific Foundation",
@@ -622,7 +630,8 @@
       "experience": "Over 35 years of fermented herbal medicine research",
       "role": "Director, Korea Fermented Herbal Medicine Research Institute",
       "advisor": "Advisor, Fermented Herbal Medicine Society of Korean Oriental Medical Doctors Assoc.",
-      "award": "2023 Minister of Health & Welfare Award"
+      "award": "2023 Minister of Health & Welfare Award",
+      "imageAlt": "Dr. Uh Bong-woo"
     },
     "fermentation": {
       "label": "Technology",
@@ -650,7 +659,8 @@
       "title": "International Production Standards",
       "insung": "Insung Pharm: FSSC 22000 certified, GMP production standards",
       "partnership": "OEM/ODM partnerships with international R&D organizations"
-    }
+    },
+    "fermentationLabAlt": "Fermentation Laboratory"
   },
   "NguonGoc": {
     "title": "ANIMA 119 Origin",
@@ -659,17 +669,20 @@
     "headline": "The Journey From Korea To Vietnam",
     "heritage": {
       "title": "Korean Fermented Medicine Heritage",
-      "desc": "Korean traditional medicine has a history spanning thousands of years. Herbal fermentation technology represents a breakthrough, combining ancient wisdom with modern science."
+      "desc": "Korean traditional medicine has a history spanning thousands of years. Herbal fermentation technology represents a breakthrough, combining ancient wisdom with modern science.",
+      "imageAlt": "Korean Traditional Medicine Heritage"
     },
     "drUhJourney": {
       "title": "Dr. Uh Bong-woo's Journey",
-      "desc": "From graduate researcher at Kyung Hee University to Director of the Korea Fermented Herbal Medicine Research Institute, Dr. Uh dedicated over 35 years to perfecting the 4th fermentation technology."
+      "desc": "From graduate researcher at Kyung Hee University to Director of the Korea Fermented Herbal Medicine Research Institute, Dr. Uh dedicated over 35 years to perfecting the 4th fermentation technology.",
+      "imageAlt": "Dr. Uh Bong-woo Journey"
     },
     "distribution": {
       "title": "Distribution in Vietnam",
       "company": "ZenX Holdings JSC",
       "address": "15/11 Duy Tan, Cau Giay Ward, Hanoi, Vietnam",
-      "desc": "ZenX Holdings is the official distributor of ANIMA 119 in Vietnam, committed to delivering authentic products of the highest quality."
+      "desc": "ZenX Holdings is the official distributor of ANIMA 119 in Vietnam, committed to delivering authentic products of the highest quality.",
+      "imageAlt": "Production Facility"
     },
     "certifications": {
       "title": "Quality Certifications",

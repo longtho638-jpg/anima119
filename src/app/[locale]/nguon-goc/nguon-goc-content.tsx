@@ -40,7 +40,7 @@ export default function NguonGocContent() {
                 <div className="w-full aspect-video rounded-xl overflow-hidden relative mb-6">
                   <Image
                     src="/images/brand/korean-heritage.png"
-                    alt="Korean Traditional Medicine Heritage"
+                    alt={t("heritage.imageAlt")}
                     fill
                     className="object-cover"
                     quality={85}
@@ -65,7 +65,7 @@ export default function NguonGocContent() {
                 <div className="aspect-square rounded-2xl bg-[#1A2744] overflow-hidden border border-[#C5A55A]/20 relative">
                   <Image
                     src="/images/brand/dr-uh-portrait.png"
-                    alt="Dr. Uh Bong-woo Journey"
+                    alt={t("drUhJourney.imageAlt")}
                     fill
                     className="object-cover"
                     quality={85}
@@ -92,7 +92,7 @@ export default function NguonGocContent() {
                 <div className="w-full aspect-video rounded-xl overflow-hidden relative mb-6">
                   <Image
                     src="/images/brand/production-facility.png"
-                    alt="Production Facility"
+                    alt={t("distribution.imageAlt")}
                     fill
                     className="object-cover"
                     quality={85}

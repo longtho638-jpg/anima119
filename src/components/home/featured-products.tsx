@@ -31,7 +31,7 @@ export function FeaturedProducts() {
             <div className="aspect-square rounded-2xl bg-[#1A2744] overflow-hidden border border-[#C5A55A]/20 relative">
               <Image
                 src="/images/products/anima-119-box.png"
-                alt="ANIMA 119 Product Box"
+                alt={t("imageAlt")}
                 fill
                 className="object-cover"
                 quality={85}
@@ -54,7 +54,7 @@ export function FeaturedProducts() {
                   <Link href="/san-pham">{t("viewAll")}</Link>
                 </Button>
                 <Button variant="outlined" size="lg" asChild>
-                  <Link href="/mua-hang">Mua Ngay</Link>
+                  <Link href="/mua-hang">{t("buyNow")}</Link>
                 </Button>
               </div>
             </div>

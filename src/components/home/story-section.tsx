@@ -17,7 +17,7 @@ export function StorySection() {
             <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-surface-variant relative">
               <Image
                 src="/images/brand/story-science.png"
-                alt="Traditional Wisdom meets Modern Science"
+                alt={t("imageAlt")}
                 fill
                 className="object-cover"
                 quality={85}

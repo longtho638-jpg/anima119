@@ -32,7 +32,8 @@
     "titleHighlight": "Phục Hồi Cơ Thể",
     "description": "ANIMA 119 - Thực phẩm bổ sung từ Đông y lên men, được nghiên cứu và phát triển bởi Viện Nghiên cứu Dược liệu Lên men Hàn Quốc với hơn 35 năm kinh nghiệm.",
     "ctaPrimary": "Tìm hiểu sản phẩm",
-    "ctaSecondary": "Khoa học đằng sau"
+    "ctaSecondary": "Khoa học đằng sau",
+    "imageAlt": "ANIMA 119 - Năng lượng thiền định vũ trụ"
   },
   "home": {
     "hero": {
@@ -60,13 +61,16 @@
     "stat2Label": "Thử nghiệm lâm sàng RCT",
     "stat3Value": "119",
     "stat3Label": "Thảo dược lên men",
-    "cta": "Xem nguồn gốc sản phẩm"
+    "cta": "Xem nguồn gốc sản phẩm",
+    "imageAlt": "Trí tuệ cổ truyền kết hợp khoa học hiện đại"
   },
   "Featured": {
     "label": "Sản phẩm",
     "headline": "ANIMA 119",
     "description": "Thực phẩm bổ sung từ Đông y lên men Hàn Quốc - Sản xuất bởi Insung Pharm, đạt chứng nhận FSSC 22000 và GMP.",
-    "viewAll": "Xem chi tiết sản phẩm"
+    "viewAll": "Xem chi tiết sản phẩm",
+    "buyNow": "Mua Ngay",
+    "imageAlt": "Hộp sản phẩm ANIMA 119"
   },
   "Process": {
     "label": "Công nghệ",
@@ -96,23 +100,24 @@
     "subscribe": "Đăng ký",
     "orExplore": "Khám phá thêm:",
     "collection": "Sản phẩm",
-    "franchise": "Khoa học"
+    "franchise": "Khoa học",
+    "mandalaAlt": "Mandala vàng"
   },
   "Footer": {
-    "brandDescription": "ANIMA 119 - Thuc pham bo sung tu Dong y len men Han Quoc. Phan phoi boi ZenX Holdings.",
-    "slogan": "Can Bang Sinh Nang Luong, Phuc Hoi Co The",
-    "products": "San pham",
-    "allProducts": "Xem san pham",
+    "brandDescription": "ANIMA 119 - Thực phẩm bổ sung từ Đông y lên men Hàn Quốc. Phân phối bởi ZenX Holdings.",
+    "slogan": "Cân Bằng Sinh Năng Lượng, Phục Hồi Cơ Thể",
+    "products": "Sản phẩm",
+    "allProducts": "Xem sản phẩm",
     "buyNow": "Mua ngay",
     "company": "Công ty",
     "science": "Khoa học",
     "origin": "Nguồn gốc",
     "contact": "Liên hệ",
-    "legal": "Phap ly",
-    "terms": "Dieu khoan",
-    "privacy": "Chinh sach bao mat",
-    "shipping": "Giao hang",
-    "copyright": "© 2026 ANIMA 119. Phan phoi boi ZenX Holdings JSC.",
+    "legal": "Pháp lý",
+    "terms": "Điều khoản",
+    "privacy": "Chính sách bảo mật",
+    "shipping": "Giao hàng",
+    "copyright": "© 2026 ANIMA 119. Phân phối bởi ZenX Holdings JSC.",
     "madeWithLove": "Made in Korea"
   },
   "Products": {
@@ -607,7 +612,10 @@
     "benefit1": "Tăng cường tuần hoàn máu",
     "benefit2": "Hỗ trợ xương khớp, cột sống",
     "benefit3": "Phục hồi năng lượng, giảm mệt mỏi",
-    "benefit4": "Giải độc và bảo vệ gan"
+    "benefit4": "Giải độc và bảo vệ gan",
+    "productAlt": "Sản phẩm ANIMA 119",
+    "sachetAlt": "Gói ANIMA 119",
+    "bannerAlt": "Banner ANIMA 119"
   },
   "KhoaHoc": {
     "title": "Nền Tảng Khoa Học",
@@ -622,7 +630,8 @@
       "experience": "Hơn 35 năm nghiên cứu dược liệu lên men",
       "role": "Viện trưởng Viện Nghiên cứu Dược liệu Lên men Hàn Quốc (대한 발효 한약연구원)",
       "advisor": "Cố vấn Hội Bác sĩ Đông y Dược liệu Lên men Hàn Quốc",
-      "award": "Giải thưởng Bộ trưởng Y tế & Phúc lợi 2023"
+      "award": "Giải thưởng Bộ trưởng Y tế & Phúc lợi 2023",
+      "imageAlt": "TS. Uh Bong-woo"
     },
     "fermentation": {
       "label": "Công nghệ",
@@ -650,7 +659,8 @@
       "title": "Tiêu Chuẩn Sản Xuất Quốc Tế",
       "insung": "Insung Pharm (인성제약): Đạt chứng nhận FSSC 22000, sản xuất theo tiêu chuẩn GMP",
       "partnership": "Hợp tác OEM/ODM với các đối tác R&D quốc tế"
-    }
+    },
+    "fermentationLabAlt": "Phòng thí nghiệm lên men"
   },
   "NguonGoc": {
     "title": "Nguồn Gốc ANIMA 119",
@@ -659,17 +669,20 @@
     "headline": "Hành Trình Từ Hàn Quốc Đến Việt Nam",
     "heritage": {
       "title": "Di Sản Y Học Lên Men Hàn Quốc",
-      "desc": "Y học cổ truyền Hàn Quốc (한의학) có lịch sử hàng ngàn năm. Công nghệ lên men dược liệu là bước tiến đột phá, kết hợp tri thức cổ truyền với khoa học hiện đại."
+      "desc": "Y học cổ truyền Hàn Quốc (한의학) có lịch sử hàng ngàn năm. Công nghệ lên men dược liệu là bước tiến đột phá, kết hợp tri thức cổ truyền với khoa học hiện đại.",
+      "imageAlt": "Di sản y học cổ truyền Hàn Quốc"
     },
     "drUhJourney": {
       "title": "Hành Trình Của TS. Uh Bong-woo",
-      "desc": "Từ nghiên cứu sinh tại Đại học Kyung Hee đến Viện trưởng Viện Nghiên cứu Dược liệu Lên men, TS. Uh đã cống hiến hơn 35 năm để hoàn thiện công nghệ lên men bậc 4."
+      "desc": "Từ nghiên cứu sinh tại Đại học Kyung Hee đến Viện trưởng Viện Nghiên cứu Dược liệu Lên men, TS. Uh đã cống hiến hơn 35 năm để hoàn thiện công nghệ lên men bậc 4.",
+      "imageAlt": "Hành trình TS. Uh Bong-woo"
     },
     "distribution": {
       "title": "Phân Phối Tại Việt Nam",
       "company": "Công ty Cổ phần ZenX Holdings",
       "address": "15/11 Duy Tân, Phường Cầu Giấy, Hà Nội, Việt Nam",
-      "desc": "ZenX Holdings là đơn vị phân phối chính thức ANIMA 119 tại Việt Nam, cam kết mang đến sản phẩm chính hãng với chất lượng cao nhất."
+      "desc": "ZenX Holdings là đơn vị phân phối chính thức ANIMA 119 tại Việt Nam, cam kết mang đến sản phẩm chính hãng với chất lượng cao nhất.",
+      "imageAlt": "Nhà máy sản xuất"
     },
     "certifications": {
       "title": "Chứng Nhận Chất Lượng",

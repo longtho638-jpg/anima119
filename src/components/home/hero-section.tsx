@@ -16,7 +16,7 @@ export function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-b from-scrim/40 via-scrim/20 to-surface z-10" />
         <Image
           src="/images/brand/hero-bg.png"
-          alt="ANIMA 119 - Cosmic Meditation Energy"
+          alt={t("imageAlt")}
           fill
           className="object-cover"
           priority

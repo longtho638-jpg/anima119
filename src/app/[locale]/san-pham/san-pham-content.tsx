@@ -31,7 +31,7 @@ export default function SanPhamContent() {
                 <div className="aspect-square rounded-2xl bg-[#1A2744] overflow-hidden border border-[#C5A55A]/20 relative">
                   <Image
                     src="/images/products/anima-119-box.png"
-                    alt="ANIMA 119 Product"
+                    alt={t("productAlt")}
                     fill
                     className="object-cover"
                     quality={90}
@@ -40,7 +40,7 @@ export default function SanPhamContent() {
                 <div className="aspect-square rounded-2xl bg-[#1A2744] overflow-hidden border border-[#C5A55A]/20 relative">
                   <Image
                     src="/images/products/anima-119-sachet.png"
-                    alt="ANIMA 119 Sachet"
+                    alt={t("sachetAlt")}
                     fill
                     className="object-cover"
                     quality={90}
@@ -93,7 +93,7 @@ export default function SanPhamContent() {
         <section className="w-full aspect-[21/9] relative overflow-hidden">
           <Image
             src="/images/products/anima-119-banner.png"
-            alt="ANIMA 119 Banner"
+            alt={t("bannerAlt")}
             fill
             className="object-cover"
             quality={90}
