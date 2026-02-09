@@ -54,6 +54,7 @@ export default function KhoaHocContent() {
                     fill
                     className="object-cover"
                     quality={85}
+                    sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 </div>
                 <div>
@@ -172,6 +173,7 @@ export default function KhoaHocContent() {
                   fill
                   className="object-cover"
                   quality={85}
+                  sizes="(max-width: 768px) 100vw, 896px"
                 />
               </div>
             </div>

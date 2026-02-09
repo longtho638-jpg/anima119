@@ -45,6 +45,7 @@ export default function TinTucContent() {
                         fill
                         className="object-cover"
                         quality={80}
+                        sizes="(max-width: 768px) 100vw, 33vw"
                       />
                     </div>
                     <div className="p-6">

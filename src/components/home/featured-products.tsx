@@ -35,6 +35,7 @@ export function FeaturedProducts() {
                 fill
                 className="object-cover"
                 quality={85}
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
 

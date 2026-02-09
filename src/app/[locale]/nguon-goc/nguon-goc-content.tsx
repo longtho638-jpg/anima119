@@ -44,6 +44,7 @@ export default function NguonGocContent() {
                     fill
                     className="object-cover"
                     quality={85}
+                    sizes="(max-width: 768px) 100vw, 768px"
                   />
                 </div>
                 <Typography variant="headline-large" className="text-on-surface font-display mb-6">
@@ -69,6 +70,7 @@ export default function NguonGocContent() {
                     fill
                     className="object-cover"
                     quality={85}
+                    sizes="(max-width: 768px) 100vw, 50vw"
                   />
                 </div>
                 <div>
@@ -96,6 +98,7 @@ export default function NguonGocContent() {
                     fill
                     className="object-cover"
                     quality={85}
+                    sizes="(max-width: 768px) 100vw, 768px"
                   />
                 </div>
                 <Typography variant="headline-large" className="text-on-surface font-display mb-4">

@@ -35,6 +35,7 @@ export default function SanPhamContent() {
                     fill
                     className="object-cover"
                     quality={90}
+                    sizes="(max-width: 768px) 50vw, 25vw"
                   />
                 </div>
                 <div className="aspect-square rounded-2xl bg-[#1A2744] overflow-hidden border border-[#C5A55A]/20 relative">
@@ -44,6 +45,7 @@ export default function SanPhamContent() {
                     fill
                     className="object-cover"
                     quality={90}
+                    sizes="(max-width: 768px) 50vw, 25vw"
                   />
                 </div>
               </div>
@@ -97,6 +99,7 @@ export default function SanPhamContent() {
             fill
             className="object-cover"
             quality={90}
+            sizes="100vw"
           />
         </section>
 
