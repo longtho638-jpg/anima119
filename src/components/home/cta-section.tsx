@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
+import Image from "next/image";
 
 export function CTASection() {
   const t = useTranslations("CTA");
@@ -17,7 +18,14 @@ export function CTASection() {
       </div>
 
       <div className="container relative z-10 px-6 text-center max-w-3xl mx-auto">
-        <span className="material-symbols-rounded text-6xl text-[#C5A55A] mb-6 block">medication</span>
+        <div className="w-24 h-24 relative mx-auto mb-6">
+          <Image
+            src="/images/brand/golden-mandala.png"
+            alt="Golden Mandala"
+            fill
+            className="object-cover"
+          />
+        </div>
 
         <Typography variant="headline-medium" className="mb-4 font-display text-white">
           {t("headline")}

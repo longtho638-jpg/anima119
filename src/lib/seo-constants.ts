@@ -10,7 +10,7 @@ export const SEO_CONFIG = {
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://anima119.com',
   defaultLocale: 'vi',
   locales: ['vi', 'en'] as const,
-  ogImage: '/images/og-default.jpg',
+  ogImage: '/images/og-default.png',
   twitterHandle: '@anima119_vn',
   facebookAppId: process.env.NEXT_PUBLIC_FACEBOOK_APP_ID,
 } as const;

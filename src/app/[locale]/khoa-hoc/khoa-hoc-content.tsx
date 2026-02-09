@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { MainLayout, FooterSection } from "@/components/layout";
 import { Typography } from "@/components/ui/typography";
 import { MotionWrapper } from "@/components/ui/motion-wrapper";
+import Image from "next/image";
 
 export default function KhoaHocContent() {
   const t = useTranslations("KhoaHoc");
@@ -46,13 +47,14 @@ export default function KhoaHocContent() {
           <div className="container mx-auto px-6">
             <MotionWrapper>
               <div className="grid md:grid-cols-2 gap-12 items-center">
-                <div className="aspect-[3/4] rounded-2xl bg-[#1A2744] flex items-center justify-center border border-[#C5A55A]/20">
-                  <div className="text-center p-8">
-                    <span className="material-symbols-rounded text-[#C5A55A] text-8xl">person</span>
-                    <Typography variant="title-large" className="text-[#C5A55A] mt-4 font-display">
-                      {t("drUh.name")}
-                    </Typography>
-                  </div>
+                <div className="aspect-[3/4] rounded-2xl bg-[#1A2744] overflow-hidden border border-[#C5A55A]/20 relative">
+                  <Image
+                    src="/images/brand/dr-uh-portrait.png"
+                    alt="Dr. Uh Bong-woo"
+                    fill
+                    className="object-cover"
+                    quality={85}
+                  />
                 </div>
                 <div>
                   <Typography variant="label-large" className="text-[#C5A55A] tracking-widest uppercase mb-4">
@@ -155,6 +157,23 @@ export default function KhoaHocContent() {
               <Typography variant="title-large" className="text-[#C5A55A] font-display">
                 {t("evidence.rct")}
               </Typography>
+            </div>
+          </div>
+        </section>
+
+        {/* Fermentation Lab */}
+        <section className="py-20 bg-surface-container-low">
+          <div className="container mx-auto px-6">
+            <div className="max-w-4xl mx-auto">
+              <div className="w-full aspect-video rounded-2xl overflow-hidden border border-[#C5A55A]/20 relative">
+                <Image
+                  src="/images/brand/fermentation-lab.png"
+                  alt="Fermentation Laboratory"
+                  fill
+                  className="object-cover"
+                  quality={85}
+                />
+              </div>
             </div>
           </div>
         </section>

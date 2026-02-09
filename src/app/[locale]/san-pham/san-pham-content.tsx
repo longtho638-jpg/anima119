@@ -5,6 +5,7 @@ import { MainLayout, FooterSection } from "@/components/layout";
 import { Typography } from "@/components/ui/typography";
 import { Button } from "@/components/ui/button";
 import { Link } from "@/i18n/routing";
+import Image from "next/image";
 
 export default function SanPhamContent() {
   const t = useTranslations("SanPham");
@@ -25,15 +26,25 @@ export default function SanPhamContent() {
         <section className="pt-32 pb-16 bg-surface-container-low">
           <div className="container mx-auto px-6">
             <div className="grid md:grid-cols-2 gap-12 items-center">
-              {/* Product Image Placeholder */}
-              <div className="aspect-square rounded-2xl bg-[#1A2744] flex items-center justify-center border border-[#C5A55A]/20">
-                <div className="text-center">
-                  <span className="material-symbols-rounded text-[#C5A55A] text-8xl">
-                    medication
-                  </span>
-                  <Typography variant="title-large" className="text-[#C5A55A] mt-4 font-display">
-                    {t("name")}
-                  </Typography>
+              {/* Product Images */}
+              <div className="grid grid-cols-2 gap-4">
+                <div className="aspect-square rounded-2xl bg-[#1A2744] overflow-hidden border border-[#C5A55A]/20 relative">
+                  <Image
+                    src="/images/products/anima-119-box.png"
+                    alt="ANIMA 119 Product"
+                    fill
+                    className="object-cover"
+                    quality={90}
+                  />
+                </div>
+                <div className="aspect-square rounded-2xl bg-[#1A2744] overflow-hidden border border-[#C5A55A]/20 relative">
+                  <Image
+                    src="/images/products/anima-119-sachet.png"
+                    alt="ANIMA 119 Sachet"
+                    fill
+                    className="object-cover"
+                    quality={90}
+                  />
                 </div>
               </div>
 
@@ -76,6 +87,17 @@ export default function SanPhamContent() {
               </div>
             </div>
           </div>
+        </section>
+
+        {/* Banner */}
+        <section className="w-full aspect-[21/9] relative overflow-hidden">
+          <Image
+            src="/images/products/anima-119-banner.png"
+            alt="ANIMA 119 Banner"
+            fill
+            className="object-cover"
+            quality={90}
+          />
         </section>
 
         {/* Benefits */}

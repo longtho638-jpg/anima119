@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { MainLayout, FooterSection } from "@/components/layout";
 import { Typography } from "@/components/ui/typography";
 import { MotionWrapper } from "@/components/ui/motion-wrapper";
+import Image from "next/image";
 
 export default function NguonGocContent() {
   const t = useTranslations("NguonGoc");
@@ -36,9 +37,15 @@ export default function NguonGocContent() {
           <div className="container mx-auto px-6">
             <MotionWrapper>
               <div className="max-w-3xl mx-auto text-center">
-                <span className="material-symbols-rounded text-[#C5A55A] text-6xl mb-6 block">
-                  history_edu
-                </span>
+                <div className="w-full aspect-video rounded-xl overflow-hidden relative mb-6">
+                  <Image
+                    src="/images/brand/korean-heritage.png"
+                    alt="Korean Traditional Medicine Heritage"
+                    fill
+                    className="object-cover"
+                    quality={85}
+                  />
+                </div>
                 <Typography variant="headline-large" className="text-on-surface font-display mb-6">
                   {t("heritage.title")}
                 </Typography>
@@ -55,10 +62,14 @@ export default function NguonGocContent() {
           <div className="container mx-auto px-6">
             <MotionWrapper>
               <div className="grid md:grid-cols-2 gap-12 items-center">
-                <div className="aspect-square rounded-2xl bg-[#1A2744] flex items-center justify-center border border-[#C5A55A]/20">
-                  <span className="material-symbols-rounded text-[#C5A55A] text-8xl">
-                    person
-                  </span>
+                <div className="aspect-square rounded-2xl bg-[#1A2744] overflow-hidden border border-[#C5A55A]/20 relative">
+                  <Image
+                    src="/images/brand/dr-uh-portrait.png"
+                    alt="Dr. Uh Bong-woo Journey"
+                    fill
+                    className="object-cover"
+                    quality={85}
+                  />
                 </div>
                 <div>
                   <Typography variant="headline-large" className="text-[#C5A55A] font-display mb-6">
@@ -78,9 +89,15 @@ export default function NguonGocContent() {
           <div className="container mx-auto px-6">
             <MotionWrapper>
               <div className="max-w-3xl mx-auto text-center">
-                <span className="material-symbols-rounded text-[#C5A55A] text-6xl mb-6 block">
-                  local_shipping
-                </span>
+                <div className="w-full aspect-video rounded-xl overflow-hidden relative mb-6">
+                  <Image
+                    src="/images/brand/production-facility.png"
+                    alt="Production Facility"
+                    fill
+                    className="object-cover"
+                    quality={85}
+                  />
+                </div>
                 <Typography variant="headline-large" className="text-on-surface font-display mb-4">
                   {t("distribution.title")}
                 </Typography>

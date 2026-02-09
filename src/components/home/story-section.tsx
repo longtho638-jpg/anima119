@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
+import Image from "next/image";
 
 export function StorySection() {
   const t = useTranslations("Story");
@@ -14,10 +15,13 @@ export function StorySection() {
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div className="relative order-2 md:order-1">
             <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-surface-variant relative">
-              {/* Placeholder for story image */}
-              <div className="absolute inset-0 bg-surface-container flex items-center justify-center text-on-surface-variant">
-                <span className="material-symbols-rounded text-6xl">science</span>
-              </div>
+              <Image
+                src="/images/brand/story-science.png"
+                alt="Traditional Wisdom meets Modern Science"
+                fill
+                className="object-cover"
+                quality={85}
+              />
             </div>
             {/* Decorative element */}
             <div className="absolute -bottom-8 -right-8 w-48 h-48 bg-secondary-container rounded-full -z-10 blur-3xl" />

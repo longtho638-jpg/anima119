@@ -12,6 +12,7 @@ import { ServiceWorkerRegister } from "@/components/pwa/service-worker-register"
 import { routing } from "@/i18n/routing";
 import { generateOrganizationJsonLd, generateWebsiteJsonLd } from "@/lib/structured-data";
 import { SEO_CONFIG } from "@/lib/seo-constants";
+import { SafariPolyfill } from "@/components/SafariPolyfill";
 import "../globals.css";
 
 // Dynamic imports for client-only interactive components
@@ -142,6 +143,7 @@ export default async function LocaleLayout({
       <body
         className={`${playfairDisplay.variable} ${inter.variable} antialiased bg-surface text-on-surface`}
       >
+        <SafariPolyfill />
         <ErrorBoundary>
           <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
             <NextIntlClientProvider messages={messages}>

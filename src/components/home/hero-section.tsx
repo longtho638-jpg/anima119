@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
+import Image from "next/image";
 
 export function HeroSection() {
   const t = useTranslations("Hero");
@@ -13,8 +14,14 @@ export function HeroSection() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-b from-scrim/40 via-scrim/20 to-surface z-10" />
-        {/* Placeholder for actual hero image - using a solid color for now, ideally an image of tea hills */}
-        <div className="w-full h-full bg-tertiary animate-pulse-slow" />
+        <Image
+          src="/images/brand/hero-bg.png"
+          alt="ANIMA 119 - Cosmic Meditation Energy"
+          fill
+          className="object-cover"
+          priority
+          quality={90}
+        />
       </div>
 
       <div className="relative z-10 container mx-auto px-6 text-center max-w-4xl pt-20">

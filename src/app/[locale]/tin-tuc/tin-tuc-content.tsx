@@ -4,14 +4,15 @@ import { useTranslations } from "next-intl";
 import { MainLayout, FooterSection } from "@/components/layout";
 import { Typography } from "@/components/ui/typography";
 import { MotionWrapper } from "@/components/ui/motion-wrapper";
+import Image from "next/image";
 
 export default function TinTucContent() {
   const t = useTranslations("TinTuc");
 
   const articles = [
-    { id: "1", icon: "biotech" },
-    { id: "2", icon: "science" },
-    { id: "3", icon: "person" },
+    { id: "1", image: "/images/brand/article-fermentation.png" },
+    { id: "2", image: "/images/brand/article-research.png" },
+    { id: "3", image: "/images/brand/article-wellness.png" },
   ];
 
   return (
@@ -36,11 +37,15 @@ export default function TinTucContent() {
               {articles.map((article, i) => (
                 <MotionWrapper key={article.id} delay={i * 0.1}>
                   <article className="rounded-2xl overflow-hidden bg-surface-container border border-outline-variant hover:border-[#C5A55A]/30 transition-colors">
-                    {/* Image placeholder */}
-                    <div className="aspect-video bg-[#1A2744] flex items-center justify-center">
-                      <span className="material-symbols-rounded text-[#C5A55A] text-5xl">
-                        {article.icon}
-                      </span>
+                    {/* Article Image */}
+                    <div className="aspect-video bg-[#1A2744] relative overflow-hidden">
+                      <Image
+                        src={article.image}
+                        alt={t(`articles.${article.id}.title`)}
+                        fill
+                        className="object-cover"
+                        quality={80}
+                      />
                     </div>
                     <div className="p-6">
                       <Typography variant="label-medium" className="text-[#C5A55A] mb-2 block">

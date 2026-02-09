@@ -5,6 +5,7 @@ import { Link } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
 import { MotionWrapper } from "@/components/ui/motion-wrapper";
+import Image from "next/image";
 
 export function FeaturedProducts() {
   const t = useTranslations("Featured");
@@ -27,13 +28,14 @@ export function FeaturedProducts() {
         <MotionWrapper delay={0.1}>
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12 items-center">
             {/* Product Image */}
-            <div className="aspect-square rounded-2xl bg-[#1A2744] flex items-center justify-center border border-[#C5A55A]/20">
-              <div className="text-center">
-                <span className="material-symbols-rounded text-[#C5A55A] text-8xl">medication</span>
-                <Typography variant="title-large" className="text-[#C5A55A] mt-4 font-display">
-                  ANIMA 119
-                </Typography>
-              </div>
+            <div className="aspect-square rounded-2xl bg-[#1A2744] overflow-hidden border border-[#C5A55A]/20 relative">
+              <Image
+                src="/images/products/anima-119-box.png"
+                alt="ANIMA 119 Product Box"
+                fill
+                className="object-cover"
+                quality={85}
+              />
             </div>
 
             {/* Product Info */}
