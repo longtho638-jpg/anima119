@@ -50,12 +50,12 @@ export function FooterSection() {
             <Typography variant="title-medium" className="text-primary-container font-semibold mb-4">
               {t("products")}
             </Typography>
-            <ul className="space-y-2">
+            <ul className="space-y-1">
               {footerLinks.products.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-inverse-on-surface hover:text-primary-container transition-colors text-sm"
+                    className="text-inverse-on-surface hover:text-primary-container transition-colors text-sm inline-flex items-center min-h-[44px]"
                   >
                     {link.label}
                   </Link>
@@ -69,12 +69,12 @@ export function FooterSection() {
             <Typography variant="title-medium" className="text-primary-container font-semibold mb-4">
               {t("company")}
             </Typography>
-            <ul className="space-y-2">
+            <ul className="space-y-1">
               {footerLinks.company.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-inverse-on-surface hover:text-primary-container transition-colors text-sm"
+                    className="text-inverse-on-surface hover:text-primary-container transition-colors text-sm inline-flex items-center min-h-[44px]"
                   >
                     {link.label}
                   </Link>
@@ -100,7 +100,7 @@ export function FooterSection() {
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-inverse-on-surface hover:text-primary-container transition-colors text-xs"
+                    className="text-inverse-on-surface hover:text-primary-container transition-colors text-xs inline-flex items-center min-h-[44px]"
                   >
                     {link.label}
                   </Link>

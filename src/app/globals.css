@@ -155,10 +155,15 @@
 }
 
 /* Base Styles */
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: var(--md-sys-color-surface);
   color: var(--md-sys-color-on-surface);
   font-family: var(--font-body);
+  overflow-x: hidden;
 }
 
 .glass {

@@ -5,11 +5,11 @@ import { cn } from "@/lib/utils";
 const typographyVariants = cva("text-on-surface", {
   variants: {
     variant: {
-      "display-large": "font-display text-[57px] leading-[64px] tracking-[-0.25px]",
-      "display-medium": "font-display text-[45px] leading-[52px] tracking-[0px]",
-      "display-small": "font-display text-[36px] leading-[44px] tracking-[0px]",
-      "headline-large": "font-display text-[32px] leading-[40px] tracking-[0px]",
-      "headline-medium": "font-display text-[28px] leading-[36px] tracking-[0px]",
+      "display-large": "font-display text-[36px] leading-[44px] md:text-[57px] md:leading-[64px] tracking-[-0.25px]",
+      "display-medium": "font-display text-[32px] leading-[40px] md:text-[45px] md:leading-[52px] tracking-[0px]",
+      "display-small": "font-display text-[28px] leading-[36px] md:text-[36px] md:leading-[44px] tracking-[0px]",
+      "headline-large": "font-display text-[24px] leading-[32px] md:text-[32px] md:leading-[40px] tracking-[0px]",
+      "headline-medium": "font-display text-[22px] leading-[28px] md:text-[28px] md:leading-[36px] tracking-[0px]",
       "headline-small": "font-display text-[24px] leading-[32px] tracking-[0px]",
       "title-large": "font-body text-[22px] leading-[28px] tracking-[0px]",
       "title-medium": "font-body text-[16px] leading-[24px] tracking-[0.15px] font-medium",

@@ -36,7 +36,7 @@ export function BottomNavigation() {
               href={item.href}
               aria-current={isActive ? "page" : undefined}
               className={cn(
-                "flex flex-col items-center justify-center gap-1 px-3 py-2 rounded-2xl min-w-[64px]",
+                "flex flex-col items-center justify-center gap-1 px-3 py-2 rounded-2xl min-w-[64px] min-h-[48px]",
                 "transition-all duration-200",
                 isActive
                   ? "bg-secondary-container text-on-secondary-container"
