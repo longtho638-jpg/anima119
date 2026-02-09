@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/metadata";
+import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-json-ld";
 import SanPhamContent from "./san-pham-content";
 
 export async function generateMetadata({
@@ -19,6 +20,12 @@ export async function generateMetadata({
   });
 }
 
-export default function SanPhamPage() {
-  return <SanPhamContent />;
+export default async function SanPhamPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  return (
+    <>
+      <BreadcrumbJsonLd path="/san-pham" locale={locale} />
+      <SanPhamContent />
+    </>
+  );
 }

@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/metadata";
+import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-json-ld";
 import KhoaHocContent from "./khoa-hoc-content";
 
 export async function generateMetadata({
@@ -19,6 +20,12 @@ export async function generateMetadata({
   });
 }
 
-export default function KhoaHocPage() {
-  return <KhoaHocContent />;
+export default async function KhoaHocPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  return (
+    <>
+      <BreadcrumbJsonLd path="/khoa-hoc" locale={locale} />
+      <KhoaHocContent />
+    </>
+  );
 }

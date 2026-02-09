@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/metadata";
+import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-json-ld";
 import LienHeContent from "./lien-he-content";
 
 export async function generateMetadata({
@@ -19,6 +20,12 @@ export async function generateMetadata({
   });
 }
 
-export default function LienHePage() {
-  return <LienHeContent />;
+export default async function LienHePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  return (
+    <>
+      <BreadcrumbJsonLd path="/lien-he" locale={locale} />
+      <LienHeContent />
+    </>
+  );
 }

@@ -66,3 +66,49 @@ export function generateWebsiteJsonLd() {
     },
   };
 }
+
+/** Route name mappings for breadcrumb generation */
+const ROUTE_NAMES: Record<string, { vi: string; en: string }> = {
+  'san-pham': { vi: 'Sản Phẩm', en: 'Products' },
+  'khoa-hoc': { vi: 'Khoa Học', en: 'Science' },
+  'nguon-goc': { vi: 'Nguồn Gốc', en: 'Origin' },
+  'mua-hang': { vi: 'Mua Hàng', en: 'Purchase' },
+  'lien-he': { vi: 'Liên Hệ', en: 'Contact' },
+  'tin-tuc': { vi: 'Tin Tức', en: 'News' },
+};
+
+export function generateBreadcrumbJsonLd(path: string, locale: string) {
+  const segments = path.split('/').filter(Boolean);
+  const items = [
+    {
+      '@type': 'ListItem' as const,
+      position: 1,
+      name: 'ANIMA 119',
+      item: `${SEO_CONFIG.siteUrl}/${locale}`,
+    },
+  ];
+
+  let currentPath = `/${locale}`;
+  for (let i = 0; i < segments.length; i++) {
+    const segment = segments[i];
+    const routeName = ROUTE_NAMES[segment];
+    if (routeName) {
+      currentPath += `/${segment}`;
+      items.push({
+        '@type': 'ListItem' as const,
+        position: i + 2,
+        name: routeName[locale as 'vi' | 'en'] || routeName.vi,
+        item: `${SEO_CONFIG.siteUrl}${currentPath}`,
+      });
+    }
+  }
+
+  // Only return breadcrumb if there's more than home
+  if (items.length <= 1) return null;
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items,
+  };
+}

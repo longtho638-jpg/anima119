@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/metadata";
+import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-json-ld";
 import NguonGocContent from "./nguon-goc-content";
 
 export async function generateMetadata({
@@ -19,6 +20,12 @@ export async function generateMetadata({
   });
 }
 
-export default function NguonGocPage() {
-  return <NguonGocContent />;
+export default async function NguonGocPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  return (
+    <>
+      <BreadcrumbJsonLd path="/nguon-goc" locale={locale} />
+      <NguonGocContent />
+    </>
+  );
 }

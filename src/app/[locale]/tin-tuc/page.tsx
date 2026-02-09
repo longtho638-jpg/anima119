@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { generatePageMetadata } from "@/lib/metadata";
+import { BreadcrumbJsonLd } from "@/components/seo/breadcrumb-json-ld";
 import TinTucContent from "./tin-tuc-content";
 
 export async function generateMetadata({
@@ -19,6 +20,12 @@ export async function generateMetadata({
   });
 }
 
-export default function TinTucPage() {
-  return <TinTucContent />;
+export default async function TinTucPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  return (
+    <>
+      <BreadcrumbJsonLd path="/tin-tuc" locale={locale} />
+      <TinTucContent />
+    </>
+  );
 }
