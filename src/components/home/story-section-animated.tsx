@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { useTranslations } from "next-intl";
 
 export function StorySectionAnimated() {
@@ -96,7 +97,7 @@ export function StorySectionAnimated() {
           transition={{ duration: 0.6, delay: 0.7 }}
           className="text-center"
         >
-          <a
+          <Link
             href="/san-pham"
             className="inline-flex items-center rounded-full bg-primary px-8 py-4 text-lg font-medium text-on-primary shadow-elevation-2 transition-all hover:shadow-elevation-4"
           >
@@ -106,6 +107,7 @@ export function StorySectionAnimated() {
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
+              aria-hidden="true"
             >
               <path
                 strokeLinecap="round"
@@ -114,7 +116,7 @@ export function StorySectionAnimated() {
                 d="M17 8l4 4m0 0l-4 4m4-4H3"
               />
             </svg>
-          </a>
+          </Link>
         </motion.div>
       </div>
     </section>
