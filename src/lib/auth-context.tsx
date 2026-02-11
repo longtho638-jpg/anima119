@@ -80,6 +80,11 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   };
 
   useEffect(() => {
+    if (!supabase) {
+      setIsLoading(false);
+      return;
+    }
+
     const initializeAuth = async () => {
       try {
         const {
@@ -126,6 +131,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [router, supabase, fetchProfile]);
 
   const signInWithOtp = async (email: string) => {
+    if (!supabase) return { error: new Error("Auth not configured") as AuthError };
     const { error } = await supabase.auth.signInWithOtp({
       email,
       options: {
@@ -136,6 +142,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   };
 
   const signInWithGoogle = async () => {
+    if (!supabase) return { error: new Error("Auth not configured") as AuthError };
     const { error } = await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
@@ -146,6 +153,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   };
 
   const signOut = async () => {
+    if (!supabase) return { error: new Error("Auth not configured") as AuthError };
     const { error } = await supabase.auth.signOut();
     return { error };
   };
