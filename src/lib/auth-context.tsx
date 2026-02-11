@@ -38,6 +38,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const supabase = createClient();
 
   const fetchProfile = useCallback(async (userId: string) => {
+    if (!supabase) return;
     try {
       const { data, error } = await supabase
         .from("profiles")
@@ -63,6 +64,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const updateProfile = async (data: Partial<Profile>) => {
     if (!user) return { error: new Error("Not authenticated") };
+    if (!supabase) return { error: new Error("Auth not configured") };
 
     try {
       const { error } = await supabase
