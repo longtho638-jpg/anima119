@@ -46,7 +46,7 @@ const securityHeaders = [
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactCompiler: true,
+  reactCompiler: false,
 
   async headers() {
     return [{ source: '/:path*', headers: securityHeaders }];
