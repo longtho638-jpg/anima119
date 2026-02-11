@@ -55,7 +55,7 @@ export function ProductFilter({
                 key={category.id}
                 className="flex items-center gap-3 cursor-pointer group min-h-[44px] py-1"
               >
-                <div className={`w-5 h-5 rounded-md border flex items-center justify-center transition-colors ${
+                <div className={`w-5 h-5 rounded-md border flex items-center justify-center transition-colors group-focus-within:ring-2 group-focus-within:ring-primary ${
                   activeCategory === category.id
                     ? 'bg-primary border-primary text-on-primary'
                     : 'border-outline group-hover:border-primary'
@@ -97,7 +97,7 @@ export function ProductFilter({
             </Typography>
             <div className="space-y-2">
               <label className="flex items-center gap-3 cursor-pointer group min-h-[44px] py-1">
-                <div className={`w-5 h-5 rounded-full border flex items-center justify-center transition-colors ${
+                <div className={`w-5 h-5 rounded-full border flex items-center justify-center transition-colors group-focus-within:ring-2 group-focus-within:ring-primary ${
                   activeType === null
                     ? 'bg-primary border-primary'
                     : 'border-outline group-hover:border-primary'
@@ -120,7 +120,7 @@ export function ProductFilter({
 
               {TEA_TYPES.map((type) => (
                 <label key={type.id} className="flex items-center gap-3 cursor-pointer group">
-                  <div className={`w-5 h-5 rounded-full border flex items-center justify-center transition-colors ${
+                  <div className={`w-5 h-5 rounded-full border flex items-center justify-center transition-colors group-focus-within:ring-2 group-focus-within:ring-primary ${
                     activeType === type.id
                       ? 'bg-primary border-primary'
                       : 'border-outline group-hover:border-primary'

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { MainLayout, FooterSection } from "@/components/layout";
 import { Typography } from "@/components/ui/typography";
@@ -58,10 +59,10 @@ export default function TinTucContent() {
                       <Typography variant="body-medium" className="text-on-surface-variant mb-4">
                         {t(`articles.${article.id}.summary`)}
                       </Typography>
-                      <button type="button" className="text-[#C5A55A] font-medium text-sm inline-flex items-center gap-1 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded">
+                      <Link href={`/tin-tuc/${article.id}`} className="text-[#C5A55A] font-medium text-sm inline-flex items-center gap-1 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded">
                         {t("readMore")}
                         <span className="material-symbols-rounded text-sm" aria-hidden="true">arrow_forward</span>
-                      </button>
+                      </Link>
                     </div>
                   </article>
                 </MotionWrapper>

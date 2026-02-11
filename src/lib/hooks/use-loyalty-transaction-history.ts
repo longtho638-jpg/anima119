@@ -24,6 +24,12 @@ export function useLoyaltyTransactionHistory(userId: string | null) {
     async function fetchTransactions() {
       const supabase = createClient();
 
+      if (!supabase) {
+        setError(new Error('Supabase client not initialized'));
+        setLoading(false);
+        return;
+      }
+
       try {
         setLoading(true);
         setError(null);
