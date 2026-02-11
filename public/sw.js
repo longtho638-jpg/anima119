@@ -11,7 +11,6 @@ const STATIC_ASSETS = [
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      console.log('ANIMA 119: Caching static assets');
       return cache.addAll(STATIC_ASSETS);
     })
   );

@@ -23,9 +23,7 @@ export function verifyPayOSSignature(
       Buffer.from(signature),
       Buffer.from(expectedSignature)
     );
-  } catch (err: unknown) {
-    const message = err instanceof Error ? err.message : 'Unknown error';
-    console.error('Signature verification error:', message);
+  } catch {
     return false;
   }
 }

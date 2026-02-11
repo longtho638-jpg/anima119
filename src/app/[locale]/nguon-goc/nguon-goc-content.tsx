@@ -26,9 +26,9 @@ export default function NguonGocContent() {
             <Typography variant="label-large" className="text-[#C5A55A] tracking-widest uppercase mb-4">
               {t("label")}
             </Typography>
-            <Typography variant="display-medium" className="text-white font-display mb-6">
+            <h1 className="font-display text-[2.8rem] leading-tight md:text-[3.5rem] text-white mb-6">
               {t("headline")}
-            </Typography>
+            </h1>
           </div>
         </section>
 
@@ -128,7 +128,7 @@ export default function NguonGocContent() {
               {certItems.map((cert, i) => (
                 <MotionWrapper key={cert.key} delay={i * 0.1}>
                   <div className="p-6 rounded-xl bg-surface border border-outline-variant text-center">
-                    <span className="material-symbols-rounded text-[#C5A55A] text-4xl mb-4 block">
+                    <span className="material-symbols-rounded text-[#C5A55A] text-4xl mb-4 block" aria-hidden="true">
                       {cert.icon}
                     </span>
                     <Typography variant="body-medium" className="text-on-surface-variant">

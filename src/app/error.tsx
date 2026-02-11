@@ -11,8 +11,7 @@ export default function Error({
   reset: () => void;
 }) {
   useEffect(() => {
-    // Log to error tracking service (Sentry, etc.) in production
-    console.error('Global error:', error);
+    // Error tracked via error boundary - integrate Sentry here
   }, [error]);
 
   return (

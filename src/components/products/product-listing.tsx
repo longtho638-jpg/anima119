@@ -111,7 +111,7 @@ export function ProductListing({ initialProducts }: ProductListingProps) {
               onClick={() => setIsMobileFilterOpen(!isMobileFilterOpen)}
               className="flex items-center gap-2"
             >
-              <span className="material-symbols-rounded">filter_list</span>
+              <span className="material-symbols-rounded" aria-hidden="true">filter_list</span>
               {t("Filter.title")} ({activeCategoryId !== 'all' ? 1 : 0})
             </Button>
 
@@ -119,6 +119,7 @@ export function ProductListing({ initialProducts }: ProductListingProps) {
               className="px-4 py-2 rounded-lg border border-outline-variant bg-surface text-sm"
               value={sortBy}
               onChange={(e) => setSortBy(e.target.value)}
+              aria-label={t("Sort.sortBy")}
             >
               <option value="featured">{t("Sort.featured")}</option>
               <option value="price-asc">{t("Sort.priceAsc")}</option>

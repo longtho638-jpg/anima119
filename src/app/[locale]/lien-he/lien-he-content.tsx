@@ -55,9 +55,9 @@ export default function LienHeContent() {
             <Typography variant="label-large" className="text-[#C5A55A] tracking-widest uppercase mb-4">
               {t("label")}
             </Typography>
-            <Typography variant="display-medium" className="text-white font-display mb-6">
+            <h1 className="font-display text-[2.8rem] leading-tight md:text-[3.5rem] text-white mb-6">
               {t("headline")}
-            </Typography>
+            </h1>
           </div>
         </section>
 
@@ -70,7 +70,7 @@ export default function LienHeContent() {
                 {contactInfo.map((item, i) => (
                   <div key={i} className="flex items-start gap-4">
                     <div className="w-12 h-12 rounded-xl bg-[#C5A55A]/10 flex items-center justify-center flex-shrink-0">
-                      <span className="material-symbols-rounded text-[#C5A55A] text-2xl">
+                      <span className="material-symbols-rounded text-[#C5A55A] text-2xl" aria-hidden="true">
                         {item.icon}
                       </span>
                     </div>
@@ -88,7 +88,7 @@ export default function LienHeContent() {
                 {/* Map Placeholder */}
                 <div className="aspect-video rounded-2xl bg-[#1A2744] flex items-center justify-center border border-[#C5A55A]/20">
                   <div className="text-center">
-                    <span className="material-symbols-rounded text-[#C5A55A] text-5xl mb-2 block">
+                    <span className="material-symbols-rounded text-[#C5A55A] text-5xl mb-2 block" aria-hidden="true">
                       map
                     </span>
                     <Typography variant="body-medium" className="text-white/60">
@@ -157,14 +157,18 @@ export default function LienHeContent() {
                     {isSubmitting ? t("formSubmitting") : t("formSubmit")}
                   </Button>
                   {status === "success" && (
-                    <Typography variant="body-small" className="text-primary text-center block">
-                      {t("formSuccess")}
-                    </Typography>
+                    <div role="status" aria-live="polite">
+                      <Typography variant="body-small" className="text-primary text-center block">
+                        {t("formSuccess")}
+                      </Typography>
+                    </div>
                   )}
                   {status === "error" && (
-                    <Typography variant="body-small" className="text-error text-center block">
-                      {t("formError")}
-                    </Typography>
+                    <div role="alert">
+                      <Typography variant="body-small" className="text-error text-center block">
+                        {t("formError")}
+                      </Typography>
+                    </div>
                   )}
                 </form>
               </div>

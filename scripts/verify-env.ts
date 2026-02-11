@@ -69,73 +69,32 @@ function loadEnvFile(filePath: string): Map<string, string> {
   return entries;
 }
 
-function maskValue(value: string): string {
-  if (!value) return '(empty)';
-  if (value.length <= 8) return '****';
-  return value.slice(0, 4) + '****' + value.slice(-4);
-}
-
 function verify(): void {
-  console.log('=== ANIMA 119 Environment Verification ===\n');
-
   const envPath = path.resolve(__dirname, '../.env.local');
   const envMap = loadEnvFile(envPath);
   const fileExists = fs.existsSync(envPath);
 
   if (!fileExists) {
-    console.warn('WARNING: .env.local not found. Checking process.env only.\n');
+    throw new Error('ERROR: .env.local not found. Environment verification failed.');
   }
 
   const missing: EnvVarSpec[] = [];
-  const empty: EnvVarSpec[] = [];
-  const present: EnvVarSpec[] = [];
 
   for (const spec of ENV_VARS) {
     const fileValue = envMap.get(spec.key) ?? '';
     const envValue = process.env[spec.key] ?? '';
     const resolvedValue = fileValue || envValue;
 
-    if (!resolvedValue) {
-      if (spec.required) {
-        missing.push(spec);
-      } else {
-        empty.push(spec);
-      }
-    } else {
-      present.push(spec);
+    if (!resolvedValue && spec.required) {
+      missing.push(spec);
     }
-  }
-
-  // Present
-  if (present.length > 0) {
-    console.log(`OK (${present.length}):`);
-    for (const s of present) {
-      const val = envMap.get(s.key) || process.env[s.key] || '';
-      console.log(`  [+] ${s.key} = ${maskValue(val)}`);
-    }
-    console.log();
-  }
-
-  // Optional missing
-  if (empty.length > 0) {
-    console.log(`OPTIONAL (${empty.length} not set):`);
-    for (const s of empty) {
-      console.log(`  [~] ${s.key} - ${s.description}`);
-    }
-    console.log();
   }
 
   // Required missing
   if (missing.length > 0) {
-    console.error(`MISSING (${missing.length} required):`);
-    for (const s of missing) {
-      console.error(`  [!] ${s.key} - ${s.description} [${s.scope}]`);
-    }
-    console.error('\nSet these in .env.local before deploying to production.');
-    process.exit(1);
+    const errorDetails = missing.map(s => `  [!] ${s.key} - ${s.description} [${s.scope}]`).join('\n');
+    throw new Error(`❌ MISSING REQUIRED ENV VARS (${missing.length}):\n${errorDetails}\nSet these in .env.local before deploying.`);
   }
-
-  console.log('Verification complete. All required variables present.');
 }
 
 verify();

@@ -15,10 +15,7 @@ const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const supabaseServiceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
 if (!supabaseUrl || !supabaseServiceKey) {
-  console.error('❌ Missing environment variables:');
-  console.error('  - NEXT_PUBLIC_SUPABASE_URL');
-  console.error('  - SUPABASE_SERVICE_ROLE_KEY');
-  process.exit(1);
+  throw new Error('❌ Missing environment variables: NEXT_PUBLIC_SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY');
 }
 
 // Create admin client with service role
@@ -43,8 +40,6 @@ function mapType(name: string): 'green' | 'black' | 'white' | 'oolong' | 'herbal
 }
 
 async function seedProducts() {
-  console.log('🌱 Starting product seeding...\n');
-
   // Transform static data to database format
   const productsToInsert = products.map(p => ({
     slug: p.slug,
@@ -68,10 +63,8 @@ async function seedProducts() {
     reviews_count: 0,
   })) as Database['public']['Tables']['products']['Insert'][];
 
-  console.log(`📦 Prepared ${productsToInsert.length} products for insertion\n`);
-
   // Upsert products (insert or update based on slug)
-  const { data, error } = await supabase
+  const { error } = await supabase
     .from('products')
     .upsert(productsToInsert, {
       onConflict: 'slug',
@@ -80,31 +73,12 @@ async function seedProducts() {
     .select();
 
   if (error) {
-    console.error('❌ Seeding failed:', error);
-    process.exit(1);
+    throw new Error(`❌ Seeding failed: ${error.message}`);
   }
-
-  console.log('✅ Successfully seeded products:\n');
-  data?.forEach((product, index) => {
-    console.log(`  ${index + 1}. ${product.name} (${product.slug})`);
-  });
-
-  console.log(`\n📊 Summary:`);
-  console.log(`   Total products: ${data?.length || 0}`);
-  console.log(`   Featured: ${data?.filter(p => p.featured).length || 0}`);
-  console.log(`   Categories: ${[...new Set(data?.map(p => p.category))].join(', ')}`);
-
-  console.log('\n🎉 Product seeding completed!');
-  console.log('\n📝 Next steps:');
-  console.log('   1. Upload actual product images to Supabase Storage');
-  console.log('   2. Update image URLs in database');
-  console.log('   3. Verify products appear on website');
-  console.log('   4. Test product filtering and search\n');
 }
 
 // Execute seeding
 seedProducts()
   .catch((err) => {
-    console.error('💥 Unexpected error:', err);
-    process.exit(1);
+    throw new Error(`💥 Unexpected error: ${err instanceof Error ? err.message : String(err)}`);
   });

@@ -157,7 +157,8 @@
     },
     "Card": {
       "addToCart": "Add to Cart",
-      "originDefault": "Korea"
+      "originDefault": "Korea",
+      "viewDetails": "View details"
     },
     "Detail": {
       "Breadcrumb": {

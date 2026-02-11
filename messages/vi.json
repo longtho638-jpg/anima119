@@ -157,7 +157,8 @@
     },
     "Card": {
       "addToCart": "Thêm vào giỏ",
-      "originDefault": "Hàn Quốc"
+      "originDefault": "Hàn Quốc",
+      "viewDetails": "Xem chi tiết"
     },
     "Detail": {
       "Breadcrumb": {

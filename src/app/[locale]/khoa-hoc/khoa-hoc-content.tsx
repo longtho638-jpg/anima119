@@ -36,9 +36,9 @@ export default function KhoaHocContent() {
             <Typography variant="label-large" className="text-[#C5A55A] tracking-widest uppercase mb-4">
               {t("label")}
             </Typography>
-            <Typography variant="display-medium" className="text-white font-display mb-6">
+            <h1 className="font-display text-[2.8rem] leading-tight md:text-[3.5rem] text-white mb-6">
               {t("headline")}
-            </Typography>
+            </h1>
           </div>
         </section>
 
@@ -76,7 +76,7 @@ export default function KhoaHocContent() {
                       t("drUh.award"),
                     ].map((item, i) => (
                       <div key={i} className="flex items-start gap-3">
-                        <span className="material-symbols-rounded text-[#C5A55A] mt-0.5 text-lg">
+                        <span className="material-symbols-rounded text-[#C5A55A] mt-0.5 text-lg" aria-hidden="true">
                           check_circle
                         </span>
                         <Typography variant="body-large">{item}</Typography>
@@ -110,7 +110,7 @@ export default function KhoaHocContent() {
               {patents.map((patent, i) => (
                 <MotionWrapper key={i} delay={i * 0.1}>
                   <div className="p-6 rounded-xl bg-[#1A2744] border border-[#C5A55A]/20 text-center">
-                    <span className="material-symbols-rounded text-[#C5A55A] text-3xl mb-3 block">
+                    <span className="material-symbols-rounded text-[#C5A55A] text-3xl mb-3 block" aria-hidden="true">
                       verified
                     </span>
                     <Typography variant="body-medium" className="text-white/80">
@@ -139,7 +139,7 @@ export default function KhoaHocContent() {
               {evidenceItems.map((item, i) => (
                 <MotionWrapper key={i} delay={i * 0.05}>
                   <div className="flex items-start gap-4 p-6 rounded-xl bg-surface-container border border-outline-variant">
-                    <span className="material-symbols-rounded text-[#C5A55A] text-2xl flex-shrink-0 mt-0.5">
+                    <span className="material-symbols-rounded text-[#C5A55A] text-2xl flex-shrink-0 mt-0.5" aria-hidden="true">
                       {item.icon}
                     </span>
                     <Typography variant="body-large" className="text-on-surface-variant">
@@ -152,7 +152,7 @@ export default function KhoaHocContent() {
 
             {/* RCT Highlight */}
             <div className="p-8 rounded-2xl bg-[#C5A55A]/10 border border-[#C5A55A]/30 text-center">
-              <span className="material-symbols-rounded text-[#C5A55A] text-5xl mb-4 block">
+              <span className="material-symbols-rounded text-[#C5A55A] text-5xl mb-4 block" aria-hidden="true">
                 clinical_notes
               </span>
               <Typography variant="title-large" className="text-[#C5A55A] font-display">

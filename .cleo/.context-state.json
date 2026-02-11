@@ -1,0 +1,26 @@
+{
+  "$schema": "https://cleo-dev.com/schemas/v1/context-state.schema.json",
+  "version": "1.0.0",
+  "timestamp": "2026-02-11T11:22:25Z",
+  "staleAfterMs": 5000,
+  "contextWindow": {
+    "maxTokens": 200000,
+    "currentTokens": 86510,
+    "percentage": 43,
+    "breakdown": {
+      "inputTokens": 86326,
+      "outputTokens": 184,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 81801
+    }
+  },
+  "thresholds": {
+    "warning": 70,
+    "caution": 85,
+    "critical": 90,
+    "emergency": 95
+  },
+  "status": "ok",
+  "claudeSessionId": "",
+  "cleoSessionId": ""
+}

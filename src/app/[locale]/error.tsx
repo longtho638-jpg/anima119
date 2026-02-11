@@ -14,7 +14,7 @@ export default function LocaleError({
   const t = useTranslations("ErrorPage");
 
   useEffect(() => {
-    console.error("Locale error:", error);
+    // Integrate error tracking service (Sentry, etc.) here
   }, [error]);
 
   return (

@@ -48,7 +48,6 @@ export async function POST(req: Request) {
           .single();
 
         if (fetchError) {
-          console.error("Failed to fetch order:", fetchError);
           await logPaymentEvent('payment_failed', {
             orderCode: verifiedData.orderCode,
             error: 'Order not found',
@@ -83,7 +82,6 @@ export async function POST(req: Request) {
           .eq("order_code", verifiedData.orderCode);
 
         if (updateError) {
-          console.error("Failed to update order status:", updateError);
           await logPaymentEvent('payment_failed', {
             orderCode: verifiedData.orderCode,
             error: 'Database update failed',
@@ -107,7 +105,6 @@ export async function POST(req: Request) {
     });
   } catch (error) {
     const errorMessage = error instanceof Error ? error.message : 'Unknown error';
-    console.error("Webhook error:", errorMessage);
     await logPaymentEvent('payment_failed', {
       error: 'Webhook processing failed',
       details: errorMessage

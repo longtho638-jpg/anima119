@@ -65,7 +65,7 @@ export function HeroSection() {
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 text-on-tertiary/50 animate-bounce">
-        <span className="material-symbols-rounded">keyboard_arrow_down</span>
+        <span className="material-symbols-rounded" aria-hidden="true">keyboard_arrow_down</span>
       </div>
     </section>
   );

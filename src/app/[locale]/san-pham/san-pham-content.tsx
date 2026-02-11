@@ -55,24 +55,24 @@ export default function SanPhamContent() {
                 <Typography variant="label-large" className="text-[#C5A55A] tracking-widest uppercase mb-2">
                   {t("label")}
                 </Typography>
-                <Typography variant="display-small" className="text-on-surface font-display mb-2">
+                <h1 className="font-display text-[2rem] leading-tight md:text-[2.8rem] text-on-surface mb-2">
                   {t("name")}
-                </Typography>
+                </h1>
                 <Typography variant="body-large" className="text-on-surface-variant mb-6">
                   {t("tagline")}
                 </Typography>
 
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center gap-2 text-on-surface-variant">
-                    <span className="material-symbols-rounded text-[#C5A55A]">public</span>
+                    <span className="material-symbols-rounded text-[#C5A55A]" aria-hidden="true">public</span>
                     <Typography variant="body-medium">{t("madeIn")}</Typography>
                   </div>
                   <div className="flex items-center gap-2 text-on-surface-variant">
-                    <span className="material-symbols-rounded text-[#C5A55A]">factory</span>
+                    <span className="material-symbols-rounded text-[#C5A55A]" aria-hidden="true">factory</span>
                     <Typography variant="body-medium">{t("manufacturer")}</Typography>
                   </div>
                   <div className="flex items-center gap-2 text-on-surface-variant">
-                    <span className="material-symbols-rounded text-[#C5A55A]">package_2</span>
+                    <span className="material-symbols-rounded text-[#C5A55A]" aria-hidden="true">package_2</span>
                     <Typography variant="body-medium">{t("servingSize")}</Typography>
                   </div>
                 </div>
@@ -112,7 +112,7 @@ export default function SanPhamContent() {
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {benefits.map((b, i) => (
                 <div key={i} className="text-center p-6 rounded-xl bg-[#1A2744] border border-[#C5A55A]/10">
-                  <span className="material-symbols-rounded text-4xl text-[#C5A55A] mb-4 block">
+                  <span className="material-symbols-rounded text-4xl text-[#C5A55A] mb-4 block" aria-hidden="true">
                     {b.icon}
                   </span>
                   <Typography variant="body-large" className="text-white">

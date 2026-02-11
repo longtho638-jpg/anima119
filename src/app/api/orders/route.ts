@@ -67,8 +67,7 @@ export async function POST(request: NextRequest) {
     try {
       validatedItems = await validateCartItems(mappedItems);
       serverTotal = calculateOrderTotal(validatedItems);
-    } catch (e) {
-      console.error("Cart validation failed:", e);
+    } catch {
       return NextResponse.json(
         { error: "One or more products are invalid or unavailable" },
         { status: 400 }
@@ -77,7 +76,6 @@ export async function POST(request: NextRequest) {
 
     // Reject price tampering (> 1000 VND tolerance)
     if (Math.abs(serverTotal - total) > 1000) {
-      console.error(`Price mismatch: client=${total}, server=${serverTotal}`);
       return NextResponse.json(
         { error: "Price mismatch detected. Please refresh and try again." },
         { status: 400 }
@@ -116,7 +114,6 @@ export async function POST(request: NextRequest) {
       .single();
 
     if (error) {
-      console.error("Database error:", error);
       return NextResponse.json(
         { error: "Failed to create order" },
         { status: 500 }
@@ -134,9 +131,7 @@ export async function POST(request: NextRequest) {
         createdAt: order.created_at,
       }
     });
-  } catch (err: unknown) {
-    const message = err instanceof Error ? err.message : 'Unknown error';
-    console.error("Order API error:", message);
+  } catch {
     return NextResponse.json(
       { error: "Internal server error" },
       { status: 500 }
@@ -197,9 +192,7 @@ export async function GET(request: NextRequest) {
         createdAt: order.created_at,
       }
     });
-  } catch (err: unknown) {
-    const message = err instanceof Error ? err.message : 'Unknown error';
-    console.error("Order API error:", message);
+  } catch {
     return NextResponse.json(
       { error: "Internal server error" },
       { status: 500 }

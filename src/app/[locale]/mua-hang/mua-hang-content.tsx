@@ -27,9 +27,9 @@ export default function MuaHangContent() {
             <Typography variant="label-large" className="text-[#C5A55A] tracking-widest uppercase mb-4">
               {t("label")}
             </Typography>
-            <Typography variant="display-medium" className="text-on-surface font-display mb-6">
+            <h1 className="font-display text-[2.8rem] leading-tight md:text-[3.5rem] text-on-surface mb-6">
               {t("headline")}
-            </Typography>
+            </h1>
           </div>
         </section>
 
@@ -40,7 +40,7 @@ export default function MuaHangContent() {
               {/* Product Image */}
               <div className="aspect-square rounded-2xl bg-[#1A2744] flex items-center justify-center border border-[#C5A55A]/20">
                 <div className="text-center">
-                  <span className="material-symbols-rounded text-[#C5A55A] text-8xl">
+                  <span className="material-symbols-rounded text-[#C5A55A] text-8xl" aria-hidden="true">
                     medication
                   </span>
                   <Typography variant="title-large" className="text-[#C5A55A] mt-4 font-display">
@@ -73,15 +73,17 @@ export default function MuaHangContent() {
                     <button
                       onClick={() => setQuantity(Math.max(1, quantity - 1))}
                       className="w-11 h-11 rounded-full bg-surface-container border border-outline-variant flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors"
+                      aria-label={t("decreaseQty") || "Decrease quantity"}
                     >
                       -
                     </button>
-                    <Typography variant="title-large" className="text-on-surface w-12 text-center">
+                    <Typography variant="title-large" className="text-on-surface w-12 text-center" aria-live="polite">
                       {quantity}
                     </Typography>
                     <button
                       onClick={() => setQuantity(quantity + 1)}
                       className="w-11 h-11 rounded-full bg-surface-container border border-outline-variant flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors"
+                      aria-label={t("increaseQty") || "Increase quantity"}
                     >
                       +
                     </button>
@@ -110,7 +112,7 @@ export default function MuaHangContent() {
                 <div className="space-y-3 pt-4 border-t border-outline-variant">
                   {guarantees.map((g, i) => (
                     <div key={i} className="flex items-center gap-3">
-                      <span className="material-symbols-rounded text-[#C5A55A]">{g.icon}</span>
+                      <span className="material-symbols-rounded text-[#C5A55A]" aria-hidden="true">{g.icon}</span>
                       <Typography variant="body-medium" className="text-on-surface-variant">
                         {g.text}
                       </Typography>

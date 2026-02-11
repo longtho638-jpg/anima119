@@ -1,10 +1,19 @@
-# ANIMA 119 — Fermented Oriental Medicine E-Commerce
+<!-- CLEO:START -->
+@.cleo/templates/AGENT-INJECTION.md
+<!-- CLEO:END -->
+
+# ANIMA 119 — 第十三篇 用間 (Yong Jian) — Scientific Intelligence
+
+> **Inherits**: `../../CLAUDE.md` (Root Constitution)
+> **Domain**: Fermented Oriental Medicine E-Commerce — Premium health supplements
+> **Binh Phap**: 用間 — Intelligence through scientific credibility, Dr. Uh's research, 11 RCTs
+> **Stack**: Next.js 16 + React 19 + Tailwind CSS 4 + Framer Motion + PayOS + Supabase
 
 ## Project Overview
 
-ANIMA 119 is a premium food supplement brand from fermented Oriental medicine. This is a standalone e-commerce website with PayOS payment integration (direct sales, NO affiliate/commission system).
+ANIMA 119 is a premium food supplement brand from fermented Oriental medicine. Standalone e-commerce with PayOS payment (direct sales, NO affiliate/commission).
 
-**This project was cloned from 84tea. Your mission: REBRAND everything from 84tea → ANIMA 119.**
+**Cloned from 84tea. Mission: REBRAND everything 84tea → ANIMA 119.**
 
 ## Brand Identity
 

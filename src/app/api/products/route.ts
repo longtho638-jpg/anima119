@@ -45,9 +45,7 @@ export async function GET(request: NextRequest) {
     }
 
     return NextResponse.json({ products, count });
-  } catch (err: unknown) {
-    const message = err instanceof Error ? err.message : 'Unknown error';
-    console.error("Products API Error:", message);
+  } catch {
     return NextResponse.json(
       { error: "Internal Server Error" },
       { status: 500 }
@@ -104,9 +102,7 @@ export async function POST(request: NextRequest) {
     }
 
     return NextResponse.json({ product: data }, { status: 201 });
-  } catch (err: unknown) {
-    const message = err instanceof Error ? err.message : 'Unknown error';
-    console.error("Products API Error:", message);
+  } catch {
     return NextResponse.json(
       { error: "Internal Server Error" },
       { status: 500 }

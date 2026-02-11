@@ -24,9 +24,9 @@ export default function TinTucContent() {
             <Typography variant="label-large" className="text-[#C5A55A] tracking-widest uppercase mb-4">
               {t("label")}
             </Typography>
-            <Typography variant="display-medium" className="text-white font-display mb-6">
+            <h1 className="font-display text-[2.8rem] leading-tight md:text-[3.5rem] text-white mb-6">
               {t("headline")}
-            </Typography>
+            </h1>
           </div>
         </section>
 
@@ -58,10 +58,10 @@ export default function TinTucContent() {
                       <Typography variant="body-medium" className="text-on-surface-variant mb-4">
                         {t(`articles.${article.id}.summary`)}
                       </Typography>
-                      <span className="text-[#C5A55A] font-medium text-sm inline-flex items-center gap-1 cursor-pointer hover:underline">
+                      <button type="button" className="text-[#C5A55A] font-medium text-sm inline-flex items-center gap-1 hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded">
                         {t("readMore")}
-                        <span className="material-symbols-rounded text-sm">arrow_forward</span>
-                      </span>
+                        <span className="material-symbols-rounded text-sm" aria-hidden="true">arrow_forward</span>
+                      </button>
                     </div>
                   </article>
                 </MotionWrapper>

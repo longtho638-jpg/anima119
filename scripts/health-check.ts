@@ -26,13 +26,10 @@ function loadEnv() {
           }
         }
       });
-      console.log('✅ Loaded .env.local');
-    } else {
-      console.log('⚠️ .env.local not found, relying on process.env');
     }
   } catch (e: unknown) {
     const msg = e instanceof Error ? e.message : String(e);
-    console.warn('⚠️ Could not load .env.local:', msg);
+    throw new Error(`⚠️ Could not load .env.local: ${msg}`);
   }
 }
 
@@ -42,15 +39,12 @@ const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
 if (!SUPABASE_URL || !SUPABASE_KEY) {
-  console.error('❌ Missing Supabase credentials in .env.local');
-  process.exit(1);
+  throw new Error('❌ Missing Supabase credentials in .env.local');
 }
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 async function checkHealth() {
-  console.log('🏥 Starting Health Check...');
-
   try {
     // 1. Check Connection & Products Table
     const { error: prodError } = await supabase
@@ -62,8 +56,6 @@ async function checkHealth() {
     if (prodError && prodError.code !== 'PGRST116') { // PGRST116 is "The result contains 0 rows" which is fine for connection check
        throw new Error(`Products table check failed: ${prodError.message}`);
     }
-    console.log('✅ Database connection: OK');
-    console.log('✅ Products table: Accessible');
 
     // 2. Check Storage Bucket
     const { data: buckets, error: storageError } = await supabase
@@ -71,13 +63,11 @@ async function checkHealth() {
       .listBuckets();
 
     if (storageError) {
-      console.warn('⚠️ Storage check failed:', storageError.message);
+      throw new Error(`⚠️ Storage check failed: ${storageError.message}`);
     } else {
       const hasImagesBucket = buckets?.some(b => b.name === 'product-images');
-      if (hasImagesBucket) {
-        console.log('✅ Storage bucket (product-images): Found');
-      } else {
-        console.warn('⚠️ Storage bucket (product-images): MISSING');
+      if (!hasImagesBucket) {
+        throw new Error('⚠️ Storage bucket (product-images): MISSING');
       }
     }
 
@@ -91,22 +81,20 @@ async function checkHealth() {
         .insert({ slug: 'test-hack', name: 'Hacked', category: 'tea', price: 0 });
 
       if (rlsError) {
-        console.log('✅ RLS Policy: Active (Public Write Blocked)');
+        // RLS working
       } else {
-        console.error('❌ RLS Policy: INACTIVE (Public Write Allowed!)');
+        const errorMsg = '❌ RLS Policy: INACTIVE (Public Write Allowed!)';
         // Clean up if it actually succeeded
         await supabase.from('products').delete().eq('slug', 'test-hack');
+        throw new Error(errorMsg);
       }
     } else {
-      console.warn('⚠️ Skipping RLS check: No ANON key found');
+      throw new Error('⚠️ Skipping RLS check: No ANON key found');
     }
-
-    console.log('\n🎉 Health Check Completed.');
 
   } catch (error: unknown) {
     const msg = error instanceof Error ? error.message : String(error);
-    console.error('❌ Health Check Failed:', msg);
-    process.exit(1);
+    throw new Error(`❌ Health Check Failed: ${msg}`);
   }
 }
 

@@ -5,7 +5,7 @@ import { useCart } from "@/lib/cart-context";
 import { Button } from "@/components/ui/button";
 import { Typography } from "@/components/ui/typography";
 import { cn } from "@/lib/utils";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import { useTranslations } from "next-intl";
 
 export function CartDrawer() {
@@ -13,12 +13,24 @@ export function CartDrawer() {
     useCart();
   const [mounted, setMounted] = useState(false);
   const t = useTranslations("Cart");
+  const drawerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Defer to avoid synchronous set state warning
     const timer = setTimeout(() => setMounted(true), 0);
     return () => clearTimeout(timer);
   }, []);
+
+  const handleEscape = useCallback((e: KeyboardEvent) => {
+    if (e.key === "Escape") setIsOpen(false);
+  }, [setIsOpen]);
+
+  useEffect(() => {
+    if (isOpen) {
+      document.addEventListener("keydown", handleEscape);
+      drawerRef.current?.focus();
+    }
+    return () => document.removeEventListener("keydown", handleEscape);
+  }, [isOpen, handleEscape]);
 
   if (!mounted) return null;
 
@@ -31,12 +43,18 @@ export function CartDrawer() {
           isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
         )}
         onClick={() => setIsOpen(false)}
+        aria-hidden="true"
       />
 
       {/* Drawer */}
-      <div
+      <aside
+        ref={drawerRef}
+        role="dialog"
+        aria-modal="true"
+        aria-label={t("title")}
+        tabIndex={-1}
         className={cn(
-          "fixed right-0 top-0 h-full w-full max-w-md bg-surface z-50 shadow-2xl flex flex-col transition-transform duration-300 ease-in-out",
+          "fixed right-0 top-0 h-full w-full max-w-md bg-surface z-50 shadow-2xl flex flex-col transition-transform duration-300 ease-in-out focus:outline-none",
           isOpen ? "translate-x-0" : "translate-x-full"
         )}
       >
@@ -50,8 +68,9 @@ export function CartDrawer() {
             size="icon"
             onClick={() => setIsOpen(false)}
             className="rounded-full"
+            aria-label={t("close") || "Close cart"}
           >
-            <span className="material-symbols-rounded">close</span>
+            <span className="material-symbols-rounded" aria-hidden="true">close</span>
           </Button>
         </div>
 
@@ -59,7 +78,7 @@ export function CartDrawer() {
         <div className="flex-1 overflow-y-auto p-6">
           {items.length === 0 ? (
             <div className="text-center py-12 flex flex-col items-center">
-              <span className="material-symbols-rounded text-6xl text-outline-variant mb-4">
+              <span className="material-symbols-rounded text-6xl text-outline-variant mb-4" aria-hidden="true">
                 local_cafe
               </span>
               <Typography
@@ -113,15 +132,17 @@ export function CartDrawer() {
                         <button
                           onClick={() => updateQuantity(item.id, item.quantity - 1)}
                           className="w-9 h-9 flex items-center justify-center text-on-surface hover:bg-surface-variant rounded-full text-lg leading-none"
+                          aria-label={`${t("decreaseQuantity") || "Decrease quantity"}: ${item.name}`}
                         >
                           -
                         </button>
-                        <span className="w-6 text-center text-sm font-medium">
+                        <span className="w-6 text-center text-sm font-medium" aria-live="polite">
                           {item.quantity}
                         </span>
                         <button
                           onClick={() => updateQuantity(item.id, item.quantity + 1)}
                           className="w-9 h-9 flex items-center justify-center text-on-surface hover:bg-surface-variant rounded-full text-lg leading-none"
+                          aria-label={`${t("increaseQuantity") || "Increase quantity"}: ${item.name}`}
                         >
                           +
                         </button>
@@ -131,8 +152,9 @@ export function CartDrawer() {
                   <button
                      onClick={() => removeItem(item.id)}
                      className="text-error hover:bg-error-container hover:text-on-error-container p-2 rounded-full h-11 w-11 flex items-center justify-center transition-colors self-start -mt-1 -mr-1"
+                     aria-label={`${t("removeItem") || "Remove"}: ${item.name}`}
                   >
-                    <span className="material-symbols-rounded text-lg">delete</span>
+                    <span className="material-symbols-rounded text-lg" aria-hidden="true">delete</span>
                   </button>
                 </div>
               ))}
@@ -165,7 +187,7 @@ export function CartDrawer() {
             </Typography>
           </div>
         )}
-      </div>
+      </aside>
     </>
   );
 }

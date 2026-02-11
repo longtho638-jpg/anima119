@@ -53,7 +53,7 @@ export function HeroParallax() {
             transition={{ duration: 1 }}
             className="mb-8 flex justify-center"
           >
-            <span className="material-symbols-rounded text-[#C5A55A] text-7xl">self_improvement</span>
+            <span className="material-symbols-rounded text-[#C5A55A] text-7xl" aria-hidden="true">self_improvement</span>
           </motion.div>
 
           <motion.h1
@@ -114,6 +114,7 @@ export function HeroParallax() {
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
+            aria-hidden="true"
           >
             <path
               strokeLinecap="round"
