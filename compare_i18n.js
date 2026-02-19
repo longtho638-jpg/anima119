@@ -1,6 +1,5 @@
-
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 const enPath = path.join(process.cwd(), 'messages/en.json');
 const viPath = path.join(process.cwd(), 'messages/vi.json');
