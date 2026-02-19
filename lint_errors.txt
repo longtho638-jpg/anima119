@@ -1,0 +1,4 @@
+Invalid project directory provided, no such directory: /Users/macbookprom1/mekong-cli/apps/anima119/lint
+undefined
+/Users/macbookprom1/mekong-cli/apps/anima119:
+ ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL  Command failed with exit code 1: next lint
