@@ -1,6 +1,12 @@
 // @ts-check
+import { dirname } from "node:path";
+import { fileURLToPath } from "node:url";
 import withPWAInit from "@ducanh2912/next-pwa";
 import createNextIntlPlugin from "next-intl/plugin";
+
+import path from "node:path";
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
@@ -46,6 +52,9 @@ const securityHeaders = [
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  turbopack: {
+    root: path.join(__dirname, '../../'),
+  },
   reactCompiler: true,
 
   async headers() {
