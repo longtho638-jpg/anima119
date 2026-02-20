@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
+import { Link } from "@/i18n/routing";
+
 export function StorySectionAnimated() {
   const t = useTranslations("Story");
 
@@ -96,7 +98,7 @@ export function StorySectionAnimated() {
           transition={{ duration: 0.6, delay: 0.7 }}
           className="text-center"
         >
-          <a
+          <Link
             href="/san-pham"
             className="inline-flex items-center rounded-full bg-primary px-8 py-4 text-lg font-medium text-on-primary shadow-elevation-2 transition-all hover:shadow-elevation-4"
           >
@@ -105,16 +107,16 @@ export function StorySectionAnimated() {
               className="ml-2 h-5 w-5"
               fill="none"
               stroke="currentColor"
+              strokeWidth={2}
               viewBox="0 0 24 24"
             >
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                strokeWidth={2}
                 d="M17 8l4 4m0 0l-4 4m4-4H3"
               />
             </svg>
-          </a>
+          </Link>
         </motion.div>
       </div>
     </section>
