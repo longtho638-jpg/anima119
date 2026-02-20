@@ -84,21 +84,26 @@ export async function validateCartItems(cartItems: CartItem[]): Promise<Validate
     process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || ''
   );
 
+  // Batch query — single DB call instead of N calls
+  const ids = cartItems.map(item => item.id);
+  const { data: products, error } = await supabase
+    .from('products')
+    .select('id, price, name, slug')
+    .in('id', ids);
+
+  if (error) {
+    throw new Error('Failed to validate products');
+  }
+
+  // Map DB results back to cart items, preserving quantity
+  const productMap = new Map(products!.map((p: { id: string; price: number; name: string; slug: string }) => [p.id, p]));
   const validatedItems: ValidatedItem[] = [];
 
   for (const item of cartItems) {
-    // Fetch actual product price from database
-    // DB schema has 'name' column (not name_vi/name_en)
-    const { data: product, error } = await supabase
-      .from('products')
-      .select('id, price, name, slug')
-      .or(`id.eq.${item.id},slug.eq.${item.id}`)
-      .single();
-
-    if (error || !product) {
+    const product = productMap.get(item.id);
+    if (!product) {
       throw new Error(`Invalid product: ${item.id}`);
     }
-
     // Use server-side price, ignore client-provided price
     validatedItems.push({
       id: product.id,
