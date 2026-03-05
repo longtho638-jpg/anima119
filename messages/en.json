@@ -502,12 +502,36 @@
         "time": "Time"
       },
       "rows": [
-        { "area": "Hanoi (inner city)", "price": "20,000d", "time": "1-2 days" },
-        { "area": "Hanoi (suburbs)", "price": "25,000d", "time": "2-3 days" },
-        { "area": "Ho Chi Minh City", "price": "30,000d", "time": "3-4 days" },
-        { "area": "Northern provinces", "price": "30,000d", "time": "2-4 days" },
-        { "area": "Central region", "price": "35,000d", "time": "3-5 days" },
-        { "area": "Southern region", "price": "35,000d", "time": "4-5 days" }
+        {
+          "area": "Hanoi (inner city)",
+          "price": "20,000d",
+          "time": "1-2 days"
+        },
+        {
+          "area": "Hanoi (suburbs)",
+          "price": "25,000d",
+          "time": "2-3 days"
+        },
+        {
+          "area": "Ho Chi Minh City",
+          "price": "30,000d",
+          "time": "3-4 days"
+        },
+        {
+          "area": "Northern provinces",
+          "price": "30,000d",
+          "time": "2-4 days"
+        },
+        {
+          "area": "Central region",
+          "price": "35,000d",
+          "time": "3-5 days"
+        },
+        {
+          "area": "Southern region",
+          "price": "35,000d",
+          "time": "4-5 days"
+        }
       ]
     },
     "carriers": {
@@ -572,10 +596,22 @@
     "process": {
       "title": "Return Process",
       "steps": [
-        { "title": "Contact Support", "desc": "Email contact@anima119.com or contact via Zalo" },
-        { "title": "Send Product", "desc": "Pack carefully and send to the provided address" },
-        { "title": "Process Request", "desc": "We will inspect and process within 2-3 business days" },
-        { "title": "Exchange / Refund", "desc": "Send new product or refund via bank transfer" }
+        {
+          "title": "Contact Support",
+          "desc": "Email contact@anima119.com or contact via Zalo"
+        },
+        {
+          "title": "Send Product",
+          "desc": "Pack carefully and send to the provided address"
+        },
+        {
+          "title": "Process Request",
+          "desc": "We will inspect and process within 2-3 business days"
+        },
+        {
+          "title": "Exchange / Refund",
+          "desc": "Send new product or refund via bank transfer"
+        }
       ]
     },
     "refund": {
@@ -785,5 +821,77 @@
     "subscribe": "Subscribe",
     "success": "Subscribed successfully!",
     "error": "An error occurred. Please try again."
+  },
+  "Admin": {
+    "nav": {
+      "dashboard": "Dashboard",
+      "orders": "Orders",
+      "products": "Products",
+      "contacts": "Contacts",
+      "franchise": "Franchise",
+      "returnHome": "Return to Store"
+    },
+    "guard": {
+      "accessDenied": "Access Denied",
+      "accessDeniedDesc": "You do not have permission to access the admin dashboard. Please log in with an administrator account.",
+      "loading": "Authenticating...",
+      "login": "Sign In",
+      "goHome": "Go Home"
+    },
+    "Dashboard": {
+      "title": "Dashboard Overview",
+      "totalOrders": "Total Orders",
+      "revenue": "Revenue",
+      "pendingOrders": "Pending Orders",
+      "totalProducts": "Total Products",
+      "recentOrders": "Recent Orders",
+      "viewAll": "View All"
+    },
+    "Orders": {
+      "title": "Manage Orders",
+      "search": "Search order code...",
+      "status": "Status",
+      "all": "All",
+      "columns": {
+        "code": "Order Code",
+        "customer": "Customer",
+        "date": "Date",
+        "total": "Total",
+        "payment": "Payment",
+        "status": "Status",
+        "actions": "Actions"
+      }
+    },
+    "Products": {
+      "title": "Manage Products",
+      "add": "Add Product",
+      "search": "Search products...",
+      "columns": {
+        "product": "Product",
+        "price": "Price",
+        "stock": "In Stock",
+        "featured": "Featured",
+        "actions": "Actions"
+      }
+    },
+    "Contacts": {
+      "title": "Contact Messages",
+      "columns": {
+        "name": "Sender",
+        "subject": "Subject",
+        "date": "Date",
+        "status": "Status"
+      }
+    },
+    "Franchise": {
+      "title": "Franchise Applications",
+      "columns": {
+        "name": "Applicant",
+        "location": "Location",
+        "budget": "Budget",
+        "date": "Date",
+        "status": "Status"
+      }
+    }
   }
 }

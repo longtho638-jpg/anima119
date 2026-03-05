@@ -502,12 +502,36 @@
         "time": "Thời gian"
       },
       "rows": [
-        { "area": "Hà Nội (nội thành)", "price": "20.000đ", "time": "1-2 ngày" },
-        { "area": "Hà Nội (ngoại thành)", "price": "25.000đ", "time": "2-3 ngày" },
-        { "area": "TP. Hồ Chí Minh", "price": "30.000đ", "time": "3-4 ngày" },
-        { "area": "Các tỉnh miền Bắc", "price": "30.000đ", "time": "2-4 ngày" },
-        { "area": "Miền Trung", "price": "35.000đ", "time": "3-5 ngày" },
-        { "area": "Miền Nam", "price": "35.000đ", "time": "4-5 ngày" }
+        {
+          "area": "Hà Nội (nội thành)",
+          "price": "20.000đ",
+          "time": "1-2 ngày"
+        },
+        {
+          "area": "Hà Nội (ngoại thành)",
+          "price": "25.000đ",
+          "time": "2-3 ngày"
+        },
+        {
+          "area": "TP. Hồ Chí Minh",
+          "price": "30.000đ",
+          "time": "3-4 ngày"
+        },
+        {
+          "area": "Các tỉnh miền Bắc",
+          "price": "30.000đ",
+          "time": "2-4 ngày"
+        },
+        {
+          "area": "Miền Trung",
+          "price": "35.000đ",
+          "time": "3-5 ngày"
+        },
+        {
+          "area": "Miền Nam",
+          "price": "35.000đ",
+          "time": "4-5 ngày"
+        }
       ]
     },
     "carriers": {
@@ -572,10 +596,22 @@
     "process": {
       "title": "Quy trình đổi trả",
       "steps": [
-        { "title": "Liên hệ CSKH", "desc": "Email contact@anima119.com hoặc liên hệ qua Zalo" },
-        { "title": "Gửi sản phẩm", "desc": "Đóng gói cẩn thận và gửi về địa chỉ được cung cấp" },
-        { "title": "Xử lý yêu cầu", "desc": "Chúng tôi kiểm tra và xử lý trong 2-3 ngày làm việc" },
-        { "title": "Đổi hàng / Hoàn tiền", "desc": "Gửi sản phẩm mới hoặc hoàn tiền qua chuyển khoản" }
+        {
+          "title": "Liên hệ CSKH",
+          "desc": "Email contact@anima119.com hoặc liên hệ qua Zalo"
+        },
+        {
+          "title": "Gửi sản phẩm",
+          "desc": "Đóng gói cẩn thận và gửi về địa chỉ được cung cấp"
+        },
+        {
+          "title": "Xử lý yêu cầu",
+          "desc": "Chúng tôi kiểm tra và xử lý trong 2-3 ngày làm việc"
+        },
+        {
+          "title": "Đổi hàng / Hoàn tiền",
+          "desc": "Gửi sản phẩm mới hoặc hoàn tiền qua chuyển khoản"
+        }
       ]
     },
     "refund": {
@@ -785,5 +821,77 @@
     "subscribe": "Đăng ký",
     "success": "Đăng ký thành công!",
     "error": "Có lỗi xảy ra. Vui lòng thử lại."
+  },
+  "Admin": {
+    "nav": {
+      "dashboard": "Tổng quan",
+      "orders": "Đơn hàng",
+      "products": "Sản phẩm",
+      "contacts": "Liên hệ",
+      "franchise": "Nhượng quyền",
+      "returnHome": "Về trang chủ"
+    },
+    "guard": {
+      "accessDenied": "Từ chối truy cập",
+      "accessDeniedDesc": "Bạn không có quyền truy cập trang quản trị này. Vui lòng đăng nhập bằng tài khoản quản trị viên.",
+      "loading": "Đang xác thực...",
+      "login": "Đăng nhập",
+      "goHome": "Về trang chủ"
+    },
+    "Dashboard": {
+      "title": "Tổng quan",
+      "totalOrders": "Tổng đơn hàng",
+      "revenue": "Doanh thu",
+      "pendingOrders": "Đơn chờ xử lý",
+      "totalProducts": "Tổng sản phẩm",
+      "recentOrders": "Đơn hàng gần đây",
+      "viewAll": "Xem tất cả"
+    },
+    "Orders": {
+      "title": "Quản lý đơn hàng",
+      "search": "Tìm mã đơn hàng...",
+      "status": "Trạng thái",
+      "all": "Tất cả",
+      "columns": {
+        "code": "Mã ĐH",
+        "customer": "Khách hàng",
+        "date": "Ngày đặt",
+        "total": "Tổng tiền",
+        "payment": "Thanh toán",
+        "status": "Trạng thái",
+        "actions": "Thao tác"
+      }
+    },
+    "Products": {
+      "title": "Quản lý sản phẩm",
+      "add": "Thêm sản phẩm",
+      "search": "Tìm sản phẩm...",
+      "columns": {
+        "product": "Sản phẩm",
+        "price": "Giá",
+        "stock": "Tồn kho",
+        "featured": "Nổi bật",
+        "actions": "Thao tác"
+      }
+    },
+    "Contacts": {
+      "title": "Tin nhắn liên hệ",
+      "columns": {
+        "name": "Người gửi",
+        "subject": "Chủ đề",
+        "date": "Ngày gửi",
+        "status": "Trạng thái"
+      }
+    },
+    "Franchise": {
+      "title": "Đơn nhượng quyền",
+      "columns": {
+        "name": "Người đăng ký",
+        "location": "Khu vực",
+        "budget": "Ngân sách",
+        "date": "Ngày nộp",
+        "status": "Trạng thái"
+      }
+    }
   }
 }

@@ -3,6 +3,7 @@ import { createClient } from "@supabase/supabase-js";
 import { validateCartItems, calculateOrderTotal, ValidatedItem } from "@/lib/payment-utils";
 import { strictLimiter, limiter, getClientIP } from "@/lib/rate-limit";
 import { orderSchema } from "@/lib/validation";
+import { createClient as createServerClient } from "@/lib/supabase/server";
 
 function getSupabaseClient() {
   return createClient(
@@ -195,6 +196,58 @@ export async function GET(request: NextRequest) {
   } catch {
     return NextResponse.json(
       { error: "Internal server error" },
+      { status: 500 }
+    );
+  }
+}
+
+// Admin only: Update order status
+export async function PATCH(request: NextRequest) {
+  try {
+    try {
+      await limiter.check(20, `patch:${getClientIP(request)}`);
+    } catch {
+      return NextResponse.json({ error: "Too many requests" }, { status: 429 });
+    }
+
+    const supabase = await createServerClient();
+
+    // Check admin role
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+
+    const { data: profile } = await supabase
+      .from('profiles')
+      .select('role')
+      .eq('id', user.id)
+      .single();
+
+    if (profile?.role !== 'admin') {
+      return NextResponse.json({ error: "Forbidden" }, { status: 403 });
+    }
+
+    const body = await request.json();
+    const { order_code, status } = body;
+
+    if (!order_code || !status) {
+      return NextResponse.json({ error: "Missing order_code or status" }, { status: 400 });
+    }
+
+    const { error } = await supabase
+      .from("orders")
+      .update({ status, updated_at: new Date().toISOString() })
+      .eq("order_code", order_code);
+
+    if (error) {
+      return NextResponse.json({ error: error.message }, { status: 500 });
+    }
+
+    return NextResponse.json({ success: true, status });
+  } catch {
+    return NextResponse.json(
+      { error: "Internal Server Error" },
       { status: 500 }
     );
   }
