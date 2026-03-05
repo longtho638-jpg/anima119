@@ -10,7 +10,7 @@ export function CTASection() {
   const t = useTranslations("CTA");
 
   return (
-    <section className="py-32 relative overflow-hidden flex items-center justify-center bg-[#0A1628]">
+    <section className="py-20 md:py-32 relative overflow-hidden flex items-center justify-center bg-[#0A1628]">
       {/* Background decoration */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -top-24 -left-24 w-96 h-96 bg-[#C5A55A]/5 rounded-full blur-3xl" />
@@ -28,31 +28,31 @@ export function CTASection() {
           />
         </div>
 
-        <Typography variant="headline-medium" className="mb-4 font-display text-white">
+        <h2 className="mb-4 font-display text-4xl md:text-5xl font-bold text-white leading-tight">
           {t("headline")}
-        </Typography>
+        </h2>
 
-        <Typography variant="body-large" className="mb-8 text-white/70">
+        <p className="mb-8 text-base md:text-lg text-white/70 max-w-xl mx-auto px-4">
           {t("description")}
-        </Typography>
+        </p>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-10">
-          <Button variant="filled" size="lg" className="min-w-[200px]" asChild>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-10 w-full px-4">
+          <Button variant="filled" size="lg" className="w-full sm:w-auto min-w-[200px] active:scale-95 transition-transform" asChild>
             <Link href="/mua-hang">{t("subscribe")}</Link>
           </Button>
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8 border-t border-[#C5A55A]/20">
-          <Typography variant="label-large" className="text-white/60">
+        <div className="flex flex-wrap gap-x-4 gap-y-2 justify-center items-center pt-8 border-t border-[#C5A55A]/20">
+          <span className="text-white/60 text-xs md:text-sm w-full sm:w-auto mb-2 sm:mb-0">
             {t("orExplore")}
-          </Typography>
-          <Button variant="text" className="text-[#C5A55A]" asChild>
-            <Link href="/san-pham">{t("collection")}</Link>
-          </Button>
-          <span className="text-[#C5A55A]/30 hidden sm:inline">|</span>
-          <Button variant="text" className="text-[#C5A55A]" asChild>
-            <Link href="/khoa-hoc">{t("franchise")}</Link>
-          </Button>
+          </span>
+          <Link href="/san-pham" className="text-[#C5A55A] text-sm md:text-base font-medium hover:underline">
+            {t("collection")}
+          </Link>
+          <span className="text-[#C5A55A]/30">|</span>
+          <Link href="/khoa-hoc" className="text-[#C5A55A] text-sm md:text-base font-medium hover:underline">
+            {t("franchise")}
+          </Link>
         </div>
       </div>
     </section>

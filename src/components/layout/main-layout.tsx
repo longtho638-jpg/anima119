@@ -4,6 +4,7 @@ import { useState } from "react";
 import { TopAppBar } from "./top-app-bar";
 import { NavigationDrawer } from "./navigation-drawer";
 import { BottomNavigation } from "./bottom-navigation";
+import { FloatingCTA } from "./floating-cta";
 
 interface MainLayoutProps {
   children: React.ReactNode;
@@ -35,6 +36,9 @@ export function MainLayout({ children }: MainLayoutProps) {
       <main id="main-content" className="min-h-screen pt-16 pb-24 md:pb-0">
         {children}
       </main>
+
+      {/* Floating CTA (Hotline) */}
+      <FloatingCTA />
 
       {/* Bottom Navigation (Mobile) */}
       <BottomNavigation />

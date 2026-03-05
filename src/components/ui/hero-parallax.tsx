@@ -53,14 +53,14 @@ export function HeroParallax() {
             transition={{ duration: 1 }}
             className="mb-8 flex justify-center"
           >
-            <span className="material-symbols-rounded text-[#C5A55A] text-7xl" aria-hidden="true">self_improvement</span>
+            <span className="material-symbols-rounded text-[#C5A55A] text-5xl md:text-7xl" aria-hidden="true">self_improvement</span>
           </motion.div>
 
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="font-display text-5xl font-bold text-white md:text-7xl"
+            className="font-display text-3xl font-bold text-white sm:text-5xl md:text-7xl leading-tight"
             style={{ fontFamily: "var(--font-display)" }}
           >
             {t("title")}
@@ -69,7 +69,7 @@ export function HeroParallax() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="mt-6 text-xl text-[#C5A55A]/90 md:text-2xl"
+            className="mt-4 sm:mt-6 text-base sm:text-xl text-[#C5A55A]/90 md:text-2xl px-4"
             style={{ fontFamily: "var(--font-body)" }}
           >
             {t("subtitle")}
@@ -78,17 +78,17 @@ export function HeroParallax() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center"
+            className="mt-6 sm:mt-8 flex flex-col gap-3 sm:gap-4 sm:flex-row sm:justify-center px-4"
           >
             <Link
               href="/san-pham"
-              className="rounded-full bg-[#C5A55A] px-8 py-4 text-lg font-medium text-[#0A1628] shadow-elevation-2 transition-all hover:shadow-elevation-4 hover:bg-[#D4B76A]"
+              className="rounded-full bg-[#C5A55A] px-8 py-4 text-base sm:text-lg font-semibold text-[#0A1628] shadow-elevation-2 transition-all hover:shadow-elevation-4 hover:bg-[#D4B76A] active:scale-95 text-center"
             >
               {t("cta.primary")}
             </Link>
             <Link
               href="/nguon-goc"
-              className="rounded-full border-2 border-[#C5A55A]/60 px-8 py-4 text-lg font-medium text-white backdrop-blur-sm transition-all hover:bg-[#C5A55A]/10"
+              className="rounded-full border-2 border-[#C5A55A]/60 px-8 py-4 text-base sm:text-lg font-semibold text-white backdrop-blur-sm transition-all hover:bg-[#C5A55A]/10 active:scale-95 text-center"
             >
               {t("cta.secondary")}
             </Link>
@@ -101,7 +101,7 @@ export function HeroParallax() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1 }}
-        className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2"
+        className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2 hidden sm:block"
       >
         <motion.div
           animate={{ y: [0, 10, 0] }}

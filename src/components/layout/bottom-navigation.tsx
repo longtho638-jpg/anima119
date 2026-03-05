@@ -20,12 +20,12 @@ export function BottomNavigation() {
     <nav
       aria-label="Điều hướng chính"
       className={cn(
-        "md:hidden fixed bottom-0 left-0 right-0 z-40",
-        "bg-surface-container shadow-elevation-3 border-t border-outline-variant",
-        "pb-[env(safe-area-inset-bottom,0px)]"
+        "md:hidden fixed bottom-4 left-4 right-4 z-50",
+        "glass border border-white/20 shadow-[0_8px_32px_rgba(0,0,0,0.12)]",
+        "pb-[env(safe-area-inset-bottom,16px)] rounded-3xl"
       )}
     >
-      <div className="flex items-center justify-around h-20 px-2">
+      <div className="flex items-center justify-around h-[72px] px-2 relative z-10">
         {navItems.map((item) => {
           const isActive = pathname === item.href ||
             (item.href !== "/" && pathname.startsWith(item.href));
@@ -36,13 +36,16 @@ export function BottomNavigation() {
               href={item.href}
               aria-current={isActive ? "page" : undefined}
               className={cn(
-                "flex flex-col items-center justify-center gap-1 px-3 py-2 rounded-2xl min-w-[64px] min-h-[48px]",
-                "transition-all duration-200",
+                "relative flex flex-col items-center justify-center gap-1 px-3 py-2 rounded-2xl min-w-[64px] h-[56px]",
+                "transition-all duration-300 ease-out",
                 isActive
-                  ? "bg-secondary-container text-on-secondary-container"
-                  : "text-on-surface-variant hover:bg-on-surface/8"
+                  ? "text-[#C5A55A]"
+                  : "text-on-surface-variant/70 hover:text-on-surface-variant active:scale-95"
               )}
             >
+              {isActive && (
+                <span className="absolute inset-0 bg-[#C5A55A]/10 rounded-2xl -z-10" />
+              )}
               <span
                 className={cn(
                   "material-symbols-rounded text-2xl transition-all",
