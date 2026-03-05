@@ -30,6 +30,17 @@ export function HeaderNavigation() {
     { href: "/lien-he", label: t("contact") },
   ];
 
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    // Gate empty marketing pages as requested by user to show "Coming Soon"
+    if (["/khoa-hoc", "/nguon-goc", "/tin-tuc"].includes(href)) {
+      e.preventDefault();
+      alert("Tính năng đang được phát triển (Sắp ra mắt). Sẽ được kích hoạt trong Gói B hoặc Gói C.");
+      if (mobileMenuOpen) setMobileMenuOpen(false);
+    } else {
+      if (mobileMenuOpen) setMobileMenuOpen(false);
+    }
+  };
+
   return (
     <nav
       className={cn(
@@ -50,9 +61,13 @@ export function HeaderNavigation() {
             <Link
               key={link.href}
               href={link.href}
+              onClick={(e) => handleNavClick(e, link.href)}
               className="text-on-surface hover:text-primary active:text-primary/80 transition-colors font-medium"
             >
               {link.label}
+              {["/khoa-hoc", "/nguon-goc", "/tin-tuc"].includes(link.href) && (
+                <span className="ml-1 text-[10px] bg-secondary-container text-on-secondary-container px-1.5 py-0.5 rounded-full inline-block align-top uppercase tracking-wider">Soon</span>
+              )}
             </Link>
           ))}
           <Link href="/mua-hang">
@@ -109,10 +124,13 @@ export function HeaderNavigation() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="block text-on-surface hover:text-primary active:text-primary/80 transition-colors py-3 min-h-[44px] font-medium"
-                onClick={() => setMobileMenuOpen(false)}
+                className="flex justify-between items-center text-on-surface hover:text-primary active:text-primary/80 transition-colors py-3 min-h-[44px] font-medium"
+                onClick={(e) => handleNavClick(e, link.href)}
               >
                 {link.label}
+                {["/khoa-hoc", "/nguon-goc", "/tin-tuc"].includes(link.href) && (
+                  <span className="text-[10px] bg-secondary-container text-on-secondary-container px-1.5 py-0.5 rounded-full uppercase tracking-wider">Coming Soon</span>
+                )}
               </Link>
             ))}
             <Link
